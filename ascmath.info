@@ -1,4 +1,4 @@
-name = 'ASC-Math'
+name = 'ascmath'
 description = ''
 core = '7.x'
 engine = 'phptemplate'
