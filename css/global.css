@@ -1,2 +1,62 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/* Elements */
+
+body {
+  font: 15px/22px Geneva, Verdana, sans-serif;
+  background: #ffffff;
+}
+
+a, a:hover {
+  color: #990000;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a[href$='.pdf'] { padding-left: 15px; background: transparent url(../images/page_white_acrobat.png) center left no-repeat;  }
+a[href$='.doc'] { padding-left: 15px; background: transparent url(../images/page_white_word.png) center left no-repeat;  }
+a[href$='.xls'] { padding-left: 15px; background: transparent url(../images/page_white_excel.png) center left no-repeat;  }
+a[href$='.ppt'] { padding-left: 15px; background: transparent url(../images/page_white_powerpoint.png) center left no-repeat;  }
+
+h1,h2,h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 52px;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 44px;
+}
+
+
+// Header and Navigation
+
+
+
+#zone-menu {
+  background: #000000 url('../images/headerbar.png') repeat-x 0 0;
+}
+
+#zone-menu #main-menu li a {
+  font: 13px/20px Arial, sans;
+  color: #cccccc;
+  text-transform: uppercase;
+  text-decoration: none;
+}
