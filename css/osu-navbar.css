@@ -58,9 +58,9 @@ div#osu-Navbar
 	background: #eaebeb url('../images/background_graybar.gif') repeat-x left bottom;
 	font-family: Arial, Helvetica, sans-serif;
 	position: relative;
-	min-height: 2.7em;
   width: 960px;
   margin: 0 auto;
+  height: 40px;
 }
 
 div#osu-Navbar-Container { 
@@ -118,6 +118,7 @@ div#osu-NavbarLinks
 	background: transparent url('../images/background_graybar_gradient.png') no-repeat left bottom;
 	min-height: 2.7em;
 	overflow: hidden;
+  height: 40px;
 }
 
 div#osu-NavbarLinks ul

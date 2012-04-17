@@ -21,20 +21,11 @@
           <li><a href="http://www.osu.edu/map/" title="Campus map">Map</a></li>
           <li><a href="http://www.osu.edu/findpeople.php" title="Find people at OSU">Find People</a></li>
           <li><a href="https://webmail.osu.edu" title="OSU Webmail">Webmail</a></li>
-          <li id="searchbox">
-          <form action="http://www.osu.edu/search/index.php" method="post">
-            <fieldset>
-              <legend><span class="osu-semantic">Search</span></legend>
-              <label class="osu-semantic overlabel" for="search-field">Search Ohio State</label><
-              <input type="text" alt-attribute="Search Ohio State" value="" name="searchOSU" class="textfield headerSearchInput" id="search-field"/>
-              <button name="go" type="submit">Go</button>
-            </fieldset>·········
-          </form>
-        </li>·······
+          <li><a href="http://www.osu.edu/search/" title="Search">Search</a></li>
         </ul>
       </div>
     </div>
-    </div>           
+    </div>
 
 <?php print $content; ?>
 </header>
