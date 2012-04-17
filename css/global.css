@@ -48,10 +48,9 @@ h3 {
 
 // Header and Navigation
 
-
-
-#zone-menu {
+#zone-menu-wrapper {
   background: #000000 url('../images/headerbar.png') repeat-x 0 0;
+  background-color: #000000;
 }
 
 #zone-menu #main-menu li a {
