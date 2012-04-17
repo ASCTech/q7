@@ -26,7 +26,7 @@
       </div>
     </div>
     </div>
-  <div id="osulogo">&nbsp;</div>
+  <div id="osulogo"><img src="/sites/all/themes/ASC-Math/images/osulogo.png"></div>
 
 <?php print $content; ?>
 </header>
