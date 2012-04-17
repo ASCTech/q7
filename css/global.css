@@ -82,6 +82,12 @@ h3 {
   padding-top: 0.6em;
 }
 
+/* Zone Content */
+
+#zone-content {
+  background: transparent url('../images/banner.png') no-repeat;
+  background-position: right top; 
+}
 
 /* Zone Footer */
 
@@ -97,6 +103,8 @@ h3 {
 #zone-footer {
   color: #ffffff;
   font: 12px/16px Arial, sans-serif;
+  background: transparent url('../images/banner_small.png') no-repeat;
+  background-position: right bottom; 
 }
 
 #zone-footer a,
@@ -112,8 +120,6 @@ h3 {
 }
 
 #ascfooter {
-  background: transparent url('../images/branding.png') no-repeat;
-  background-position: 0 -161px; 
   width: 86px; 
   height: 55px;
 }
