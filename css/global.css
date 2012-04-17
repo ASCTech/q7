@@ -110,3 +110,10 @@ h3 {
   padding: 1em 3px;
   margin-bottom: 0;
 }
+
+#ascfooter {
+  background: transparent url('../images/branding.png') no-repeat;
+  background-position: 0 -161px; 
+  width: 86px; 
+  height: 55px;
+}

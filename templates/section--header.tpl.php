@@ -26,6 +26,7 @@
       </div>
     </div>
     </div>
+  <div id="osulogo">&nbsp;</div>
 
 <?php print $content; ?>
 </header>
