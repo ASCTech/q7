@@ -50,7 +50,7 @@ h3 {
 /* Zone Branding */
 
 #osulogo {
-  background: transparent url('../images/branding.png') no-repeat scroll 0 0
+  background: transparent url('../images/branding.png') no-repeat scroll 0 0;
   background-position: 0 -266px;
   height: 86px;
   width: 84px;
