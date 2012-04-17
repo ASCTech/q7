@@ -47,6 +47,22 @@ h3 {
 
 
 /* Header and Navigation */
+/* Zone Branding */
+
+#osulogo {
+  background: transparent url('../images/branding.png') no-repeat scroll 0 0
+  background-position: 0 -266px;
+  height: 86px;
+  width: 84px;
+  top: 50px;
+  right: 0px;
+  position: absolute;
+}
+
+.logo-img {
+  margin-left: -100px;
+}
+
 /* Zone Menu */
 
 #zone-menu-wrapper {
@@ -56,14 +72,14 @@ h3 {
 }
 
 #zone-menu #main-menu li a {
-  font: 13px/20px Arial, sans;
+  font: 14px/20px Arial, sans;
   color: #cccccc;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 #zone-menu .navigation {
-  padding-top: 0.3em;
+  padding-top: 0.6em;
 }
 
 
@@ -83,7 +99,13 @@ h3 {
   font: 12px/16px Arial, sans-serif;
 }
 
-#zone p {
+#zone-footer a,
+#zone-footer a:hover,
+#zone-footer a:visited {
+  color: #ffffff;
+}
+
+#zone-footer p {
   border-top: 1px solid white;
   padding: 1em 3px;
   margin-bottom: 0;
