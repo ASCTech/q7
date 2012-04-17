@@ -52,6 +52,7 @@ h3 {
 #zone-menu-wrapper {
   background: #000000 url('../images/headerbar.png') repeat-x 0 0;
   background-color: #000000;
+  min-height: 38px;
 }
 
 #zone-menu #main-menu li a {
@@ -75,4 +76,15 @@ h3 {
   background-image:-moz-radial-gradient(50% center, circle farthest-corner,#69756D,#36423A);
   -ms-filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#69756D,endColorStr=#36423A);
   filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#69756D,endColorStr=#36423A); 
+}
+
+#zone-footer {
+  color: #ffffff;
+  font: 12px/16px Arial, sans-serif;
+}
+
+#zone p {
+  border-top: 1px solid white;
+  padding: 1em 3px;
+  margin-bottom: 0;
 }
