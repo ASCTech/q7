@@ -84,6 +84,15 @@ h3 {
   background-position: right top; 
 }
 
+.breadcrumb {
+  background: #666666;
+}
+
+.breadcrumb a {
+  color: white;
+  font-size: 11px;
+}
+
 /* Zone Footer */
 
 #zone-footer-wrapper {
