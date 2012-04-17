@@ -49,14 +49,9 @@ h3 {
 /* Header and Navigation */
 /* Zone Branding */
 
-#osulogo {
+#zone-branding {
   background: transparent url('../images/branding.png') no-repeat scroll 0 0;
-  background-position: 0 -266px;
-  height: 86px;
-  width: 84px;
-  top: 50px;
-  right: 0px;
-  position: absolute;
+  background-position: right center;
 }
 
 .logo-img {
