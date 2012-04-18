@@ -50,7 +50,7 @@ h3 {
 /* Zone Branding */
 
 #zone-branding {
-  background: transparent url('../images/osulogo.png') no-repeat scroll 0 0;
+  background: transparent url('../images/osulogo.png') no-repeat;
   background-position: right center;
 }
 
@@ -86,6 +86,7 @@ h3 {
 
 .breadcrumb {
   background: #666666;
+  padding: 10px 10px 5px;
 }
 
 .breadcrumb a {

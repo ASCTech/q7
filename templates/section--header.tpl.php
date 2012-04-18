@@ -11,7 +11,7 @@
           <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
         </p>
         <p id="site-name">
-           Site Name
+        &gt; Arts and Sciences &gt; <?php print $site_name; ?>
         </p>
       </div>
       <div id="osu-NavbarLinks">
