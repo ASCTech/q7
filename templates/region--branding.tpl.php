@@ -5,7 +5,7 @@
       <?php if ($linked_logo_img): ?>
       <div class="logo-img">
         <?php print $linked_logo_img; ?>
-        <div id="osulogo"> </div>
+        <a id="osulogo" href="http://www.osu.edu/">&nbsp;</a></div>
       </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
