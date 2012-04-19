@@ -11,10 +11,10 @@
           <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
         </p>
         <p id="site-name">
-        Arts and Sciences
+        <a href="http://asc.osu.edu/" title="College of Arts and Sciences">Arts and Sciences</a>
         </p>
         <p id="site-name">
-        <?php print variable_get('site_name'); ?>
+        <a href="/" title="Home"><?php print variable_get('site_name'); ?></a>
         </p>
       </div>
       <div id="osu-NavbarLinks">

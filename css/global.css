@@ -82,7 +82,8 @@ h3 {
 
 .breadcrumb a {
   color: white;
-  font-size: 11px;
+  font-size: 0.8em;
+  text-decoration: underline;
 }
 
 /* Zone Footer */
