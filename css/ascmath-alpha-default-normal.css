@@ -23,12 +23,17 @@
   right: 0px;
 }
 
+#banner-container {
+  position: relative;
+}
+
 #ascbanner {
   background: url(../images/branding.png) no-repeat top left;
-  background-position: 0 -161px; width: 84px; height: 86px;
+  background-position: 0 0px;
   height: 111px;
   width: 84px;
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: 10px;
+  z-index: 100;
 }
