@@ -4,6 +4,15 @@
 
 /* Zone-Branding */
 
+#zone-branding {
+  min-height: 164px;
+}
+
+.logo-img {
+  /* Probably this should come back." */
+  /* margin-left: -100px; */
+}
+
 #osulogo {
   background: url(../images/branding.png) no-repeat top left;
   background-position: 0 -266px; width: 84px; height: 86px;

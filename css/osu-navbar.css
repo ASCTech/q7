@@ -98,7 +98,7 @@ div#osu-NavbarBreadcrumb p#osu a:focus { text-decoration: underline; }
 div#osu-NavbarBreadcrumb p#site-name
 {
 	background: transparent url('../images/arrow_twisty.png') no-repeat left center;
-	padding: 0px 5px 0px 14px;
+	padding: 0px 5px 0px 4px;
 }
 
 div#osu-NavbarBreadcrumb p#site-name a
