@@ -3,7 +3,7 @@
 /**
  * Implements hook_form_system_theme_settings_alter()
  */
-function q7_form_system_theme_settings_alter(&$form, &$form_state) {
+function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
   $theme = alpha_get_theme();
 
   $form['theme_settings']['asc_brand'] = array(
