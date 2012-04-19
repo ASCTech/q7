@@ -19,48 +19,48 @@ function ascmath_settings($saved_settings) {
 function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
   $theme = alpha_get_theme();
 
-  $form['theme_settings']['quicksitesbrand'] = array(
+  $form['theme_settings']['quickSites_asc_branding'] = array(
     '#type' => 'checkbox',
     '#title' => t('Include ASC Branding'),
-    '#default_value' => theme_get_setting('quicksitesbrand'),
+    '#default_value' => theme_get_setting('quickSites_asc_branding'),
     );
 
-  $form['theme_settings'['quicksites_header_left_color'] = array(
+  $form['theme_settings']['quickSites_header_left_color'] = array(
     '#type' => 'textfield',
     '#size' => 7,
     '#maxlength' => 7,
     '#title' => t('Header Left Color'),
-    '#default_value' => theme_get_setting('quicksites_header_left_color'),
+    '#default_value' => theme_get_setting('quickSites_header_left_color'),
     '#prefix' => '<div class="color-select">',
     '#suffix' => '</div>',
   );
   
-  $form['theme_settings']['quicksites_header_right_color'] = array(
+  $form['theme_settings']['quickSites_header_right_color'] = array(
     '#type' => 'textfield',
     '#size' => 7,
     '#maxlength' => 7,
     '#title' => t('Header Right Color'),
-    '#default_value' => theme_get_setting('quicksites_header_right_color'),
+    '#default_value' => theme_get_setting('quickSites_header_right_color'),
     '#prefix' => '<div class="color-select">',
     '#suffix' => '</div>',
   );
 
-  $form['theme_settings']['quicksites_footer_outside_color'] = array(
+  $form['theme_settings']['quickSites_footer_outside_color'] = array(
     '#type' => 'textfield',
     '#size' => 7,
     '#maxlength' => 7,
     '#title' => t('Footer Outside Color'),
-    '#default_value' => theme_get_setting('quicksites_footer_outside_color'),
+    '#default_value' => theme_get_setting('quickSites_footer_outside_color'),
     '#prefix' => '<div class="color-select">',
     '#suffix' => '</div>',
   );
 
-  $form['theme_settings']['quicksites_footer_center_color'] = array(
+  $form['theme_settings']['quickSites_footer_center_color'] = array(
     '#type' => 'textfield',
     '#size' => 7,
     '#maxlength' => 7,
     '#title' => t('Footer Outside Color'),
-    '#default_value' => theme_get_setting('quicksites_footer_center_color'),
+    '#default_value' => theme_get_setting('quickSites_footer_center_color'),
     '#prefix' => '<div class="color-select">',
     '#suffix' => '</div>',
   );
