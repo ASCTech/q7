@@ -5,5 +5,11 @@
 /* Zone-Branding */
 
 #osulogo {
-  
+  background-position: 0 -266px; width: 84px; height: 86px;
+  background: url(../images/branding.png) no-repeat top left;
+  height: 86px;
+  width: 84px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
 }
