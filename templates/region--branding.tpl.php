@@ -5,7 +5,7 @@
       <?php if ($linked_logo_img): ?>
       <div class="logo-img">
         <?php print $linked_logo_img; ?>
-<div id="osulogo"><img src="<?php print base_path() . path_to_theme(); ?>test.png" /></div>
+        <div id="osulogo"><img src="<?php print drupal_get_path('theme', variable_get('theme_default', NULL)); ?>/osulogo.png" /></div>
       </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>

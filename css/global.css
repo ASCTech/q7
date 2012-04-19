@@ -49,14 +49,10 @@ h3 {
 /* Header and Navigation */
 /* Zone Branding */
 
-#zone-branding {
-  background: transparent url('../images/osulogo.png') no-repeat;
-  background-position: right center;
-}
-
 .logo-img {
   margin-left: -100px;
 }
+
 
 /* Zone Menu */
 
