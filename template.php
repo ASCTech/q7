@@ -11,7 +11,3 @@
  * for more information on this topic.
  */
 
-function asc_color_preprocess_page(&$vars) {
-  drupal_add_css('css/colors.css.php');
-  $vars['styles'] = drupal_get_css();
-}
