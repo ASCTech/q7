@@ -1,7 +1,7 @@
 <?php if ($wrapper): ?><div<?php print $attributes; ?>><?php endif; ?>  
   <div<?php print $content_attributes; ?>>    
     <?php if ($is_front): ?>
-      <div><a id="ascbanner" href="http://asc.osu.edu/"> </a></div>
+      <div><a id="ascbanner" href="http://asc.osu.edu/">&nbsp;</a></div>
     <?php endif; ?>    
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb" class="grid-<?php print $columns; ?>"><?php print $breadcrumb; ?></div>
