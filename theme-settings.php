@@ -1,23 +1,14 @@
 <?php
 
 /**
- * Implementation of THEMEHOOK_settings().
- *
- * @param $saved_settings
- *   array An array of saved settings for this theme.
- * @return A form array.
- */
-function ascmath_settings($saved_settings) {
-  global $theme_key;
-  drupal_add_css(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.css', 'ascmath');
-  drupal_add_js(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.js', 'ascmath');
-}
-
-/**
  * Implements hook_form_system_theme_settings_alter()
  */
 function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
   $theme = alpha_get_theme();
+
+  global $theme_key;
+  drupal_add_css(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.css', 'ascmath');
+  drupal_add_js(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.js', 'ascmath');
 
   $form['theme_settings']['quickSites_asc_branding'] = array(
     '#type' => 'checkbox',
