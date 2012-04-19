@@ -10,3 +10,8 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+function asc_color_preprocess_page(&$vars) {
+  drupal_add_css('test.css.php');
+  $vars['styles'] = drupal_get_css();
+}
