@@ -73,8 +73,6 @@ h3 {
 /* Zone Content */
 
 #zone-content {
-  background: transparent url('../images/banner.png') no-repeat;
-  background-position: right top; 
 }
 
 .breadcrumb {
@@ -101,8 +99,6 @@ h3 {
 #zone-footer {
   color: #ffffff;
   font: 12px/16px Arial, sans-serif;
-  background: transparent url('../images/banner_small.png') no-repeat;
-  background-position: right bottom; 
 }
 
 #zone-footer a,
