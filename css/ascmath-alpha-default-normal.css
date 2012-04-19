@@ -5,12 +5,12 @@
 /* Zone-Branding */
 
 #zone-branding {
-  min-height: 164px;
 }
 
 .logo-img {
   /* Probably this should come back." */
   /* margin-left: -100px; */
+  min-height: 164px;
 }
 
 #osulogo {
@@ -20,5 +20,15 @@
   width: 84px;
   position: absolute;
   bottom: 50px;
+  right: 0px;
+}
+
+#ascbanner {
+  background: url(../images/branding.png) no-repeat top left;
+  background-position: 0 -161px; width: 84px; height: 86px;
+  height: 111px;
+  width: 84px;
+  position: absolute;
+  top: 0px;
   right: 0px;
 }
