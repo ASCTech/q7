@@ -17,7 +17,7 @@ function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
     '#size' => 7,
     '#maxlength' => 7,
     '#title' => t('Header Left Color'),
-    '#default_value' => theme_get_settings('asc_header_left_color'),
+    '#default_value' => theme_get_setting('asc_header_left_color'),
   );
   
   $form['theme_settings']['asc_header_right_color'] = array(
@@ -25,6 +25,6 @@ function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
     '#size' => 7,
     '#maxlength' => 7,
     '#title' => t('Header Right Color'),
-    '#default_value' => theme_get_settings('asc_header_right_color'),
+    '#default_value' => theme_get_setting('asc_header_right_color'),
   );
 }
