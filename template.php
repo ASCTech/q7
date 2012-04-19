@@ -14,4 +14,5 @@
 function asc_color_preprocess_page(&$vars) {
   drupal_add_css('test.css.php');
   $vars['styles'] = drupal_get_css();
+  var_dump($vars);
 }
