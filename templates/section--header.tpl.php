@@ -1,7 +1,7 @@
 <header<?php print $attributes; ?>>
   <div id="osu-Navbar-Container">
     <div id="redleft"> </div>
-    <div id="osu-Navbar" style="clear: none;">
+    <div id="osu-Navbar" class="container-12" style="clear: none;">
       <p>
         <a href="#page-content" id="skip" class="osu-semantic">skip to main content</a>
       </p>
@@ -11,7 +11,7 @@
           <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
         </p>
         <p id="site-name">
-        &gt; Arts and Sciences &gt; <?php print $linked_site_name; ?>
+        &gt; Arts and Sciences &gt; <?php print variable_get('site_name'); ?>
         </p>
       </div>
       <div id="osu-NavbarLinks">

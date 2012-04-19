@@ -58,7 +58,6 @@ div#osu-Navbar
 	background: #eaebeb url('../images/background_graybar.gif') repeat-x left bottom;
 	font-family: Arial, Helvetica, sans-serif;
 	position: relative;
-  width: 960px;
   margin: 0 auto;
   height: 40px;
 }
