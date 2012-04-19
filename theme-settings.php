@@ -5,6 +5,12 @@
  */
 function omega_form_system_theme_settings_alter(&$form, &$form_state) {
   $theme = alpha_get_theme();
+
+  $form['theme_settings']['asc_brand'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Include ASC Branding'),
+    '#default_value' => theme_get_setting('asc_brand'),
+    );
   
   foreach($theme->regions as $region => $item) {
     $zone = $item['enabled'] ? $item['zone'] : '__unassigned__';
@@ -58,10 +64,3 @@ function omega_theme_settings_validate_equal_height($element, &$form_state) {
   form_set_value($element, $value, $form_state);  
 }
 
-function omega_form_system_theme_settings_alter(&$form, &$form_state) {
-  $form['theme_settings']['asc_brand'] = array(
-    '#type' => 'checkbox',
-    '#title' => t('Include ASC Branding'),
-    '#default_value' => theme_get_setting('asc_brand'),
-    );
-}
