@@ -8,13 +8,13 @@ $info = array();
 
 // Define the possible replaceable items and their labels.
 $info['fields'] = array(
-  'quickSites_header_left_color' => t('Quicksites Header Left Color'),
-  'quicksites_header_right_color' => t('Quicksites Header Right Color'),
-  'quicksites_front_header_left_color' => t('Quicksites Front Header Left Color'),
-  'quicksites_front_header_right_color' => t('Quicksites Front Header Right Color'),
-  'quicksites_features_color' => t('Quicksites Feature Color'),
-  'quicksites_footer_center_color' => t('Quicksites Footer Center Color'),
-  'quicksites_footer_outside_color' => t('Quicksites Footer Outside Color'),
+  'quickSites_header_left_color' => t('Header Leftr'),
+  'quicksites_header_right_color' => t('Header Right'),
+  'quicksites_front_header_left_color' => t('Front Header Left'),
+  'quicksites_front_header_right_color' => t('Front Header Right'),
+  'quicksites_features_color' => t('Feature'),
+  'quicksites_footer_center_color' => t('Footer Center'),
+  'quicksites_footer_outside_color' => t('Footer Outside'),
 );
 
 // Color schemes for the site.
