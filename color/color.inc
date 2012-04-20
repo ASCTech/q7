@@ -40,7 +40,7 @@ $info['schemes'] = array(
 
 // Define the CSS file(s) that we want the Color module to use as a base.
 $info['css'] = array(
-  'styles/colors.css',
+  'css/colors.css',
 
 );
 
