@@ -12,7 +12,6 @@ $info['fields'] = array(
   'qs_features_color' => t('Feature'),
   'qs_footer_center_color' => t('Footer Center'),
   'qs_footer_outside_color' => t('Footer Outside'),
-  'qs_footer_outside_color' => t('Footer Outside'),
 );
 
 // Color schemes for the site.
@@ -22,8 +21,8 @@ $info['schemes'] = array(
     'colors' => array(
       'qs_header_color' => '#ffffff',
       'qs_features_color' => '#6a6a6a',
-      'qs_footer_center_color' => '#eeeeee',
-      'qs_footer_outside_color' => '#000000',
+      'qs_footer_center_color' => '#8e8e8e',
+      'qs_footer_outside_color' => '#6b6b6b',
     ),
   ),
   'firebrick' => array(
