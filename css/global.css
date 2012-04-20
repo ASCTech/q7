@@ -85,7 +85,20 @@ td, th {
   padding-top: 0.6em;
 }
 
-/* Zone Prefact */
+/* Zone Header */
+#region-header-second {
+  font-size: 1.5em;
+  color: white;
+}
+
+#region-header-second a:link,
+#region-header-second a:link, {
+  color: white;
+  text-decoration: none; 
+}
+
+
+/* Zone Preface */
 #zone-preface h2.block-title {
   font-family: 'Oxygen', sans-serif;
   text-align: right;
