@@ -23,6 +23,7 @@
   right: 0px;
 }
 
+
 /* Zone Menu */
 #zone-menu .navigation {
   text-align: right;
@@ -51,4 +52,9 @@
   top: 31px;
   left: 50%;
   width: 33%;
+}
+
+#region-preface-third {
+  margin-top: 30px
+  min-height: 233px;
 }
