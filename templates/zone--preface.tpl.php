@@ -1,4 +1,4 @@
-<?php if ($wrapper): ?><div<?php print $attributes; ?>><?php endif; ?>  
+<?php if ($wrapper): ?><div<?php print $attributes; ?> style="position: relative;"><?php endif; ?>  
 <div id="header-tile">&nbsp;</div>
   <div<?php print $content_attributes; ?>>    
     <?php if ($is_front): ?>
