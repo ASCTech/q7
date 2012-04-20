@@ -8,10 +8,8 @@ $info = array();
 
 // Define the possible replaceable items and their labels.
 $info['fields'] = array(
-  'quickSites_header_left_color' => t('Header Leftr'),
+  'quickSites_header_left_color' => t('Header Left'),
   'quicksites_header_right_color' => t('Header Right'),
-  'quicksites_front_header_left_color' => t('Front Header Left'),
-  'quicksites_front_header_right_color' => t('Front Header Right'),
   'quicksites_features_color' => t('Feature'),
   'quicksites_footer_center_color' => t('Footer Center'),
   'quicksites_footer_outside_color' => t('Footer Outside'),
@@ -23,9 +21,7 @@ $info['schemes'] = array(
     'title' => t('Our site default colors'),
     'colors' => array(
       'quicksites_header_left_color' => '#ffffff',
-      'quicksites_header_right_color' => '#ff7f00',
-      'quicksites_front_header_right_color' => '#777777',
-      'quicksites_front_header_right_color' => '#333333',
+      'quicksites_header_right_color' => '#fffffe',
       'quicksites_features_color' => '#666666',
       'quicksites_footer_center_color' => '#eeeeee',
       'quicksites_footer_outside_color' => '#000000',
@@ -35,10 +31,8 @@ $info['schemes'] = array(
     'title' => t('Firebrick Color Scheme'),
     'colors' => array(
       'quicksites_header_left_color' => '#ffffff',
-      'quicksites_header_right_color' => '#ff7f00',
-      'quicksites_front_header_right_color' => '#777777',
-      'quicksites_front_header_right_color' => '#333333',
-      'quicksites_features_color' => '#666666',
+      'quicksites_header_right_color' => '#fffffe',
+      'quicksites_features_color' => '#ffccbb',
       'quicksites_footer_center_color' => '#eeeeee',
       'quicksites_footer_outside_color' => '#000000',
     ),
