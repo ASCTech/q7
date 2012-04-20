@@ -7,8 +7,16 @@ function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
   $theme = alpha_get_theme();
 
   global $theme_key;
-  drupal_add_css(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.css', 'ascmath');
-  drupal_add_js(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.js', 'ascmath');
+  // drupal_add_css(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.css', 'ascmath');
+  // drupal_add_js(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.js', 'ascmath');
+
+  $form['#attached']['css'] = array(
+    drupal_get_path('theme', $theme_key). '/farbtastic/farbtastic.css',
+  );
+
+  $form['#attached']['js'] = array(
+    drupal_get_path('theme', $theme_key). '/farbtastic/farbtastic.js',
+  )
 
   $form['theme_settings']['quickSites_asc_branding'] = array(
     '#type' => 'checkbox',
