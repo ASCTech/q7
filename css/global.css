@@ -8,12 +8,13 @@ body {
   background: #ffffff;
 }
 
-a, a:hover {
+a:link, a:hover {
   color: #990000;
 }
 
-a {
+a:link {
   text-decoration: none;
+  color: #990000;
 }
 
 a:hover {
@@ -45,6 +46,20 @@ h3 {
   line-height: 44px;
 }
 
+td, th { 
+  padding: 0 5px; 
+ }
+
+
+
+
+/* General CSS Classes */
+
+.small {
+  font-size: 75%; 
+  margin-bottom: .5em;
+  line-height: 1.3em;
+}
 
 /* Header and Navigation */
 /* Zone Branding */

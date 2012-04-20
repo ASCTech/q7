@@ -44,3 +44,11 @@
   right: 10px;
   z-index: 100;
 }
+
+#header-tile {
+  position: absolute;
+  height: 232px;
+  top: 31px;
+  left: 50%;
+  width: 33%;
+}

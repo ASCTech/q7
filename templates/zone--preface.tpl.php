@@ -2,6 +2,7 @@
   <div<?php print $content_attributes; ?>>    
     <?php if ($is_front): ?>
       <div class="banner-container"><a id="ascbanner" href="http://asc.osu.edu/">&nbsp;</a></div>
+      <div class="header-tile">&nbsp;</a>
     <?php endif; ?>    
     <?php print $content; ?>
   </div>
