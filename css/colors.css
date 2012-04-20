@@ -1,3 +1,18 @@
-.zone-preface h2.block-title {
+#zone-branding-wrapper {
+  background-color: #ffffff;
+}
+
+
+.region-preface-first h2.block-title,
+.region-preface-second h2.block-title {
   background-color: #6a6a6a;
+}
+
+
+#zone-footer-wrapper {
+  background-color: #6b6b6b;
+  background-image: -webkit-gradient(radial,50% center,0,center center,750,from(#8e8e8e),to(#6b6b6b));
+  background-image: -moz-radial-gradient(50% center, circle farthest-corner,#8e8e8e,#6b6b6b);
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#8e8e8e,endColorStr=#6b6b6b); 
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#8e8e8e,endColorStr=#6b6b6b); 
 }
