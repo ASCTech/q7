@@ -16,7 +16,7 @@
  *
  * Override or insert variables into the page template for HTML output.
  */
-function ascmath_process_html(&$variables) {
+function q7_process_html(&$variables) {
   // Hook into color.module.
   if (module_exists('color')) {
     _color_html_alter($variables);
@@ -26,9 +26,14 @@ function ascmath_process_html(&$variables) {
 /*
  * Implements template_process_page().
  */
-function ascmath_process_page(&$variables, $hook) {
+function q7_process_page(&$variables, $hook) {
   // Hook into color.module.
   if (module_exists('color')) {
     _color_page_alter($variables);
   }
+
+function q7_preprocess_html(&$variables) {
+  drupal_add_css('http://fonts.googleapis.com/css?family=Oxygen', array('type' => 'external'));
+
+} 
 }
