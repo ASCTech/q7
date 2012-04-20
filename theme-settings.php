@@ -7,8 +7,6 @@ function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
   $theme = alpha_get_theme();
 
   global $theme_key;
-  // drupal_add_css(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.css', 'ascmath');
-  // drupal_add_js(drupal_get_path('theme', $theme_key).'/farbtastic/farbtastic.js', 'ascmath');
 
   $form['#attached']['css'] = array(
     drupal_get_path('theme', $theme_key). '/farbtastic/farbtastic.css',
@@ -16,7 +14,7 @@ function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
 
   $form['#attached']['js'] = array(
     drupal_get_path('theme', $theme_key). '/farbtastic/farbtastic.js',
-  )
+  );
 
   $form['theme_settings']['quickSites_asc_branding'] = array(
     '#type' => 'checkbox',
@@ -31,7 +29,7 @@ function ascmath_form_system_theme_settings_alter(&$form, &$form_state) {
     '#title' => t('Header Left Color'),
     '#default_value' => theme_get_setting('quickSites_header_left_color'),
     '#prefix' => '<div class="color-select">',
-    '#suffix' => '</div>',
+    '#suffix' => '</div><div class="picker">&nbsp;</div>',
   );
   
   $form['theme_settings']['quickSites_header_right_color'] = array(
