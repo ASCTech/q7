@@ -22,7 +22,7 @@ $info['schemes'] = array(
     'colors' => array(
       'quicksites_header_left_color' => '#ffffff',
       'quicksites_header_right_color' => '#fffffe',
-      'quicksites_features_color' => '#666666',
+      'quicksites_features_color' => '#6a6a6a',
       'quicksites_footer_center_color' => '#eeeeee',
       'quicksites_footer_outside_color' => '#000000',
     ),
