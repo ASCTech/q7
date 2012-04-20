@@ -30,11 +30,11 @@ $info['schemes'] = array(
   'firebrick' => array(
     'title' => t('Firebrick Color Scheme'),
     'colors' => array(
-      'quicksites_header_left_color' => '#ffffff',
-      'quicksites_header_right_color' => '#fffffe',
-      'quicksites_features_color' => '#ffccbb',
-      'quicksites_footer_center_color' => '#eeeeee',
-      'quicksites_footer_outside_color' => '#000000',
+      'quicksites_header_left_color' => '#5c1d26',
+      'quicksites_header_right_color' => '#371117',
+      'quicksites_features_color' => '#5c1d26',
+      'quicksites_footer_center_color' => '#5c1d26',
+      'quicksites_footer_outside_color' => '#371117',
     ),
   ),
 
