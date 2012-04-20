@@ -34,5 +34,5 @@ function q7_process_page(&$variables, $hook) {
 }
 
 function q7_preprocess_html(&$variables) {
-  drupal_add_css('http://fonts.googleapis.com/css?family=Oxygen', array('type' => 'external'));
+  drupal_add_css('https://fonts.googleapis.com/css?family=Oxygen', array('type' => 'external'));
 } 
