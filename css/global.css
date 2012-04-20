@@ -93,6 +93,7 @@ td, th {
 }
 
 #region-header-second a:link,
+#region-header-second a:visited,
 #region-header-second a:hover {
   color: white;
   text-decoration: none; 
