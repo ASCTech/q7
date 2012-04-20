@@ -74,10 +74,11 @@ h3 {
 #zone-preface h2.block-title {
   font-family: 'Oxygen', sans-serif;
   text-align: right;
-  font-size: 33px;
+  font-size: 27px;
   height: 37px;
   text-transform: uppercase;
   color: #ffffff;
+  line-height: 2.1em;
 }
 
 /* Zone Content */
