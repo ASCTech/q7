@@ -31,8 +31,4 @@
     </div>
 
 <?php print $content; ?>
-    <?php if ($is_front): ?>
-      <div id="header-tile">&nbsp;</div>
-      <div id="banner-container"><a id="ascbanner" href="http://asc.osu.edu/">&nbsp;</a></div>
-    <?php endif; ?>    
 </header>
