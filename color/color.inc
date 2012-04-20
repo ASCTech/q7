@@ -51,3 +51,8 @@ $info['css'] = array(
   'styles/colors.css',
 
 );
+
+$info['preview_css'] = '';
+$info['gradients'] = array();
+
+?>
