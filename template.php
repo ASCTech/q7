@@ -31,9 +31,8 @@ function q7_process_page(&$variables, $hook) {
   if (module_exists('color')) {
     _color_page_alter($variables);
   }
+}
 
 function q7_preprocess_html(&$variables) {
   drupal_add_css('http://fonts.googleapis.com/css?family=Oxygen', array('type' => 'external'));
-
 } 
-}
