@@ -62,17 +62,14 @@
 
 /* Section Footer */
 
-#footer-banner-container {
-  position: relative;
-}
 
 #ascfooterbanner {
   background: url(../images/branding.png) no-repeat top left;
-  background-position: 0 -163px;
-  height: 60px;
+  background-position: 0 -161px;
+  height: 57px;
   width: 84px;
   position: absolute;
-  top: 0px;
+  bottom: -5px;
   right: 10px;
   z-index: 100;
 }
