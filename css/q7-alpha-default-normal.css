@@ -59,6 +59,17 @@
   min-height: 233px;
 }
 
+/* News Page */
+.node-type-qs-news .field-name-field-news-image img {
+  float: left;
+  border: 1px solid #666666;
+  margin: 0px 10px 3px 0px;
+}
+
+.field-name-field-ascnews-date {
+  margin-bottom: 30px;
+}
+
 
 /* Section Footer */
 
