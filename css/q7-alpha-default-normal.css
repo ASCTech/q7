@@ -29,7 +29,15 @@
   text-align: right;
 }
 
+/* Zone Preface */
+
+#zone-preface .region section.block {
+  margin-bottom: 2em;
+  border-right: 1px solid black;
+}
+
 /* Zone Content */
+
 
 #banner-container {
   position: relative;

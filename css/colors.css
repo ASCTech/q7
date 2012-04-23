@@ -8,6 +8,10 @@
   background-color: #6a6a6a;
 }
 
+#zone-preface .region section.block {
+  border-right: 1px solid #6a6a6a;
+}
+
 
 #zone-footer-wrapper {
   background-color: #6b6b6b;
