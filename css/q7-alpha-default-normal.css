@@ -51,6 +51,14 @@
   border-right: 1px solid black;
 }
 
+
+/* Features */
+
+.features-list img {
+  float: left;
+  padding-right: 0.4em;
+}
+
 /* Zone Content */
 
 
