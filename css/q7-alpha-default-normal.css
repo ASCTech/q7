@@ -29,6 +29,17 @@
   text-align: right;
 }
 
+/* Zone Header */
+
+.region-header-second-inner {
+  margin-right: 120px;
+  padding: 1.5em 1em;
+}
+
+#block-menu-menu-quick-links {
+  margin-top: 1em;
+}
+
 /* Zone Preface */
 
 #zone-preface .region section.block {
