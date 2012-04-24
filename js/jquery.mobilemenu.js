@@ -26,7 +26,7 @@
 	
 	//does menu exist?
 	function menuExists(){
-		return ($('.mnav').length) ? true : false;
+		return ($('#main-menu').length) ? true : false;
 	}
 
 	//validate selector's matched list(s)
@@ -108,7 +108,7 @@
 	function combineLists(){
 		
 		//create a new list
-		var $menu = $('<ul id="mmnav" />');
+		var $menu = $('<ul id="main-menu" />');
 		
 		//loop through each menu and extract the list's child items
 		//then append them to the new list
@@ -169,7 +169,7 @@
 	function createSelect($menu){
 	
 		//create <select> to insert into the page
-		var $select = $('<select id="mm'+menuCount+'" class="mnav" />');
+		var $select = $('<select id="mm'+menuCount+'" class="main-menu" />');
 		menuCount++;
 		
 		//create default option if the text is set (set to null for no option)
@@ -224,13 +224,13 @@
 		
 		//menu exists, and browser is mobile width
 		if(isMobile() && menuExists()){
-			$('.mnav').show();
+			$('.main-menu').show();
 			$menus.hide();
 		}
 			
 		//otherwise, hide the mobile menu
 		if(!isMobile() && menuExists()){
-			$('.mnav').hide();
+			$('.main-menu').hide();
 			$menus.show();
 		}
 		
