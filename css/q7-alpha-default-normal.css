@@ -42,8 +42,12 @@
 
 /* Zone Preface */
 
-#zone-preface .region section.block {
+#zone-preface {
   margin-bottom: 2em;
+}
+
+#zone-preface .region section.block {
+  margin-top: 2em;
   border-right: 1px solid black;
 }
 
