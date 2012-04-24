@@ -92,6 +92,10 @@
 
 /* Section Footer */
 
+#zone-footer {
+  position: relative;
+  padding-top: 2em;
+}
 
 #ascfooterbanner {
   background: url(../images/branding.png) no-repeat top left;
