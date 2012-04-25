@@ -1,14 +1,19 @@
-.views_slideshow_cycle_main_rotor-block {
+#views_slideshow_cycle_main_rotor-block {
   position: relative;
 }
 
-.views_slideshow_cycle_main_rotor-block  {
+#views_slideshow_cycle_main_rotor-block .views-field-title {
   background: #000000;
   opacity: 0.8;
   position: absolute;
-  color: #dddddd;
   width: 100%;
   font-size: 11px;
   text-transform: uppercase;
   padding: 0.5em;
+  bottom: 0px;
+}
+
+#views_slideshow_cycle_main_rotor-block .views-field-title a {
+  color: #dddddd;
+  text-decoration: none;
 }
