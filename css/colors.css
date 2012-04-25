@@ -2,6 +2,9 @@
   background-color: #ffffff;
 }
 
+.region-header-second {
+  background: #6a6a6a;
+}
 
 .region-preface-first h2.block-title,
 .region-preface-second h2.block-title {
@@ -20,6 +23,7 @@
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#8e8e8e,endColorStr=#6b6b6b); 
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#8e8e8e,endColorStr=#6b6b6b); 
 }
+
 
 #header-tile {
   background-color: #8e8e8e;
