@@ -95,6 +95,10 @@ td, th {
   text-transform: uppercase;
 }
 
+#views_slideshow_cycle_main_rotor-block img {
+  width: 100%;
+}
+
 #region-header-second a:link,
 #region-header-second a:visited,
 #region-header-second a:hover {
