@@ -5,8 +5,8 @@
 
 /* Zone Branding */
 
-body {
-  font-size: 75%;
+.region-header {
+  font-size: 0.75em;
 }
 
 #views_slideshow_cycle_main_rotor-block img {

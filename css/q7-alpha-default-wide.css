@@ -1,4 +1,8 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 
+.region-header {
+  font-size: 1.25em;
+}
+
 #views_slideshow_cycle_main_rotor-block img {
 }
