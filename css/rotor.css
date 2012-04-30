@@ -6,7 +6,7 @@
   background: #000000;
   opacity: 0.8;
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   font-size: 11px;
   text-transform: uppercase;
   padding: 0.5em;
