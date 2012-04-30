@@ -94,7 +94,7 @@ td, th {
 }
 
 /* For Mobile menu */
-#zone-menu select {
+#zone-menu-wrapper select {
   width: 100%;
 }
 
