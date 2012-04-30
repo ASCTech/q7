@@ -26,6 +26,10 @@
   text-align: right;
 }
 
+#zone-menu .navigation ul.li {
+  margin-right: 1em;
+}
+
 /* Zone Header */
 
 .region-header-second-inner {

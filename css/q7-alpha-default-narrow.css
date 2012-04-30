@@ -9,6 +9,13 @@
   font-size: 0.9em;
 }
 
+
+/* Zone Menu */
+
+#zone-menu .navigation ul.li {
+  margin-right: 0.8em;
+}
+
 #views_slideshow_cycle_main_rotor-block img {
 }
 
