@@ -64,6 +64,11 @@ td, th {
   line-height: 1.3em;
 }
 
+/* To protect element spacing in mobile layout. */
+.region {
+  margin-bottom: 1em;
+}
+
 /* Header and Navigation */
 /* Zone Branding */
 
