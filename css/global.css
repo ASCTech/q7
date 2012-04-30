@@ -93,6 +93,11 @@ td, th {
   padding-top: 0.6em;
 }
 
+/* For Mobile menu */
+#zone-menu select {
+  width: 100%;
+}
+
 /* Zone Header */
 #region-header-second {
   font-size: 1.2em;

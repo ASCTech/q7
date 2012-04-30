@@ -1,5 +1,10 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
+/* Override mobile style in global. */
+.region {
+  margin-bottom: 0px;
+}
+
 /* Zone-Branding */
 
 #zone-branding {
