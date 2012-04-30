@@ -3,11 +3,10 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
 
+/* Zone Branding */
+
 #views_slideshow_cycle_main_rotor-block img {
   width: 350px;
 }
 
-.region-header-second {
-  background-color: transparent;
-}
 

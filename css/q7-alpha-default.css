@@ -1,1 +1,111 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/* Zone-Branding */
+
+#zone-branding {
+}
+
+.logo-img {
+  /* Probably this should come back." */
+  /* margin-left: -100px; */
+  min-height: 164px;
+}
+
+#osulogo {
+  height: 86px;
+  width: 84px;
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+
+/* Zone Menu */
+#zone-menu .navigation {
+  text-align: right;
+}
+
+/* Zone Header */
+
+.region-header-second-inner {
+  margin-right: 120px;
+  padding: 1.5em 1em;
+}
+
+#block-menu-menu-quick-links {
+  margin-top: 1em;
+}
+
+/* Zone Preface */
+
+#zone-preface {
+  margin-bottom: 2em;
+}
+
+#zone-preface .region section.block {
+  margin-top: 2em;
+  border-right: 1px solid black;
+}
+
+#views_slideshow_cycle_main_rotor-block img {
+  width: 470px;
+}
+
+/* Zone Content */
+
+#banner-container {
+  position: relative;
+}
+
+#ascbanner {
+  background: url(../images/branding.png) no-repeat top left;
+  background-position: 0 0px;
+  height: 111px;
+  width: 84px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  z-index: 100;
+}
+
+#header-tile {
+  position: absolute;
+  height: 232px;
+  top: 31px;
+  right: 0;
+  width: 50%;
+}
+
+#region-header-second {
+  margin-top: 30px;
+  min-height: 233px;
+}
+
+/* News Page */
+.node-type-qs-news .field-name-field-news-image img {
+  float: left;
+  border: 1px solid #666666;
+  margin: 0px 10px 3px 0px;
+}
+
+.field-name-field-ascnews-date {
+  margin-bottom: 30px;
+}
+
+
+/* Section Footer */
+
+#zone-footer {
+  position: relative;
+  padding-top: 2em;
+}
+
+#ascfooterbanner {
+  background: url(../images/branding.png) no-repeat top left;
+  background-position: 0 -161px;
+  height: 57px;
+  width: 84px;
+  position: absolute;
+  bottom: -5px;
+  right: 10px;
+  z-index: 100;
+
