@@ -71,11 +71,15 @@
 #header-tile {
   position: absolute;
   height: 100%;
-  border-top: 1em solid white;
   top: 0;
   right: 0;
   width: 50%;
   display: block;
+}
+
+#header-tile-bar {
+  height: 1em;
+  background: #ffffff;
 }
 
 #region-header-second {
