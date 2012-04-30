@@ -70,8 +70,8 @@
 
 #header-tile {
   position: absolute;
-  height: 232px;
-  top: 31px;
+  height: 10em;
+  top: 1.8em;
   right: 0;
   width: 50%;
 }
