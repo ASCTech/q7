@@ -74,11 +74,14 @@
   top: 1.8em;
   right: 0;
   width: 50%;
+  display: block;
 }
 
 #region-header-second {
   margin-top: 1.5em;
   min-height: 10em;
+  /* Default is background has color for mobile. */
+  background: transparent;
 }
 
 /* News Page */
