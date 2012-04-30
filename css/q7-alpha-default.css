@@ -47,7 +47,8 @@
 }
 
 #views_slideshow_cycle_main_rotor-block img {
-  width: 470px;
+  vertical-align: middle;
+  height: 100%;
 }
 
 /* Zone Content */
@@ -76,8 +77,8 @@
 }
 
 #region-header-second {
-  margin-top: 30px;
-  min-height: 233px;
+  margin-top: 1.5em;
+  min-height: 10em;
 }
 
 /* News Page */

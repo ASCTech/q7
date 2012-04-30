@@ -5,6 +5,10 @@
 
 /* Zone Branding */
 
+#body {
+  font-size: 0.8em;
+}
+
 #views_slideshow_cycle_main_rotor-block img {
   width: 350px;
 }
