@@ -71,7 +71,7 @@
 #header-tile {
   position: absolute;
   height: 100%;
-  margin-top: 1em;
+  border-top: 1em solid white;
   top: 0;
   right: 0;
   width: 50%;
