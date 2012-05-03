@@ -147,6 +147,7 @@ td, th {
   border-right: 1px solid black;
 }
 
+
 /* Features */
 
 .features-list img {
@@ -174,6 +175,23 @@ td, th {
   font-size: 0.8em;
   text-decoration: underline;
 }
+
+ul.admin-links {
+  float: right;
+}
+
+ul.admin-links li a{
+  border-top: 3px solid #ddd;
+  background-color: #990000;
+  color: #dddddd;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+ul.admin-links li a:hover {
+  text-decoration: none;
+}
+
 
 /* Zone Footer */
 
