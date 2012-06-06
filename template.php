@@ -18,6 +18,7 @@
  */
 function q7_process_html(&$variables) {
   // Hook into color.module.
+  dsm($variables);
   if (module_exists('color')) {
     _color_html_alter($variables);
   }
