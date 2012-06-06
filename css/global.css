@@ -196,12 +196,6 @@ ul.action-links li a:hover {
 /* Zone Footer */
 
 #zone-footer-wrapper {
-  border-top: 6px solid #cccccc;
-  background-color:#36423A;
-  background-image:-webkit-gradient(radial,50% center,0,center center,750,from(#69756D),to(#36423A));
-  background-image:-moz-radial-gradient(50% center, circle farthest-corner,#69756D,#36423A);
-  -ms-filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#69756D,endColorStr=#36423A);
-  filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0,startColorStr=#69756D,endColorStr=#36423A); 
 }
 
 #zone-footer {
