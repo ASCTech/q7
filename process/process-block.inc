@@ -3,9 +3,11 @@
 function q7_alpha_process_block(&$vars) {
   $block = $vars['block'];
   if ($block->module == 'views') {
-    $view = views_get_view($block->delta);
-    if ($view->page && $view->url) {
-      $vars['block']->subject = l($block->subject, $view->url, array());
+    list($name, $display_id) = explode('-', $vars['block']->delta);
+    if ($view = views_get_view($name)) {
+      if ($view->access('page_1')) {
+        $vars['block']->subject = l($block->subject, $view->get_url());
+      }
     }
   }
 }
