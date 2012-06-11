@@ -9,5 +9,5 @@ function q7_alpha_process_block(&$vars) {
     }
   }
 }
-)
+
 ?>
