@@ -123,6 +123,7 @@ td, th {
 
 
 /* Zone Preface */
+#zone-preface h2.block-title,
 #zone-preface h2.block-title a {
   font-family: 'Oxygen', sans-serif;
   text-align: right;
