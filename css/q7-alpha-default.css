@@ -27,8 +27,13 @@
 }
 
 /* Zone Menu */
-#zone-menu .navigation {
+#zone-menu #main-menu {
   text-align: right;
+}
+
+#zone-menu #main-menu ul li {
+  padding: 0;
+  margin: 0;
 }
 
 #zone-menu #main-menu li a {
