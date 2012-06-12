@@ -138,8 +138,8 @@
   right: 0px;
   bottom: 0px;
   top: 0px;
-  top-padding: 1.5em;
-  border-top: 1.5em solid #635B4F;
+  padding-top: 1.5em;
+  border-top: 38px solid #635B4F;
 }
 
 #region-sidebar ul {
