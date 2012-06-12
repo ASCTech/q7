@@ -27,8 +27,12 @@
 }
 
 /* Zone Menu */
-#zone-menu #main-menu {
+#zone-menu .navigation {
   text-align: right;
+}
+
+#zone-menu #main-menu ul li.first a {
+  border-left: 1px solid #cccccc;
 }
 
 #zone-menu #main-menu ul li {
