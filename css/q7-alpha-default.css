@@ -126,6 +126,27 @@
   margin-bottom: 30px;
 }
 
+/* Zone Content */
+
+#region-sidebar {
+  background: #e2d0b2;
+}
+
+#region-sidebar ul {
+  width: 100%;
+  list-style: none;
+  list-style-image: none;
+}
+
+#region-sidebar ul li {
+  line-height: 1.4em;
+  padding: 0.25em 0 0.33em;
+  margin: 0 1em;
+  background: url('../images/menu-separator.png') repeat-x left bottom;
+}
+
+
+
 
 /* Section Footer */
 
