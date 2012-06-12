@@ -128,8 +128,18 @@
 
 /* Zone Content */
 
+#zone-content {
+  position: relative;
+}
+
 #region-sidebar {
   background: #e2d0b2;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  top-padding: 1.5em;
+  border-top: 1.5em solid #635B4F;
 }
 
 #region-sidebar ul {
