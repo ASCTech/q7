@@ -31,8 +31,18 @@
   text-align: right;
 }
 
-#zone-menu .navigation ul li {
-  margin-right: 1em;
+#zone-menu #main-menu li a {
+  font: 14px/20px Arial, sans;
+  color: #cccccc;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.25em 0.5em 0.25em;
+  border-right: 1px solid #cccccc;
+}
+
+#zone-menu #main-menu li a.active {
+  border-bottom: 0.5em solid #cccccc;
+  color #ffffff;
 }
 
 /* Zone Header */

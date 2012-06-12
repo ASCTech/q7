@@ -82,13 +82,6 @@ td, th {
   min-height: 38px;
 }
 
-#zone-menu #main-menu li a {
-  font: 14px/20px Arial, sans;
-  color: #cccccc;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 #zone-menu .navigation {
   padding-top: 0.6em;
 }
