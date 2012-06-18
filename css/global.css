@@ -154,6 +154,30 @@ td, th {
   padding: 1.5em 0.5em 0;
 }
 
+.features  .views-field-title {
+  line-height: 0.7em;
+  vertical-align: bottom;
+}
+
+.features  .views-field-title {
+  line-height: 0.7em;
+  vertical-align: bottom;
+}
+
+.features .views-field-field-ascnews-date {
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  line-height: 1em;
+}
+
+.features .views-field-title {
+  position: absolute;
+  left: 50px;
+  bottom: 1em;
+  line-height: 1em;
+}
+
 /* Zone Content */
 
 #zone-content {
