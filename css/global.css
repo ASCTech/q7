@@ -211,6 +211,16 @@ ul.action-links li a:hover {
 }
 
 
+/* Slider Styles */
+.galleryformatter-greenarrows .gallery-thumbs li {
+  margin-left: 6px;
+}
+
+.galleryformatter-greenarrows .gallery-thumbs li img {
+  border: 1px solid #333333;
+}
+
+
 /* Zone Footer */
 
 #zone-footer-wrapper {
