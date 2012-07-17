@@ -1,3 +1,5 @@
+<?php
+
 function q7_preprocess_file_entity(&$variables) {
   if ($variables['type'] == 'image') {
     // Alt Text
