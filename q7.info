@@ -112,6 +112,11 @@ settings[alpha_css][omega-menu.css] = 'omega-menu.css'
 settings[alpha_css][omega-forms.css] = 'omega-forms.css'
 settings[alpha_css][omega-visuals.css] = 'omega-visuals.css'
 settings[alpha_css][global.css] = 'global.css'
+settings[alpha_css][news.css] = 'news.css'
+settings[alpha_css][events.css] = 'events.css'
+settings[alpha_css][blog.css] = 'blog.css'
+settings[alpha_css][people.css] = 'people.css'
+settings[alpha_css][front.css] = 'front.css'
 settings[alpha_css][rotor.css] = 'rotor.css'
 settings[alpha_css][osu-navbar.css] = 'osu-navbar.css'
 settings[alpha_css][omega-text.css] = '0'
@@ -437,3 +442,10 @@ settings[alpha_region_footer_second_equal_height_element] = '0'
 settings[alpha_region_footer_second_equal_height_container] = '0'
 version = '1.x'
 stylesheets[all][] = 'css/colors.css'
+
+
+; Information added by drush on 2012-07-20
+version = "unknown"
+project = "q7"
+datestamp = "1342799554"
+
