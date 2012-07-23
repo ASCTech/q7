@@ -134,45 +134,40 @@
   min-height:15em;
 }
 
-#region-sidebar ul {
+#region-sidebar .menu ul {
   width: 100%;
   list-style: none;
   list-style-image: none;
 }
 
-#region-sidebar ul li {
+#region-sidebar .menu ul li {
   line-height: 1.4em;
   padding: 0.25em 0 0.33em;
   margin: 0 1em;
   background: url('../images/menu-separator.png') repeat-x left bottom;
 }
 
-.date-nav-wrapper .date-heading {
+#region-sidebar .date-nav-wrapper .date-heading {
   background-color: #E2D0B2;
 }
 
-.date-nav-wrapper h3 {
+#region-sidebar .date-nav h3 {
   position: relative;
   top: 30px; 
   background-color: #5A5347;
-}
-
-.date-nav {
   color: white;
-  text-decoration: uppercase;
+  text-transform: uppercase;
 }
 
-.date-nav .pager li a {
+#region-sidebar .date-nav .pager li a {
   color: white;
 }
 
-.date-nav .pager li.date-prev a {
-  color: white;
+#region-sidebar .date-nav .pager li.date-prev a {
   background: 50% 50% no-repeat url('../images/arrow-l.png');
 }
 
-.date-nav .pager li.date-next a {
-  color: white;
+#region-sidebar .date-nav .pager li.date-next a {
   background: 50% 50% no-repeat url('../images/arrow-r.png');
 }
 
