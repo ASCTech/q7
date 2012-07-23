@@ -197,6 +197,15 @@ ul.action-links li a:hover {
   text-decoration: none;
 }
 
+.front .view .more-link a {
+  display: block;
+  color: #ffffff;
+  height: 1em;
+  width: 1em;
+  line-height: 0.8em;
+  text-align: center;
+}
+
 
 /* Slider Styles */
 .galleryformatter-greenarrows .gallery-thumbs li {

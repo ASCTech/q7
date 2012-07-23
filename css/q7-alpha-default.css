@@ -159,12 +159,31 @@
   text-transform: uppercase;
 }
 
+#region-sidebar .calendar-calendar {
+  margin-top: -4px;
+}
+
+#region-sidebar .calendar-calendar td {
+  text-align: center;
+  border: 1px solid #dddddd;
+}
+
+#region-sidebar .calendar-calendar th {
+  color: #ffffff;
+  background: #AFA9A0;
+  border-left: none;
+  border-right: none;
+}
+
 #region-sidebar .date-nav h3 a {
   color: white;
+  font-family: 'Arial Black', Gadget, sans-serif;
 }
 
 #region-sidebar .date-nav .pager li {
   background: none;
+  border-right: none;
+  font-size: 1px;
 }
 
 #region-sidebar .date-nav .pager li a {
@@ -178,6 +197,7 @@
 #region-sidebar .date-nav .pager li.date-next a {
   background: 50% 50% no-repeat url('../images/arrow-r.png');
 }
+
 
 /* Section Footer */
 

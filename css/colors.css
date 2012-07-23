@@ -10,6 +10,10 @@
   background-color: #6a6a6a;
 }
 
+.front .view .more-link a {
+  background-color: #6a6a6a;
+}
+
 #zone-postscript .region section.block {
   border-right: 1px solid #6a6a6a;
 }
