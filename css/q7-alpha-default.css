@@ -159,6 +159,14 @@
   text-transform: uppercase;
 }
 
+#region-sidebar .date-nav h3 a {
+  color: white;
+}
+
+#region-sidebar .date-nav .pager li {
+  background: none;
+}
+
 #region-sidebar .date-nav .pager li a {
   color: white;
 }
