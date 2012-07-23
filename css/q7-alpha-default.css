@@ -104,12 +104,13 @@
 }
 
 #header-tile-bar {
-  height: 1em;
+  height: 2em;
   background: #ffffff;
 }
 
 #region-header-second {
-  margin-top: 1.5em;
+  margin-top: 1em;
+  font-size: 1.08em;
   min-height: 8em;
   /* Default is background has color for mobile. */
   background: transparent;

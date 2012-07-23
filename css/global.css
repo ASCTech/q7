@@ -216,6 +216,7 @@ ul.action-links li a:hover {
 #zone-footer {
   color: #ffffff;
   font: 12px/16px Arial, sans-serif;
+  min-height: 5em;
 }
 
 #zone-footer a,
