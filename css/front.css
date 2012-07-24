@@ -17,3 +17,34 @@
 .front .region-header-first .block-views {
   margin-right: -20px;
 }
+
+
+.front .features .view-content {
+  height: 235px;
+}
+
+
+.front .region-preface-first section.feature-half,
+.front .region-postscript-first section.feature-half {
+  margin-left: 28px;
+  margin-right: -10px;
+}
+
+.front .region-preface-first section.feature-half:first-child,
+.front .region-postscript-first section.feature-half:first-child {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.front .region-preface-second section.feature-half:first-child,
+.front .region-postscript-second section.feature-half:first-child {
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+.front .region-preface-second section.feature-half,
+.front .region-postscript-second section.feature-half {
+  margin-right: -10px;
+  margin-left: 19px;
+}
+

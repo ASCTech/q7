@@ -134,11 +134,6 @@ td, th {
 
 /* Features */
 
-.features-list img {
-  float: left;
-  padding-right: 0.4em;
-}
-
 .features {
   font-size: 0.75em;
   padding: 1.5em 0.5em 0;
@@ -201,10 +196,12 @@ ul.action-links li a:hover {
   width: 1em;
   line-height: 0.8em;
   text-align: center;
-  float: right;
   font-size: 14px;
-  margin-right: -10px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
+
 
 
 /* Slider Styles */

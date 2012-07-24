@@ -15,10 +15,32 @@
 .features .views-field-changed {
 }
 
+.view-display-id-news_block_large .view-content {
+  float: left;
+}
 
 /* News List Block on News Page */
 
-.view-display-id-news_block_list .views-field-field-news-image {
+.view-display-id-news_block_list .views-field-field-news-image,
+.view-display-id-news_block_small .views-field-field-news-image {
   float: left;
-  margin-right: 1em;
+  margin: 0 1em 1em 0em;
+}
+
+.view-display-id-news_block_list .views-row,
+.view-display-id-news_block_small .views-row {
+  clear: both;
+}
+
+.view-display-id-asc_news_block_large .col-1 {
+  padding-right: 1.8em;
+}
+
+.view-display-id-asc_news_block_large .view-content {
+  float: left;
+  width: 295px;
+}
+
+.view-display-id-asc_news_block_large .attachment {
+  float: left;
 }

@@ -6,7 +6,8 @@
   background: #6a6a6a;
 }
 
-.zone-postscript h2.block-title {
+.zone-postscript h2.block-title,
+.zone-preface h2.block-title {
   background-color: #6a6a6a;
 }
 

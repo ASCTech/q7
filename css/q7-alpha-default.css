@@ -27,6 +27,11 @@
 }
 
 /* Zone Menu */
+
+#zone-menu {
+  padding-left: 20px;
+}
+
 #zone-menu .navigation {
   text-align: left;
 }
@@ -206,6 +211,12 @@
   background: 50% 50% no-repeat url('../images/arrow-r.png');
 }
 
+/* Zone Postscript */
+
+#zone-postscript {
+  margin-bottom: 2em;
+}
+
 
 /* Section Footer */
 
@@ -223,6 +234,7 @@
   bottom: -5px;
   right: 10px;
   z-index: 100;
+}
 
 
   
