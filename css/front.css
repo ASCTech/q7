@@ -3,3 +3,14 @@
 .front article header {
   display: none;
 }
+
+.front .gallery-thumbs {
+  display: none;
+}
+
+.front .view-display-id-front_text_short,
+.front .view-display-id-quick_links_text,
+.front .view-display-id-front_text_tall {
+  padding: 1em;
+}
+
