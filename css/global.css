@@ -204,6 +204,7 @@ ul.action-links li a:hover {
   width: 1em;
   line-height: 0.8em;
   text-align: center;
+  float: right;
 }
 
 
