@@ -60,6 +60,10 @@
 
 /* Zone Header */
 
+#zone-header-wrapper { 
+  height: 262px;
+}
+
 .region-header-second-inner {
   margin-right: 120px;
   padding: 1.5em 1em;
