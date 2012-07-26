@@ -58,7 +58,8 @@
   color: #ffffff;
 }
 
-#zone-menu #main-menu li a.active {
+#zone-menu #main-menu li a.active,
+#zone-menu #main-menu li a.active-trail {
   border-bottom: 0.5em solid #cccccc;
   color #ffffff;
 }
@@ -147,17 +148,40 @@
   min-height:15em;
 }
 
-#region-sidebar .menu ul {
+#region-sidebar ul.menu {
   width: 100%;
   list-style: none;
   list-style-image: none;
+  font-size: 0.9em;
 }
 
-#region-sidebar .menu ul li {
+#region-sidebar ul.menu li {
+  list-style: none;
+  list-style-image: none;
+  line-height: 1.4em;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0 1em;
+  background: url('../images/menu-separator.png') repeat-x left bottom;
+  font-family: Arial, Helvetica, 'Lucida Grande', verdana, sans-serif; 
+  color: #333333;
+}
+
+#region-sidebar ul.menu li ul li {
   line-height: 1.4em;
   padding: 0.25em 0 0.33em;
   margin: 0 1em;
-  background: url('../images/menu-separator.png') repeat-x left bottom;
+  background: none;
+}
+
+#region-sidebar ul.menu li a {
+  color: #333333;
+  font-size: 12px;
+  width: 100%;
+  display: block;
+}
+
+#region-sidebar ul.menu li a.active {
+  background-color: #F5EFE5;
 }
 
 #region-sidebar .date-nav-wrapper .date-heading {

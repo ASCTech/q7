@@ -162,6 +162,10 @@ td, th {
 #zone-content {
 }
 
+.field-name-field-displaythumbs {
+  display: none;
+}
+
 .breadcrumb {
   background: #666666;
   padding: 10px 10px 5px;
