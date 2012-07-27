@@ -16,6 +16,23 @@
   min-height: 164px;
 }
 
+#logolink {
+  display: block;
+  width: 1040px;
+  height: 165px;
+  background: url('../logo.png');
+  margin-left: -100px;
+}
+
+#logo-tile {
+  width: 50%;
+  left: 50%;
+  position: absolute;
+  height: 164px;
+  top: 40px;
+  background: url('../logo.png') no-repeat -440px 0px;;
+}
+
 #osulogo {
   background: url(../images/branding.png) no-repeat top left;
   background-position: 0 -266px;
