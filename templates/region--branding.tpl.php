@@ -7,6 +7,7 @@
         <a href="/" title="<?php print $site_name; ?> home page" id="logolink">&nbsp;</a>
         <a id="osulogo" href="http://www.osu.edu/">&nbsp;</a>
       </div>
+      </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
       <?php $class = $site_name_hidden && $site_slogan_hidden ? ' element-invisible' : ''; ?>
