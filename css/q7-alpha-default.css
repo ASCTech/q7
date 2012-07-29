@@ -49,6 +49,10 @@
   padding-left: 1px;
 }
 
+#main-menu {
+  margin-left: 0;
+}
+
 #zone-menu .navigation {
   text-align: left;
 }
