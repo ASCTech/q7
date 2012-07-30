@@ -16,6 +16,10 @@
   min-height: 164px;
 }
 
+.logo-img a:hover {
+  text-decoration: none;
+}
+
 #logolink {
   display: block;
   width: 1040px;
@@ -23,6 +27,7 @@
   background: url('../logo.png');
   margin-left: -100px;
 }
+
 
 #logo-tile {
   width: 50%;
