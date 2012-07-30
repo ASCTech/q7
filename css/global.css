@@ -278,12 +278,12 @@ ul.action-links li a:hover {
 #zone-footer #search-block-form input {
   background: transparent url(../images/searchbar.png) 0 0 no-repeat;
   border: 0 none;
-  height: 23px;
+  height: 35px;
   font-size: 100%;
   line-height: 23px;
   margin: 0;
   padding: 5px 8px;
-  width: 313px;
+  width: 300px;
   color #999;
   font-weight: bold;
 }

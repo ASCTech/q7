@@ -281,3 +281,11 @@
   z-index: 100;
 }
 
+/* Social Media in Footer */
+#zone-footer .block-widgets-s-socialmedia-profile-buttons {
+  float: right;
+}
+
+#zone-footer .block-widgets-s-socialmedia-profile-buttons .widgets-element-horizontal {
+  margin-left: 0.5em;
+}
