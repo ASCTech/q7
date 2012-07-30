@@ -15,9 +15,6 @@
 .features .views-field-changed {
 }
 
-.view-display-id-news_block_large .view-content {
-  float: left;
-}
 
 /* News List Block on News Page */
 
@@ -32,15 +29,44 @@
   clear: both;
 }
 
+.view-display-id-news_block_large .view-content {
+  float: left;
+}
+
+.view-display-id-news_block_large > .view-content:first-child {
+  width: 62%;
+  padding-right: 0.2em;
+  border-right: 1px dotted #888888;
+  margin-right: 0.8em;
+}
+
+/* Did not work as a %, so will need overridden elsewhere for responsive */
+.view-display-id-news_block_large .col-1,
+.view-display-id-news_block_large .col-2 {
+  width: 122px;
+}
+
 .view-display-id-asc_news_block_large .col-1 {
   padding-right: 1.8em;
 }
 
-.view-display-id-asc_news_block_large .view-content {
-  float: left;
-  width: 295px;
-}
-
 .view-display-id-asc_news_block_large .attachment {
   float: left;
+}
+
+.view-display-id-news_block_small .view-content .views-row {
+  position: relative;
+  height: 4.7em;
+}
+
+.view-display-id-news_block_small .view-content .views-row .views-field-title {
+  position: absolute;
+  bottom: 1.5em;
+  left: 4.7em;
+}
+
+.view-display-id-news_block_small .view-content .views-row .views-field-changed {
+  position: absolute;
+  bottom: 0;
+  left: 4.7em;
 }

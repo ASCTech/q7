@@ -114,9 +114,9 @@ tfoot {font-style:italic;}
 }
 
 /* Zone Header */
-#region-header-second {
+#region-header-second .view-content p {
   font-size: 1.2em;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -163,7 +163,15 @@ tfoot {font-style:italic;}
 
 .features  .views-field-title {
   line-height: 0.9em;
-  vertical-align: bottom;
+}
+
+.features .views-field {
+  margin-bottom: 0.5em;
+  line-height: 1.2em;
+}
+
+.features img {
+  border: 1px solid black;
 }
 
 #zone-postscript h2.block-title,
