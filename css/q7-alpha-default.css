@@ -287,12 +287,12 @@
 }
 
 /* Social Media in Footer */
-#zone-content .block-widgets-s-socialmedia-profile-buttons,
+#zone-content .block-widgets-s-socialmedia-share-default,
 #zone-footer .block-widgets-s-socialmedia-profile-buttons {
   float: right;
 }
 
-#zone-content .block-widgets-s-socialmedia-profile-buttons .widgets-element-horizontal,
+#zone-content .block-s-socialmedia-share-default .widgets-element-horizontal,
 #zone-footer .block-widgets-s-socialmedia-profile-buttons .widgets-element-horizontal {
   margin-left: 1em;
 }
