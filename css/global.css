@@ -271,11 +271,11 @@ ul.action-links li a:hover {
   margin-bottom: 0;
 }
 
-#zone-footer .form-item-search-block-form #edit-submit {
+#zone-footer #search-block-form #edit-submit {
   display: none;
 }
 
-#zone-footer #search_block_form {
+#zone-footer #search-block-form input {
   background: transparent url(../images/searchbar.png) 0 0 no-repeat;
   border: 0 none;
   height: 23px;
