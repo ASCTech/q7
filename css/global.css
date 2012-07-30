@@ -271,6 +271,28 @@ ul.action-links li a:hover {
   margin-bottom: 0;
 }
 
+#zone-footer .form-item-search-block-form #edit-submit {
+  display: none;
+}
+
+#zone-footer #search_block_form {
+  background: transparent url(../images/searchbar.png) 0 0 no-repeat;
+  border: 0 none;
+  height: 23px;
+  font-size: 100%;
+  line-height: 23px;
+  margin: 0;
+  padding: 5px 8px;
+  width: 313px;
+  color #999;
+  font-weight: bold;
+}
+
+#zone-footer #search_block_form input.form-text {
+  color: #000000;
+  font-weight: normal;
+}
+
 #ascfooter {
   width: 86px; 
   height: 55px;
