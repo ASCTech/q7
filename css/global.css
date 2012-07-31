@@ -116,7 +116,7 @@ tfoot {font-style:italic;}
 /* Zone Header */
 #region-header-second .view-content,
 #region-header-second .block-menu-menu-quick-links {
-  font-size: 1.2em;
+  font-size: 0.8em;
   color: #ffffff;
   text-transform: uppercase;
 }
