@@ -27,7 +27,7 @@
       <?php foreach ($header as $field => $label): ?>
         <div <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
           <?php print $label; ?>
-        </div>&nbsp;|&nbsp;
+        </div>
       <?php endforeach; ?>
     </div>
   </div>
@@ -36,7 +36,7 @@
         <?php foreach ($row as $field => $content): ?>
           <span <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
             <?php print $content; ?>
-          </span>&nbsp;|&nbsp;
+          </span>&nbsp;
         <?php endforeach; ?>
     <?php endforeach; ?>
   </div>
