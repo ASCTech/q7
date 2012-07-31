@@ -258,8 +258,6 @@ ul.action-links li a:hover {
 }
 
 #zone-footer {
-  color: #ffffff;
-  font: 12px/16px Arial, sans-serif;
   min-height: 5em;
 }
 
@@ -273,6 +271,8 @@ ul.action-links li a:hover {
   border-top: 1px solid white;
   padding: 1em 3px;
   margin-bottom: 0;
+  color: #ffffff;
+  font: 12px/16px Arial, sans-serif;
 }
 
 #zone-footer #search-block-form #edit-submit {
