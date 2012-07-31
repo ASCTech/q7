@@ -25,9 +25,9 @@
   <div>
     <div>
       <?php foreach ($header as $field => $label): ?>
-        <div <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
+        <span <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
           <?php print $label; ?>
-        </div>
+        </span>&nbsp;|&nbsp;
       <?php endforeach; ?>
     </div>
   </div>
