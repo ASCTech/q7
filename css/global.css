@@ -114,10 +114,15 @@ tfoot {font-style:italic;}
 }
 
 /* Zone Header */
-#region-header-second .view-content {
+#region-header-second .view-content,
+#region-header-second .block-menu-menu-quick-links {
   font-size: 1.2em;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.block-menu-menu-quick-links {
+  padding-left: 0.5em;
 }
 
 #views_slideshow_cycle_main_rotor-block img {
