@@ -25,9 +25,9 @@
   <div>
     <div>
       <?php foreach ($header as $field => $label): ?>
-        <span <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
+        <div <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
           <?php print $label; ?>
-        </span>&nbsp;|&nbsp;
+        </div>&nbsp;|&nbsp;
       <?php endforeach; ?>
     </div>
   </div>
@@ -35,9 +35,9 @@
     <?php foreach ($rows as $row_count => $row): ?>
       <div class="<?php print implode(' ', $row_classes[$row_count]); ?>">
         <?php foreach ($row as $field => $content): ?>
-          <div <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
+          <span <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
             <?php print $content; ?>
-          </div>
+          </span>&nbsp;|&nbsp;
         <?php endforeach; ?>
       </div>
     <?php endforeach; ?>
