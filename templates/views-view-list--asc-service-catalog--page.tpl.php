@@ -1,7 +1,7 @@
 <?php
 /**
- *  * @file views-view-table.tpl.php
- *   * Template to display a view as a table.
+ *  * @file views-view-list.tpl.php
+ *   * Template to display a view as a list.
  *    *
  *     * - $title : The title of this group of rows.  May be empty.
  *      * - $header: An array of header labels keyed by field id.
