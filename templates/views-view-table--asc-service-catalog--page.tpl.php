@@ -21,28 +21,28 @@
     <legend><span class="fieldset-legend"><?php if (!empty($title)) : ?><?php print $title; ?><?php endif; ?></span></legend>
     <div class="fieldset-wrapper">
      
-    <table <?php if ($classes) { print 'class="'. $classes . '" ';  } ?><?php print $attributes; ?>>
-  <thead>
-    <tr>
+    <div <?php if ($classes) { print 'class="'. $classes . '" ';  } ?><?php print $attributes; ?>>
+  <div>
+    <div>
       <?php foreach ($header as $field => $label): ?>
-        <th <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
+        <div <?php if ($header_classes[$field]) { print 'class="'. $header_classes[$field] . '" ';  } ?>>
           <?php print $label; ?>
-        </th>
+        </div>
       <?php endforeach; ?>
-    </tr>
-  </thead>
-  <tbody>
+    </div>
+  </div>
+  <div>
     <?php foreach ($rows as $row_count => $row): ?>
-      <tr class="<?php print implode(' ', $row_classes[$row_count]); ?>">
+      <div class="<?php print implode(' ', $row_classes[$row_count]); ?>">
         <?php foreach ($row as $field => $content): ?>
-          <td <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
+          <div <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
             <?php print $content; ?>
-          </td>
+          </div>
         <?php endforeach; ?>
-      </tr>
+      </div>
     <?php endforeach; ?>
-  </tbody>
-</table>
+  </div>
+</div>
  
 </div>
 
