@@ -225,7 +225,7 @@
 }
 
 #region-sidebar .calendar-calendar {
-  margin-top: -4px;
+  margin-top: -1em;
 }
 
 #region-sidebar .calendar-calendar td {
@@ -240,9 +240,19 @@
   border-right: none;
 }
 
-#region-sidebar .view-display-id-asc_events_cal_block .date-prev,
-#region-sidebar .view-display-id-asc_events_cal_block .date-next {
+#region-sidebar .date-nav .pager li.date-prev a,
+#region-sidebar .date-nav .pager li.date-next a {
     top: 30px;
+    display: block;
+    width: 1em;
+}
+
+#region-sidebar .date-nav .pager li.date-prev a {
+  background: 50% 50% no-repeat url('../images/arrow-l.png');
+}
+
+#region-sidebar .date-nav .pager li.date-next a {
+  background: 50% 50% no-repeat url('../images/arrow-r.png');
 }
 
 #region-sidebar .date-nav h3 a {
@@ -260,13 +270,6 @@
   color: white;
 }
 
-#region-sidebar .date-nav .pager li.date-prev a {
-  background: 50% 50% no-repeat url('../images/arrow-l.png');
-}
-
-#region-sidebar .date-nav .pager li.date-next a {
-  background: 50% 50% no-repeat url('../images/arrow-r.png');
-}
 
 /* Zone Postscript */
 
