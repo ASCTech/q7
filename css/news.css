@@ -70,3 +70,9 @@
   bottom: 0;
   left: 4.7em;
 }
+
+.page-news .field-name-field-news-image img {
+  float: left;
+  margin: 0em 1em 1em 0em;
+  border: 1px solid #6666666;
+}

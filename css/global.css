@@ -53,10 +53,6 @@ h3 {
   line-height: 44px;
 }
 
-td, th { 
-  padding: 0 5px; 
- }
-
 blockquote {margin:1.5em;color:#666;font-style:italic;}
 strong {font-weight:bold;}
 em, dfn {font-style:italic;}
@@ -81,7 +77,7 @@ tfoot {font-style:italic;}
 /* General CSS Classes */
 
 .small {
-  font-size: 75%; 
+  font-size: 75%;
   margin-bottom: .5em;
   line-height: 1.3em;
 }
@@ -132,7 +128,7 @@ tfoot {font-style:italic;}
 #region-header-second a:visited,
 #region-header-second a:hover {
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 #region-header-second ul.menu li {
@@ -298,7 +294,7 @@ ul.action-links li a:hover {
 }
 
 #ascfooter {
-  width: 86px; 
+  width: 86px;
   height: 55px;
 }
 
