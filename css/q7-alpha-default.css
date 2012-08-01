@@ -92,7 +92,7 @@
 
 /* Zone Header */
 
-#zone-header-wrapper { 
+#zone-header-wrapper {
   height: 262px;
 }
 
@@ -157,7 +157,9 @@
 .front #zone-content {
   min-height: 0em;
 }
-
+.not-front #region-content {
+  margin-bottom: 1em;
+}
 #zone-content {
   position: relative;
   min-height: 22em;
@@ -188,7 +190,7 @@
   padding: 0.5em 0 0.5em 0;
   margin: 0 1em;
   background: url('../images/menu-separator.png') repeat-x left bottom;
-  font-family: Arial, Helvetica, 'Lucida Grande', verdana, sans-serif; 
+  font-family: Arial, Helvetica, 'Lucida Grande', verdana, sans-serif;
   color: #333333;
 }
 
@@ -216,7 +218,7 @@
 
 #region-sidebar .date-nav h3 {
   position: relative;
-  top: 30px; 
+  top: 30px;
   background-color: #5A5347;
   color: white;
   text-transform: uppercase;
