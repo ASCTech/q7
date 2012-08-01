@@ -240,8 +240,12 @@
   border-right: none;
 }
 
-#region-sidebar .date-nav .pager li.date-prev a,
 #region-sidebar .date-nav .pager li.date-next a {
+  margin-top: 0px;
+}
+
+#region-sidebar .date-nav .pager .date-prev a,
+#region-sidebar .date-nav .pager .date-next a {
     margin-top: 30px;
     display: block;
     width: 1em;
