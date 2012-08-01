@@ -25,6 +25,11 @@
   height: 235px;
 }
 
+.front .feature-half {
+  width: 46%;
+  float: left;
+}
+
 
 .front .region-preface-first section.feature-half,
 .front .region-postscript-first section.feature-half {
