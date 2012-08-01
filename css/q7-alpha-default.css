@@ -240,6 +240,11 @@
   border-right: none;
 }
 
+#region-sidebar .view-display-id-asc_events_cal_block .date-prev,
+#region-sidebar .view-display-id-asc_events_cal_block .date-next {
+    top: 30px;
+}
+
 #region-sidebar .date-nav h3 a {
   color: white;
   font-family: 'Arial Black', Gadget, sans-serif;
