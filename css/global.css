@@ -97,7 +97,7 @@ tfoot {font-style:italic;}
 #zone-menu-wrapper {
   background: #000000 url('../images/headerbar.png') repeat-x 0 0;
   background-color: #000000;
-  min-height: 38px;
+  height: 38px;
 }
 
 #zone-menu .navigation {
