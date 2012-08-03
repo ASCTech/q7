@@ -33,7 +33,7 @@
 
 .front .region-preface-first section.feature-half,
 .front .region-postscript-first section.feature-half {
-  margin-left: 28px;
+  margin-left: 20px;
   margin-right: -10px;
 }
 
@@ -52,6 +52,6 @@
 .front .region-preface-second section.feature-half,
 .front .region-postscript-second section.feature-half {
   margin-right: -10px;
-  margin-left: 220px;
+  margin-left: 20px;
 }
 
