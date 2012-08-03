@@ -59,6 +59,10 @@
   margin-left: 0;
 }
 
+#region-menu {
+  height: 36px;
+}
+
 #zone-menu .navigation {
   text-align: left;
 }
