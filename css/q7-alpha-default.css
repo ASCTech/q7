@@ -319,16 +319,13 @@
 }
 
 .not-front .field-type-taxonomy-term-reference {
-    clear: both;
-    margin-top: 0.5em;
-    border-top: 1px solid #666666;
-    border-bottom: 1px solid #666666;
-    font-size: 0.75em;
-}
-
-.not-front .field-type-taxonomy-term-reference .field-items {
+  clear: both;
+  margin-top: 0.5em;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  font-size: 0.75em;
   height: 2em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5em;j
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item {
