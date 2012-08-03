@@ -78,6 +78,7 @@
   text-decoration: none;
   padding: 0.25em 1em 0.25em;
   border-right: 1px solid #cccccc;
+  margin-left: -1px;
 }
 
 #zone-menu #main-menu li a:hover {
