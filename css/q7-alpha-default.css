@@ -328,6 +328,7 @@
 
 .not-front .field-type-taxonomy-term-reference .field-items {
   height: 2em;
+  margin-bottom: 1.5em;
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item {
