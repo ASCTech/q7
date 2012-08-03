@@ -307,3 +307,14 @@ ul.action-links li a:hover {
   font-size: 0.6em;
 }
 
+
+/* Gallery Styles */
+
+.gallery-image {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+
+.gallery-image a {
+  display: block;
+}
