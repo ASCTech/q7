@@ -58,3 +58,24 @@
 .view-display-id-asc_events_feature_small .view-content img {
   border: 0 none;
 }
+
+/* Events Page */
+.view-display-id-asc_events_page table th {
+  text-transform: uppercase;
+}
+
+.view-display-id-asc_events_page table tr {
+  background: none;
+}
+
+.view-display-id-asc_events_page table td {
+  vertical-align: middle;
+  padding: 0.5em;
+}
+
+.view-display-id-asc_events_page .views-field-title,
+.view-display-id-asc_events_page .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page .views-field-field-ascevents-location {
+  width: 30%;
+}
+

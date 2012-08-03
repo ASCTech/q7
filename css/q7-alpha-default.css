@@ -136,6 +136,10 @@
   z-index: 100;
 }
 
+#ascbanner a {
+  text-decoration: none;
+}
+
 #header-tile {
   position: absolute;
   height: 100%;
