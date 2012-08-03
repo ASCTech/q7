@@ -26,7 +26,7 @@
 }
 
 .front .feature-half {
-  width: 47%;
+  width: 220px;
   float: left;
 }
 
@@ -52,6 +52,6 @@
 .front .region-preface-second section.feature-half,
 .front .region-postscript-second section.feature-half {
   margin-right: -10px;
-  margin-left: 19px;
+  margin-left: 220px;
 }
 

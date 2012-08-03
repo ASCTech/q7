@@ -247,6 +247,11 @@ ul.action-links li a:hover {
   border: 1px solid #333333;
 }
 
+/* To keep header tile from appearing during transitions.
+.galleryformatter {
+  background: white;
+}
+
 
 /* Zone Footer */
 
