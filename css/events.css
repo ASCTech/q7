@@ -60,25 +60,32 @@
 }
 
 /* Events Page */
+.view-display-id-asc_events_page_day table th,
 .view-display-id-asc_events_page table th {
   text-transform: uppercase;
 }
 
+.view-display-id-asc_events_page_day table tr,
 .view-display-id-asc_events_page table tr {
   background: none;
 }
 
+.view-display-id-asc_events_page_day table td,
 .view-display-id-asc_events_page table td {
   vertical-align: middle;
   padding: 0.5em;
 }
 
+.view-display-id-asc_events_page_day .date-heading li.date-prev a,
 .view-display-id-asc_events_page .date-heading li.date-prev a {
   position: absolute;
   left: 0px;
   width: 55px;
 }
 
+.view-display-id-asc_events_page_day .views-field-title,
+.view-display-id-asc_events_page_day .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page_day .views-field-field-ascevents-location,
 .view-display-id-asc_events_page .views-field-title,
 .view-display-id-asc_events_page .views-field-field-ascevents-datetime,
 .view-display-id-asc_events_page .views-field-field-ascevents-location {
