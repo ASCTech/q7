@@ -326,6 +326,10 @@
     font-size: 0.75em;
 }
 
+.not-front .field-type-taxonomy-term-reference .field-items {
+  height: 2em;
+}
+
 .not-front .field-type-taxonomy-term-reference .field-item {
   margin-right: 1em;
   float: left;
