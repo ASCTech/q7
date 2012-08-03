@@ -329,5 +329,6 @@
 
 .not-front .field-type-taxonomy-term-reference .field-item {
   margin-right: 1em;
+  float: left;
 }
 
