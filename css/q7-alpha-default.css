@@ -323,11 +323,11 @@
     margin-top: 0.5em;
     border-top: 1px solid #666666;
     border-bottom: 1px solid #666666;
-    font-size: 0.75 em;
+    font-size: 0.75em;
   }
 }
 
-.not-front .field-type-taxonomy-term-reference .field-item:before {
-  content: ', ';
+.not-front .field-type-taxonomy-term-reference .field-item {
+  margin-right: 1em;
 }
 
