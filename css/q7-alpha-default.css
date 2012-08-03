@@ -153,13 +153,14 @@
   background: transparent;
 }
 
-/* Zone Content */
-
 .front #zone-content {
   min-height: 0em;
 }
 .not-front #region-content {
   margin-bottom: 1em;
+}
+.not-front .block-system-main {
+    min-height: 12em;
 }
 #zone-content {
   position: relative;
