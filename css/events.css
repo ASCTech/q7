@@ -73,7 +73,7 @@
   padding: 0.5em;
 }
 
-.view-display-id-asc_events_page .date-prev a {
+.view-display-id-asc_events_page .date-heading li.date-prev a {
   position: absolute;
   left: 0px;
   width: 55px;
