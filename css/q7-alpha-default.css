@@ -211,6 +211,18 @@
 
 #region-sidebar ul.menu li a.active {
   background-color: #F5EFE5;
+  margin-left: -1.1em;
+  padding-left: 1.1em;
+}
+
+#region-sidebar ul.menu li ul li a.active {
+  margin-left: -2.1em;
+  padding-left: 2em;
+}
+
+#region-sidebar ul.menu li ul li ul li a.active {
+  margin-left: -3.1em;
+  padding-left: 3em;
 }
 
 #region-sidebar .date-nav-wrapper .date-heading {
