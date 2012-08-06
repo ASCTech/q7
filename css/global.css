@@ -228,7 +228,7 @@ ul.action-links li a:hover {
   color: #ffffff;
   height: 1em;
   width: 1em;
-  line-height: 0.8em;
+  line-height: 1em;
   text-align: center;
   font-size: 14px;
   position: absolute;
@@ -236,7 +236,9 @@ ul.action-links li a:hover {
   bottom: 0px;
 }
 
-
+.front .view .more-link a:hover {
+  text-decoration: none;
+}
 
 /* Slider Styles */
 .galleryformatter-greenarrows .gallery-thumbs li {

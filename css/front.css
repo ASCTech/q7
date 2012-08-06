@@ -66,3 +66,16 @@
   border-bottom: 0px none;
 }
 
+.front .feature-whole .attachment .view-content {
+  position: relative;
+}
+
+.front .feature-whole .attachment .view-content .views-field-title {
+  position: absolute;
+  bottom: 1.5em;
+}
+
+.front .feature-whole .attachment .view-content .views-field-changed {
+  position: absolute;
+  bottom: 0;
+}
