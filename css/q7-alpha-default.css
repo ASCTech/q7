@@ -364,7 +364,14 @@
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item {
-  margin-right: 1em;
   float: left;
+}
+
+.not-front .field-type-taxonomy-term-reference .field-item:before {
+  content: ' | ';
+}
+
+.not-front .field-type-taxonomy-term-reference .field-item:first:before {
+  content: ''';
 }
 
