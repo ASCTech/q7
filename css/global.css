@@ -172,6 +172,7 @@ tfoot {font-style:italic;}
 
 .features img {
   border: 1px solid black;
+  margin-top: 0.2em;
 }
 
 #zone-postscript h2.block-title,
