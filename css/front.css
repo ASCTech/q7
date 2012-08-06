@@ -58,7 +58,7 @@
 .front .feature-half .views-row,
 .front .feature-whole .views-row {
   border-bottom: 1px dotted #cccccc;
-  min-height: 55px;
+  height: 57px;
 }
 
 .front .feature-half .views-row-last,

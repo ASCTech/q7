@@ -33,10 +33,6 @@
   clear: both;
 }
 
-.view-display-id-news_block_large .view-content {
-  float: left;
-}
-
 .view-display-id-news_block_large > .view-content:first-child {
   width: 62%;
   padding-right: 0.2em;
