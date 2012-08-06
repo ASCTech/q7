@@ -42,6 +42,7 @@
   padding-right: 0.2em;
   border-right: 1px dotted #888888;
   margin-right: 0.8em;
+  float: left;
 }
 
 /* Did not work as a %, so will need overridden elsewhere for responsive */
