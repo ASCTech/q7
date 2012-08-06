@@ -194,6 +194,18 @@
   font-size: 0.9em;
 }
 
+#region-sidebar ul.menu .nolink {
+  display: block;
+  background: #5A5347;
+  margin-left: 0;
+  margin-right: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0em 0em 0em 0.5em;
+  font-family: "Arial Black",Gadget,sans-serif;
+  font-size: 1.4em;
+}
+
 #region-sidebar ul.menu li {
   list-style: none;
   list-style-image: none;

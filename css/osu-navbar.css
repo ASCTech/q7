@@ -71,8 +71,8 @@ div#osu-NavbarBreadcrumb
 {
 	background: transparent url('../images/background_redbar.gif') repeat-x left bottom;
 	float: left;
-	padding-left: 0.5em;
-	height: 2.7em;
+	padding: 3px;
+	height: 34px;
 }
 
 div#osu-NavbarBreadcrumb p#osu, div#osu-NavbarBreadcrumb p#site-name
