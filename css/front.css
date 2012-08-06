@@ -59,3 +59,7 @@
   border-bottom: 1px dotted #cccccc;
 }
 
+.front .feature-half .views-row-last {
+  border-bottom: 0px none;
+}
+
