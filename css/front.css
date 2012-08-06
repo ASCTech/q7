@@ -55,11 +55,14 @@
   margin-left: 20px;
 }
 
-.front .feature-half .views-row {
+.front .feature-half .views-row,
+.front .feature-whole .views-row {
   border-bottom: 1px dotted #cccccc;
+  min-height: 55px;
 }
 
-.front .feature-half .views-row-last {
+.front .feature-half .views-row-last,
+.front .feature-whole .views-row-last {
   border-bottom: 0px none;
 }
 
