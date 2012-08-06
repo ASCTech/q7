@@ -54,8 +54,9 @@
   padding-right: 1.8em;
 }
 
-.view-display-id-asc_news_block_large .attachment {
+.view-display-id-news_block_large .attachment {
   float: left;
+  width: 33%;
 }
 
 .view-display-id-news_block_small .view-content .views-row {
