@@ -365,11 +365,15 @@
 
 .not-front .field-type-taxonomy-term-reference .field-item {
   float: left;
-  margin-left: 1em;
+  margin-left: 0.25em;
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item:before {
   content: '| ';
+}
+
+.not-front .field-type-taxonomy-term-reference .field-item:first-child {
+  margin-left: 0;
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item:first-child:before {
