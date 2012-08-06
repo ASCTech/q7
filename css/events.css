@@ -92,3 +92,6 @@
   width: 30%;
 }
 
+.node-type-asc-event footer.submitted {
+  display: none;
+}
