@@ -3,7 +3,11 @@
 .node-type-asc-news .field-name-field-news-image img {
   float: left;
   border: 1px solid #666666;
-  margin: 0px 10px 3px 0px;
+  margin: 0px 10px 10px 0px;
+}
+
+.node-type-asc-news .field-name-body {
+  margin-bottom: 10px;
 }
 
 .node-type-asc-news .submitted {
