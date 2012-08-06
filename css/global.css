@@ -157,7 +157,7 @@ tfoot {font-style:italic;}
 /* Features */
 
 .features {
-  font-size: 0.75em;
+  font-size: 0.875em;
   padding: 1.5em 0.5em 0;
 }
 
@@ -203,7 +203,7 @@ tfoot {font-style:italic;}
 
 .breadcrumb a {
   color: white;
-  font-size: 0.8em;
+  font-size: 0.9em;
   text-decoration: underline;
 }
 
