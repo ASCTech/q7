@@ -5,7 +5,6 @@
  */
 
 function q7_form_system_theme_settings_alter($form, &$form_state) {
-    $settings = theme_get_settings('q7');
 
   $form['theme-settings']['sublogo'] = array(
     '#type' => 'fieldset',
