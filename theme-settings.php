@@ -38,8 +38,9 @@ function q7_form_system_theme_settings_alter(&$form, &$form_state) {
  */
 function q7_settings_submit(&$form, &$form_state) {
   // Check for a new uploaded file, and use that if available.
-  dsm($form);
   if ($file = file_save_upload('sublogo_upload')) {
+  dsm($form);
+
     $parts = pathinfo($file->filename);
     $filename = (! empty($key)) ? str_replace('/', '_', $key) .'_sublogo.'. $parts['extension'] : 'sublogo.'. $parts['extension'];
 
@@ -50,5 +51,8 @@ function q7_settings_submit(&$form, &$form_state) {
       $_POST['use_sublogo'] = $form_state['values']['use_sublogo'] = TRUE;
       $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $file->filepath;
     }
+  }
+  else {
+    drupal_set_message('File could not be saved.', 'error');
   }
 }
