@@ -36,21 +36,17 @@ function q7_form_system_theme_settings_alter(&$form, &$form_state) {
 /**
  * Capture theme settings submissions and update uploaded image
  */
-function q7_settings_submit(&$form, &$form_state) {
-  // Check for a new uploaded file, and use that if available.
-  if ($file = file_save_upload('sublogo_upload', array(), 'public://')) {
-    $parts = pathinfo($file->filename);
-    $filename = (! empty($key)) ? str_replace('/', '_', $key) .'_sublogo.'. $parts['extension'] : 'sublogo.'. $parts['extension'];
 
-    // The image was saved using file_save_upload() and was added to the
-    // files table as a temporary file. We'll make a copy and let the garbage
-    // collector delete the original upload.
-    if (file_copy($file, $filename)) {
-      $_POST['use_sublogo'] = $form_state['values']['use_sublogo'] = TRUE;
-      $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $file->filepath;
-    }
+function q7_settings_submit($form, &$form_state) {
+  $settings = array();
+
+  if ($file = file_save_upload('sublogo_upload')) {
+    $parts = pathinfo($file->filename);
+    $destination = 'public://' . $parts['basename'];
+    $file->status = FILE_STATUS_PERMANENT;
   }
-  else {
-    drupal_set_message('File could not be saved.', 'error');
+
+  if (file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
+    $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $destination;
   }
 }
