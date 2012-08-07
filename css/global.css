@@ -321,3 +321,21 @@ ul.action-links li a:hover {
 .gallery-image a {
   display: block;
 }
+
+.node-type-service-description legend {
+  text-align: right;
+  height: height: 1.75em;
+  font-size: 1.4em;
+  font-family: 'Oxygen' sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #888888;
+  width: 100%;
+  line-height: 1.75em;
+}
+
+.node-type-service-description legend a {
+  color: white;
+  display: block;
+  width: 100%;
+}
