@@ -5,27 +5,30 @@
  */
 
 function q7_form_system_theme_settings_alter($form, &$form_state) {
+  dsm(theme_get_setting('sublogo'));
 
-  $form['theme-settings']['sublogo'] = array(
+  $form['theme_settings']['sublogo'] = array(
     '#type' => 'fieldset',
     '#title' => t('Logo'),
     '#description' => t("May be displayed behind primary logo.")
   );
-  $form['theme-settings']['sublogo']['use_sublogo'] = array(
+  $form['theme_settings']['sublogo']['use_sublogo'] = array(
     '#type' => 'checkbox',
     '#title' => t('Use a background for the logo.'),
+    '#default_value' => theme_get_setting('use_sublogo'),
   );
-  $form['theme-settings']['sublogo']['sublogo_path'] = array(
+  $form['theme_settings']['sublogo']['sublogo_path'] = array(
     '#type' => 'textfield',
     '#title' => t('Path to logo background'),
+    '#default_value' => theme_get_setting('sublogo_path'),
   );
 
-  $form['theme-settings']['sublogo']['sublogo_upload'] = array(
+  $form['theme_settings']['sublogo']['sublogo_upload'] = array(
     '#type' => 'file',
     '#title' => t('Upload logo background image'),
   );
-  //$form['#submit'][] = 'q7_settings_submit';
-  $form['theme-settings']['sublogo']['sublogo_upload']['#element_validate'][] = 'q7_settings_submit';
+  $form['#submit'][] = 'q7_settings_submit';
+  $form['theme_settings']['sublogo']['sublogo_upload']['#element_validate'][] = 'q7_settings_submit';
 
   return $form;
 }
