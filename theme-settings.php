@@ -36,8 +36,9 @@ function q7_form_system_theme_settings_alter(&$form, &$form_state) {
 /**
  * Capture theme settings submissions and update uploaded image
  */
-function q7_settings_submit($form, &$form_state) {
+function q7_settings_submit(&$form, &$form_state) {
   // Check for a new uploaded file, and use that if available.
+  dsm($form);
   if ($file = file_save_upload('sublogo_upload')) {
     $parts = pathinfo($file->filename);
     $filename = (! empty($key)) ? str_replace('/', '_', $key) .'_sublogo.'. $parts['extension'] : 'sublogo.'. $parts['extension'];
