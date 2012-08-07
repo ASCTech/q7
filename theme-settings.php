@@ -4,7 +4,7 @@
  *
  */
 
-function q7_settings($saved_settings) {
+function q7_form_system_theme_settings_alter(&$form, &$form_state) {
     $settings = theme_get_settings('q7');
 
   $form['sublogo'] = array(
