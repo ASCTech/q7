@@ -24,7 +24,7 @@
   display: block;
   width: 1040px;
   height: 165px;
-  background: url('../logo.png');
+  /* background: url('../logo.png'); */
   margin-left: -100px;
 }
 
@@ -35,7 +35,7 @@
   position: absolute;
   height: 164px;
   top: 40px;
-  background: url('../logo.png') no-repeat -570px 0px;;
+  /* background: url('../logo.png') no-repeat -570px 0px; */
 }
 
 #osulogo {
