@@ -7,21 +7,21 @@
 function q7_form_system_theme_settings_alter($form, &$form_state) {
     $settings = theme_get_settings('q7');
 
-  $form['sublogo'] = array(
+  $form['theme-settings']['sublogo'] = array(
     '#type' => 'fieldset',
     '#title' => t('Logo'),
     '#description' => t("May be displayed behind primary logo.")
   );
-  $form['sublogo']['use_sublogo'] = array(
+  $form['theme-settings']['sublogo']['use_sublogo'] = array(
     '#type' => 'checkbox',
     '#title' => t('Use a background for the logo.'),
   );
-  $form['sublogo']['sublogo_path'] = array(
+  $form['theme-settings']['sublogo']['sublogo_path'] = array(
     '#type' => 'textfield',
     '#title' => t('Path to logo background'),
   );
 
-  $form['sublogo']['sublogo_upload'] = array(
+  $form['theme-settings']['sublogo']['sublogo_upload'] = array(
     '#type' => 'file',
     '#title' => t('Upload logo background image'),
   );
