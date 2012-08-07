@@ -4,9 +4,13 @@
     <div class="branding-data clearfix">
       <?php if ($linked_logo_img): ?>
       <div class="logo-img">
-        <a href="/" title="<?php print $site_name; ?> home page" id="logolink">&nbsp;</a>
+        <?php print $linked_logo_img; ?>
         <a id="osulogo" href="http://www.osu.edu/">&nbsp;</a>
       </div>
+      <!-- <div class="logo-img">
+        <a href="/" title="<?php print $site_name; ?> home page" id="logolink">&nbsp;</a>
+        <a id="osulogo" href="http://www.osu.edu/">&nbsp;</a>
+      </div> -->
       </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
