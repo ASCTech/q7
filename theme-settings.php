@@ -24,8 +24,8 @@ function q7_form_system_theme_settings_alter($form, &$form_state) {
     '#type' => 'file',
     '#title' => t('Upload logo background image'),
   );
-  $form['#submit'][] = 'q7_settings_submit';
-  $form['sublogo']['sublogo_upload']['#element_validate'][] = 'q7_settings_submit';
+  //$form['#submit'][] = 'q7_settings_submit';
+  $form['theme-settings']['sublogo']['sublogo_upload']['#element_validate'][] = 'q7_settings_submit';
 
   return $form;
 }
