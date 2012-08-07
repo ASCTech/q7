@@ -1,4 +1,4 @@
-<div<?php print $attributes; ?><?php (theme_get_setting('use_sublogo')) ?  print "style=\"background: url('" . theme_get_setting('sublogo_path') . "\"')" : print "" ?>>
+<div<?php print $attributes; ?><?php (theme_get_setting('use_sublogo')) ?  print "style=\"background: url('" . drupal_realpath(theme_get_setting('sublogo_path')) . "\"')" : print "" ?>>
   <div<?php print $content_attributes; ?>>
     <?php if ($linked_logo_img || $site_name || $site_slogan): ?>
     <div class="branding-data clearfix">
