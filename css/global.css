@@ -335,7 +335,7 @@ ul.action-links li a:hover {
 }
 
 .node-type-service-description fieldset {
-  min-height: 1.8em;
+  min-height: 33px;
 }
 
 .node-type-service-description legend span {
