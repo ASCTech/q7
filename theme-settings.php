@@ -9,7 +9,7 @@ function q7_form_system_theme_settings_alter(&$form, &$form_state) {
 
   $form['theme_settings']['sublogo'] = array(
     '#type' => 'fieldset',
-    '#title' => t('Logo'),
+    '#title' => t('Background for Logo'),
     '#description' => t("May be displayed behind primary logo.")
   );
   $form['theme_settings']['sublogo']['use_sublogo'] = array(
