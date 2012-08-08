@@ -200,6 +200,7 @@ tfoot {font-style:italic;}
 .breadcrumb {
   background: #666666;
   padding: 10px 10px 5px;
+  height: 23px;
 }
 
 .breadcrumb a {
