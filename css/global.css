@@ -349,6 +349,8 @@ ul.action-links li a:hover {
 
 .node-type-service-description legend a {
   display: block;
+  color: black;
+  text-decoration: none;
   width: 100%;
 }
 
@@ -358,4 +360,5 @@ ul.action-links li a:hover {
 
 html.js fieldset.collapsible #node_service_description_full_group_description .fieldset-legend {
   background: transparent url(../images/collapse.png) bottom right no-repeat;
+  background-position: 0px 0px;
 }
