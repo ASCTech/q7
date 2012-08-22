@@ -354,12 +354,10 @@ ul.action-links li a:hover {
   width: 100%;
 }
 
-.node-type-service-description .field-wrapper .field {
-  background: transparent url(../icons/collapse.png) top right no-repeat;
-  background-position: 0 -18px;
+.node-type-service-description .fieldset-wrapper .field {
+  background: transparent url(../icons/expand.png) right top no-repeat;
 }
 
 html.js fieldset.collapsible .fieldset-legend {
-  background: transparent url(../icons/collapse.png) bottom right no-repeat;
-  background-position: 0px 0px;
+  background: transparent url(../icons/collapse.png) right 0 no-repeat;
 }
