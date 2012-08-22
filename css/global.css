@@ -358,7 +358,7 @@ ul.action-links li a:hover {
   background: collapse;
 }
 
-html.js fieldset.collapsible #node_service_description_full_group_description .fieldset-legend {
+html.js fieldset.collapsible .fieldset-legend {
   background: transparent url(../images/collapse.png) bottom right no-repeat;
   background-position: 0px 0px;
 }
