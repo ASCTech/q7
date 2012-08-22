@@ -359,6 +359,6 @@ ul.action-links li a:hover {
 }
 
 html.js fieldset.collapsible .fieldset-legend {
-  background: transparent url(../images/collapse.png) bottom right no-repeat;
+  background: transparent url(../images/icons/collapse.png) bottom right no-repeat;
   background-position: 0px 0px;
 }
