@@ -323,14 +323,18 @@ ul.action-links li a:hover {
   display: block;
 }
 
+/* Service Descriptions */
+
 .node-type-service-description legend {
-  text-align: right;
+  /* text-align: right; */
   height: height: 1.75em;
   font-size: 1.4em;
   font-family: 'Oxygen' sans-serif;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #888888;
+  /* text-transform: uppercase; */
+  /* color: #ffffff; */
+  /* background: #888888; */
+  background-position: 0px 0px;
+  border-bottom: 1px solid #990000;
   width: 100%;
   line-height: 1.75em;
 }
@@ -344,7 +348,14 @@ ul.action-links li a:hover {
 }
 
 .node-type-service-description legend a {
-  color: white;
   display: block;
   width: 100%;
+}
+
+.node-type-service-description .field-wrapper .field {
+  background: collapse;
+}
+
+html.js fieldset.collapsible #node_service_description_full_group_description .fieldset-legend {
+  background: transparent url(../images/collapse.png) bottom right no-repeat;
 }
