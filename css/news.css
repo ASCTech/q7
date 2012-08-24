@@ -14,6 +14,11 @@
   margin-bottom: 30px;
 }
 
+.view-display-id-news_page h2 {
+  font-size: 1em;
+  line-height: 1em;
+}
+
 /* Styles for News Features */
 
 .features .views-field-changed {
@@ -78,3 +83,4 @@
   margin: 0em 1em 1em 0em;
   border: 1px solid #6666666;
 }
+
