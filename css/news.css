@@ -2,7 +2,7 @@
 
 .node-type-asc-news .field-name-field-news-image img,
 .view-display-id-news_page .field-name-field-news-image img,
-.view-display-id-news_filter_page .field-name-field-news-image img {
+.view-display-id-news_filters_page .field-name-field-news-image img {
   float: left;
   border: 1px solid #666666;
   margin: 0px 10px 10px 0px;
@@ -17,7 +17,7 @@
 }
 
 .view-display-id-news_page h2,
-.view-display-id-news_filter_page h2 {
+.view-display-id-news_filters_page h2 {
   font-size: 1em;
   line-height: 1em;
 }
