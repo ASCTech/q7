@@ -193,7 +193,7 @@ img#logo {
   min-height:15em;
 }
 
-#region-sidebar ul.menu {
+#region-sidebar ul {
   width: 100%;
   list-style: none;
   list-style-image: none;
@@ -214,7 +214,7 @@ img#logo {
   line-height: 1.7em;
 }
 
-#region-sidebar ul.menu li {
+#region-sidebar ul li {
   list-style: none;
   list-style-image: none;
   line-height: 1.4em;
@@ -225,32 +225,32 @@ img#logo {
   color: #333333;
 }
 
-#region-sidebar ul.menu li ul li {
+#region-sidebar ul li ul li {
   line-height: 1.4em;
   padding: 0.25em 0 0.33em;
   margin: 0 1em;
   background: none;
 }
 
-#region-sidebar ul.menu li a {
+#region-sidebar ul li a {
   color: #333333;
   font-size: 12px;
   width: 100%;
   display: block;
 }
 
-#region-sidebar ul.menu li a.active {
+#region-sidebar ul li a.active {
   background-color: #F5EFE5;
   margin-left: -1.1em;
   padding-left: 1.1em;
 }
 
-#region-sidebar ul.menu li ul li a.active {
+#region-sidebar ul li ul li a.active {
   margin-left: -2.1em;
   padding-left: 2em;
 }
 
-#region-sidebar ul.menu li ul li ul li a.active {
+#region-sidebar ul li ul li ul li a.active {
   margin-left: -3.1em;
   padding-left: 3em;
 }
