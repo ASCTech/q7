@@ -278,7 +278,7 @@ ul.action-links li a:hover {
 
 #zone-footer p {
   border-top: 1px solid white;
-  padding: 1em 3px;
+  padding: 1em 3px;a
   margin-bottom: 0;
   color: #ffffff;
   font: 12px/16px Arial, sans-serif;
@@ -372,3 +372,7 @@ html.js fieldset.collapsed .fieldset-legend {
 
 /* Taxonomy blocks */
 
+/* Node Submitted Line */
+.not-front footer.submitted {
+  font-size: 0.85em;
+}

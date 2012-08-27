@@ -1,6 +1,7 @@
 /* News Page */
 
-.node-type-asc-news .field-name-field-news-image img {
+.node-type-asc-news .field-name-field-news-image img,
+.view-display-id-news_page .field-name-field-news-image img {
   float: left;
   border: 1px solid #666666;
   margin: 0px 10px 10px 0px;
@@ -76,11 +77,5 @@
   position: absolute;
   bottom: 0;
   left: 4.7em;
-}
-
-.view-display-id-news_page .field-name-field-news-image img {
-  float: left;
-  margin: 0em 1em 1em 0em;
-  border: 1px solid #6666666;
 }
 
