@@ -200,7 +200,8 @@ img#logo {
   font-size: 0.9em;
 }
 
-#region-sidebar ul.menu .nolink {
+#region-sidebar ul.menu .nolink,
+#region-sidebar h2.block-title {
   display: block;
   background: #5A5347;
   margin-left: 0;
