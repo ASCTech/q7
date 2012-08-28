@@ -1,4 +1,4 @@
-/* Styles for ASC Standard Sites */
+ /* Styles for ASC Standard Sites */
 
 .front article header {
   display: none;
@@ -30,29 +30,11 @@
   float: left;
 }
 
-
-.front .region-preface-first section.feature-half,
-.front .region-postscript-first section.feature-half {
-  margin-left: 20px;
-  margin-right: -10px;
-}
-
 .front .region-preface-first section.feature-half:first-child,
-.front .region-postscript-first section.feature-half:first-child {
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
+.front .region-postscript-first section.feature-half:first-child,
 .front .region-preface-second section.feature-half:first-child,
 .front .region-postscript-second section.feature-half:first-child {
-  margin-left: 8px;
-  margin-right: 0px;
-}
-
-.front .region-preface-second section.feature-half,
-.front .region-postscript-second section.feature-half {
-  margin-right: -10px;
-  margin-left: 20px;
+  margin-right: 17px;
 }
 
 .front .feature-half .views-row,
