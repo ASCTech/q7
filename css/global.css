@@ -358,17 +358,14 @@ ul.action-links li a:hover {
   width: 100%;
 }
 
-.node-type-service-description .fieldset-wrapper .field {
+.node-type-service-description fieldset.collapsible .fieldset-legend {
   background: transparent url(../icons/expand.png) right top no-repeat;
 }
 
-html.js fieldset.collapsible .fieldset-legend {
-  background: none;
-}
-
-html.js fieldset.collapsed .fieldset-legend {
+.node-type-service-description fieldset.collapsed .fieldset-legend {
   background: transparent url(../icons/collapse.png) right 0 no-repeat;
 }
+
 
 /* Taxonomy blocks */
 
