@@ -359,7 +359,7 @@ ul.action-links li a:hover {
   width: 100%;
 }
 
-html.js body.node-type-service-description fieldset.collapsed .fieldset-legend {
+html.js .node-type-service-description fieldset.collapsed .fieldset-legend {
   background: transparent url(../icons/collapse.png) right bottom no-repeat;
 }
 
