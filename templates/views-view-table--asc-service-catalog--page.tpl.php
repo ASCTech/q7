@@ -31,15 +31,15 @@
       <?php endforeach; ?>
     </div>
   </div>
-  <div>
+  <ul>
     <?php foreach ($rows as $row_count => $row): ?>
         <?php foreach ($row as $field => $content): ?>
-          <span <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
+          <li <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
             <?php print $content; ?>
-          </span>&nbsp;
+          </li>&nbsp;
         <?php endforeach; ?>
     <?php endforeach; ?>
-  </div>
+  </ul>
 </div>
  
 </div>
