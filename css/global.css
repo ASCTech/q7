@@ -358,11 +358,11 @@ ul.action-links li a:hover {
   width: 100%;
 }
 
-.node-type-service-description fieldset.collapsible .fieldset-legend {
+html.js body.node-type-service-description fieldset.collapsible .fieldset-legend {
   background: transparent url(../icons/expand.png) right top no-repeat;
 }
 
-.node-type-service-description fieldset.collapsed .fieldset-legend {
+html.js body.node-type-service-description fieldset.collapsed .fieldset-legend {
   background: transparent url(../icons/collapse.png) right 0 no-repeat;
 }
 
