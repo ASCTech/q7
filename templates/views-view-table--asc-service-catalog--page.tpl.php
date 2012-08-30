@@ -13,14 +13,14 @@
  *            * @ingroup views_templates
  *             */
 ?>
- 
+
 <?php drupal_add_js('misc/form.js'); ?>
 <?php drupal_add_js('misc/collapse.js'); ?>
- 
+
 <fieldset class="collapsible collapsed">
     <legend><span class="fieldset-legend"><?php if (!empty($title)) : ?><?php print $title; ?><?php endif; ?></span></legend>
     <div class="fieldset-wrapper">
-     
+
     <div <?php if ($classes) { print 'class="'. $classes . '" ';  } ?><?php print $attributes; ?>>
   <div>
     <div>
@@ -36,12 +36,12 @@
         <?php foreach ($row as $field => $content): ?>
           <li <?php if ($field_classes[$field][$row_count]) { print 'class="'. $field_classes[$field][$row_count] . '" ';  } ?><?php print drupal_attributes($field_attributes[$field][$row_count]); ?>>
             <?php print $content; ?>
-          </li>&nbsp;
+          </li>
         <?php endforeach; ?>
     <?php endforeach; ?>
   </ul>
 </div>
- 
+
 </div>
 
 </fieldset>
