@@ -375,3 +375,8 @@ html.js .node-type-service-description fieldset.collapsible .fieldset-legend {
 .not-front footer.submitted {
   font-size: 0.85em;
 }
+
+/* Item Pager */
+.item-list .pager li {
+  margin-left: 0.75;
+}
