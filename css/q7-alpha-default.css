@@ -20,6 +20,8 @@
 
 img#logo {
   /* margin-top: 30px; */
+  position: relative;
+  top: 2em;
 }
 
 .logo-img a:hover {
