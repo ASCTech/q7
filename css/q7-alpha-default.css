@@ -129,6 +129,10 @@ img#logo {
 
 /* Zone Content */
 
+.not-front .region-content {
+  min-height: 350px;
+}
+
 #banner-container {
   position: relative;
 }
@@ -297,6 +301,15 @@ img#logo {
 }
 
 #region-sidebar .date-nav .pager li.date-prev a {
+  left: -40px;
+  top: -8px;
+}
+
+#region-sidebar .date-nav .pager li.date-next a {
+  top: -15px;
+}
+
+#region-sidebar .date-nav .pager li.date-prev a {
   background: 50% 50% no-repeat url('../images/arrow-l.png');
 }
 
@@ -312,7 +325,7 @@ img#logo {
 #region-sidebar .date-nav .pager li {
   background: none;
   border-right: none;
-  font-size: 1px;
+  font-size: 27px;
 }
 
 #region-sidebar .date-nav .pager li a {
