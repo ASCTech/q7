@@ -300,12 +300,12 @@ img#logo {
     width: 1em;
 }
 
-#region-sidebar .date-nav .pager li.date-prev a {
+#region-sidebar .date-nav .pager li.date-prev {
   left: -40px;
   top: -8px;
 }
 
-#region-sidebar .date-nav .pager li.date-next a {
+#region-sidebar .date-nav .pager li.date-next {
   top: -15px;
 }
 
