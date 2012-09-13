@@ -301,12 +301,13 @@ img#logo {
 }
 
 #region-sidebar .date-nav .pager li.date-prev {
-  left: -40px;
-  top: -8px;
+  left: -22px;
+  top: -16px;
 }
 
 #region-sidebar .date-nav .pager li.date-next {
-  top: -15px;
+  top: -23px;
+  right: -20px;
 }
 
 #region-sidebar .date-nav .pager li.date-prev a {
