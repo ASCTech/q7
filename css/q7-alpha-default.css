@@ -363,14 +363,21 @@ img#logo {
   margin-right: 0;
 }
 
-.not-front .field-type-taxonomy-term-reference {
-  clear: both;
-  margin-top: 0.5em;
-  border-top: 1px solid #666666;
+/* Nodes and Taxonomies */
+
+.not-front .field-name-field-body {
+  min-height: 200px;
+  padding-bottom: 1em;
   border-bottom: 1px solid #666666;
+}
+
+.not-front .field-type-taxonomy-term-reference {
+  clear: none;
+  float: left;
+  margin-top: 0.5em;
   font-size: 0.875em;
   height: 2em;
-  margin-bottom: 1.5em;j
+  margin-bottom: 1.5em;
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item {
@@ -387,6 +394,6 @@ img#logo {
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item:first-child:before {
-  content: '';
+  /* content: ''; */
 }
 
