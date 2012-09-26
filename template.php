@@ -66,7 +66,7 @@ function q7_date_nav_title($params) {
       break;
     case 'month':
       //MB Changed.
-      $format = !empty($format) ? $format : 'F Y');
+      $format = !empty($format) ? $format : 'F Y';
       $title = date_format_date($date_info->min_date, 'custom', $format);
       $date_arg = $date_info->year . '-' . date_pad($date_info->month);
       break;
