@@ -9,3 +9,7 @@ function q7_preprocess_file_entity(&$variables) {
     $variables['content']['file']['#title'] = $variables['field_file_image_title_text']['und'][0]['safe_value'];
   }
 }
+
+function q7_preprocess_page(&$variables) {
+  dsm($variables);
+}
