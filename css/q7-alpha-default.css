@@ -190,10 +190,9 @@ img#logo {
 
 #region-sidebar {
   background: #e2d0b2;
-  position: absolute;
   right: 0px;
   bottom: 0px;
-  top: 0px;
+  margin-top: -38px;
   padding-top: 1.5em;
   border-top: 38px solid #635B4F;
   min-height:15em;

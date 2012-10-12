@@ -1,3 +1,4 @@
+<?php dsm($variables); ?>
 <div class="km-person-full-contact">
   
   <!-- Name -->
