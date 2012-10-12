@@ -33,10 +33,6 @@ function q7_process_page(&$variables, $hook) {
   }
 }
 
-function q7_preprocess_html(&$variables) {
-  drupal_add_css('https://fonts.googleapis.com/css?family=Oxygen', array('type' => 'external'));
-}
-
 function q7_date_all_day_label() {
 /** This overrides a theme found in the date module so that "All Day" will not display on the calendar.
 To return to normal function replace the line with return t('(All day)'); or any other text that you would rather display

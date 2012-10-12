@@ -369,6 +369,10 @@ img#logo {
   margin-left: 1em;
 }
 
+#section-footer img.user-auth-btn {
+  vertical-align: middle;
+}
+
 /* Gallery */
 
 .view-id-image_gallery {
