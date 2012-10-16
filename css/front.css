@@ -43,6 +43,10 @@
   height: 57px;
 }
 
+.front .view-id-asc_blog .views-row {
+  height: auto;
+}
+
 .front .feature-half .views-row-last,
 .front .feature-whole .views-row-last {
   border-bottom: 0px none;
