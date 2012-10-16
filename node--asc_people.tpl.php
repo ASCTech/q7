@@ -1,4 +1,4 @@
-<?php dsm($node); ?>
+<?php dsm($node) ?>
 <div id="bio_block">
 
 <div class="field field-type-nodereference field-field-ascpeople-appointmen">
@@ -15,7 +15,7 @@
 
 <div class="field field-type-text field-field-ascpeople-position">
   <div class="field-items">
-      <div class="field-item"><?php print $node->field_ascpeople_position[0]['view'] ?></div>
+      <div class="field-item"><?php print $node->field_asc_people_position[0]['view'] ?></div>
   </div>
 </div>
 
