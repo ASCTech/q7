@@ -1,5 +1,11 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+#messages {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background: white;
+}
 
 /* Elements */
 
@@ -202,15 +208,20 @@ tfoot {font-style:italic;}
 }
 
 .breadcrumb {
-  background: #666666;
+  background: #000000;
   padding: 10px 10px 5px;
   height: 23px;
+  color: #ffffff;
+  opacity: 0.6;
+  filter:alpha(opacity=60);
+  z-index: 1;
+  position: relative;
 }
 
 .breadcrumb a {
   color: white;
   font-size: 0.9em;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 ul.action-links {

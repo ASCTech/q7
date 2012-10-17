@@ -1,3 +1,4 @@
+<?php if (isset($messages)) : ?><div id="messages"><?php print $messages; ?></div> <?php endif; ?>
 <div<?php print $attributes; ?>>
   <div<?php print $content_attributes; ?>>
     <?php if ($linked_logo_img || $site_name || $site_slogan): ?>
