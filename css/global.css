@@ -391,3 +391,7 @@ html.js .node-type-service-description fieldset.collapsible .fieldset-legend {
 .item-list .pager li {
   margin-left: 0.75;
 }
+
+fieldset .fieldset-legent {
+  text-transform: none;
+}
