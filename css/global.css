@@ -33,6 +33,7 @@ a[href$='.ppt'] { padding-left: 15px; background: transparent url(../images/page
 
 p {
   color: #222;
+  margin-top: 0;
 }
 
 h1,h2,h3 {
