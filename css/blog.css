@@ -3,10 +3,15 @@
 }
 
 .context-blog #page-title {
-  width: 940px;
+  width: 920px;
   height: 100px;
-  color: #ff0000;
-  line-height: 3;
+  color: #ffffff;
+  line-height: 5;
   padding:8px;
+  z-index: 2;
+  position: relative;
 }
 
+.blog-description {
+  margin-top: 120px;
+}
