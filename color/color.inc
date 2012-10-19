@@ -24,7 +24,7 @@ $info['schemes'] = array(
       'qs_feature_color' => '#6a6a6a',
       'qs_quick_link_color' => '#6a6a6a',
       'qs_footer_color' => '#8e8e8e',
-      'qs_accent_color' => '#6b6b6b',
+      'qs_accent_color' => '#990000',
     ),
   ),
   'firebrick' => array(
@@ -34,7 +34,7 @@ $info['schemes'] = array(
       'qs_feature_color' => '#6a6a6a',
       'qs_quick_link_color' => '#6a6a6a',
       'qs_footer_color' => '#8e8e8e',
-      'qs_accent_color' => '#6b6b6b',
+      'qs_accent_color' => '#990000',
     ),
   ),
 
