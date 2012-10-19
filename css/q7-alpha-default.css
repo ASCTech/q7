@@ -193,7 +193,7 @@ img#logo {
   right: 0px;
   top: 0px;
   bottom: 0px;
-  position:absolute;
+  position:relative;
   padding-top: 38px;
 }
 
