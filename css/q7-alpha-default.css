@@ -201,15 +201,15 @@ img#logo {
   padding: 8px;
 }
 
-#region-sidebar .content ul {
+#region-sidebar ul {
   width: 100%;
   list-style: none;
   list-style-image: none;
   font-size: 0.9em;
 }
 
-#region-sidebar .content ul.menu .nolink,
-#region-sidebar .content h2.block-title {
+#region-sidebar ul.menu .nolink,
+#region-sidebar h2.block-title {
   display: block;
   background: #5A5347;
   margin-left: 0;
@@ -222,7 +222,7 @@ img#logo {
   line-height: 1.7em;
 }
 
-#region-sidebar .content h2.block-title a {
+#region-sidebar h2.block-title a {
   color: white;
   text-decoration: none;
 }
