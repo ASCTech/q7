@@ -223,6 +223,9 @@ img#logo {
 }
 
 #region-sidebar .content h2.block-title a {
+  color: white;
+  text-decoration: none;
+}
 
 #region-sidebar .content ul li {
   list-style: none;
