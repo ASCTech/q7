@@ -85,7 +85,7 @@ img#logo {
 }
 
 #zone-menu #main-menu li a {
-  font: 14px/20px Arial, sans;
+  font: 14px/20px Helvetica, Arial, sans;
   color: #cccccc;
   text-transform: uppercase;
   text-decoration: none;
@@ -197,15 +197,19 @@ img#logo {
   padding-top: 38px;
 }
 
-#region-sidebar ul {
+#region-sidebar .content .block p {
+  padding: 8px;
+}
+
+#region-sidebar .content ul {
   width: 100%;
   list-style: none;
   list-style-image: none;
   font-size: 0.9em;
 }
 
-#region-sidebar ul.menu .nolink,
-#region-sidebar h2.block-title {
+#region-sidebar .content ul.menu .nolink,
+#region-sidebar .content h2.block-title {
   display: block;
   background: #5A5347;
   margin-left: 0;
@@ -218,44 +222,46 @@ img#logo {
   line-height: 1.7em;
 }
 
-#region-sidebar ul li {
+#region-sidebar .content h2.block-title a {
+
+#region-sidebar .content ul li {
   list-style: none;
   list-style-image: none;
   line-height: 1.4em;
   padding: 0.5em 0 0.5em 0;
   margin: 0 1em;
   background: url('../images/menu-separator.png') repeat-x left bottom;
-  font-family: Arial, Helvetica, 'Lucida Grande', verdana, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #333333;
 }
 
-#region-sidebar ul li ul li {
+#region-sidebar .content ul li ul li {
   line-height: 1.4em;
   padding: 0.25em 0 0.33em;
   margin: 0 1em;
   background: none;
 }
 
-#region-sidebar ul li a {
+#region-sidebar .content ul li a {
   color: #333333;
   font-size: 12px;
   width: 100%;
   display: block;
 }
 
-#region-sidebar ul li a.active {
+#region-sidebar .content ul li a.active {
   background-color: #F5EFE5;
   margin-left: -16px;
   padding: 2px;
   padding-left: 16px;
 }
 
-#region-sidebar ul li ul li a.active {
+#region-sidebar .content ul li ul li a.active {
   margin-left: -2.1em;
   padding-left: 2em;
 }
 
-#region-sidebar ul li ul li ul li a.active {
+#region-sidebar .content ul li ul li ul li a.active {
   margin-left: -3.1em;
   padding-left: 3em;
 }
