@@ -4,12 +4,13 @@
 }
 
 .context-blog #page-title {
-  width: 920px;
+  width: 924px;
   height: 100px;
   color: #ffffff;
   line-height: 5;
-  padding:8px;
+  padding: 8px;
   z-index: 2;
+  opacity: 0.85;
   position: relative;
 }
 
