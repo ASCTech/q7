@@ -1,5 +1,6 @@
 .context-blog .breadcrumb {
-  
+  opacity: 0.85;
+  background: #330000;
 }
 
 .context-blog #page-title {
