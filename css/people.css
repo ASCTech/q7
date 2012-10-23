@@ -5,3 +5,57 @@
 .node-type-asc-people .ds-2col .group-right {
   width: 300px;
 }
+
+.node-type-asc-people h1 {
+  margin-right: -20px;
+  background: #F1F2F2;
+  padding: 10px;
+  line-height: 30px;
+}
+
+#region-sidebar .views-field-field-asc-people-email,
+#region-sidebar .views-field-field-asc-people-phone,
+#region-sidebar .views-field-field-asc-people-fax,
+#region-sidebar .views-field-field-asc-people-office-address,
+#region-sidebar .views-field-field-asc-people-website-link {
+  background: url('../icons/people.png') no-repeat top left;
+  padding-left: 20px;
+  font-size: 1.25em;
+  margin: 15px 0 0 15px;
+}
+
+
+#region-sidebar .views-field-field-asc-people-email {
+  background-position: 0 -66px; 
+  font-weight: bold;
+}
+
+#region-sidebar .views-field-field-asc-people-phone {
+  background-position: 0 -198px;
+}
+
+#region-sidebar .views-field-field-asc-people-fax {
+  background-position: 0 -132px;
+}
+
+#region-sidebar .views-field-field-asc-people-office-address {
+  background-position: 0 0;
+}
+
+#region-sidebar .views-field-field-asc-people-website-link {
+  background-position: 0 -264px;
+}
+
+.group-asc-people-description {
+  background: #F1F2F2;
+  margin-right: -20px;
+  padding: 15px;
+}
+
+.field-name-field-asc-people-position {
+  font-style: oblique;
+}
+
+.node-type-asc-people .field-name-field-people-terms-1 {
+  font-style: oblique;
+}

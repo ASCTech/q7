@@ -208,15 +208,25 @@ tfoot {font-style:italic;}
   display: none;
 }
 
-.breadcrumb {
+.breadcrumb-wrapper{
+  z-index: 1;
+  position: relative;
+}
+body.html .breadcrumb-left {
   background: #000000;
-  padding: 10px 10px 5px;
+  padding: 10px 0;
   height: 23px;
   color: #ffffff;
   opacity: 0.6;
   filter:alpha(opacity=60);
-  z-index: 1;
-  position: relative;
+  width: 640px;
+  margin-right: 0;
+}
+
+body.html .breadcrumb-right {
+  background: #635B4F;
+  height: 43px;
+  margin-left: 0px;
 }
 
 .breadcrumb a {

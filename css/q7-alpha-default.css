@@ -130,7 +130,6 @@ img#logo {
 /* Zone Content */
 
 .not-front .region-content {
-  min-height: 350px;
 }
 
 #banner-container {
@@ -177,9 +176,6 @@ img#logo {
 .front #zone-content {
   min-height: 0em;
 }
-.not-front #region-content {
-  margin-bottom: 1em;
-}
 .not-front .block-system-main {
     min-height: 12em;
 }
@@ -189,13 +185,10 @@ img#logo {
 }
 
 #region-sidebar {
-  background: #e2d0b2;
   right: 0px;
-  top: 0px;
-  bottom: 0px;
-  position:relative;
-  padding-top: 38px;
+  background: #e2d0b2;
 }
+
 
 #region-sidebar .content .block p {
   padding: 8px;
@@ -395,20 +388,6 @@ img#logo {
   min-height: 200px;
   padding-bottom: 1em;
   border-bottom: 1px solid #666666;
-}
-
-.not-front .field-type-taxonomy-term-reference {
-  clear: none;
-  float: left;
-  margin-top: 0.5em;
-  font-size: 0.875em;
-  height: 2em;
-  margin-bottom: 1.5em;
-}
-
-.not-front .field-type-taxonomy-term-reference .field-item {
-  float: left;
-  margin-left: 0.25em;
 }
 
 .not-front .field-type-taxonomy-term-reference .field-item:before {
