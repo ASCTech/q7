@@ -61,8 +61,12 @@
 }
 
 /* Directory Page */
-.views-field-field-asc-people-picture img {
+.view-display-id-people_page .views-field-field-asc-people-picture img {
   width: 47px;
+}
+
+.view-display-id-people_page .views-field-field-asc-people-picture {
+  padding: 0 0 10px 10px;
 }
 
 .view-display-id-people_page table td {
