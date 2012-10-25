@@ -8,11 +8,9 @@
       <div class="grid-4 breadcrumb-right">&nbsp;</div>
       </div>
     <?php endif; ?>    
-<!--
     <?php if ($messages): ?>
       <div id="messages" class="grid-<?php print $columns; ?>"><?php print $messages; ?></div>
     <?php endif; ?>
--->
     <?php print $content; ?>
   </div>
 <?php if ($wrapper): ?></div><?php endif; ?>

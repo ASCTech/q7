@@ -59,3 +59,16 @@
 .node-type-asc-people .field-name-field-people-terms-1 {
   font-style: oblique;
 }
+
+/* Directory Page */
+.views-field-field-asc-people-picture img {
+  width: 47px;
+}
+
+.view-display-id-people_page table td {
+  vertical-align: top;
+}
+
+.view-display-id-people_page table tr {
+  border-bottom: 1px solid #cccccc;
+}
