@@ -82,6 +82,10 @@
   width: 92px;
 }
 
+.view-display-id-people_block_large table td {
+  width: 25%;
+}
+
 /* Small Feature */
 
 .view-display-id-people_block_small td {
