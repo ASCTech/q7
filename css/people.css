@@ -82,8 +82,10 @@
   width: 92px;
 }
 
-.view-display-id-people_block_large table td {
+.view-display-id-people_block_large .views-row {
   width: 25%;
+  float: left;
+  border: none;
 }
 
 /* Small Feature */
