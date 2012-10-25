@@ -76,3 +76,37 @@
 .view-display-id-people_page table tr {
   border-bottom: 1px solid #cccccc;
 }
+
+/* Features */
+.view-display-id-people_block_large img {
+  width: 92px;
+}
+
+/* Small Feature */
+
+.view-display-id-people_block_small td {
+  position: relative;
+}
+
+.view-display-id-people_block_small .views-field-title {
+  position: absolute;
+  bottom: 55px;
+  left: 60px;
+}
+
+.view-display-id-people_block_small .views-field-field-asc-people-position {
+  position: absolute;
+  bottom: 27px;
+  left: 60px;
+}
+
+.view-display-id-people_block_small .views-field-field-asc-research-interests {
+  position: absolute;
+  bottom: 0px;
+  left: 60px;
+}
+
+
+.view-display-id-people_block_small img {
+  width: 46px;
+}
