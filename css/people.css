@@ -65,12 +65,9 @@
   width: 47px;
 }
 
-.view-display-id-people_page .views-field-field-asc-people-picture {
-  padding: 0 0 10px 10px;
-}
-
 .view-display-id-people_page table td {
   vertical-align: top;
+  padding: 10px 0 10px 10px;
 }
 
 .view-display-id-people_page table tr {
@@ -90,7 +87,7 @@
 
 /* Small Feature */
 
-.view-display-id-people_block_small td {
+.view-display-id-people_block_small .views-row {
   position: relative;
 }
 
@@ -106,7 +103,7 @@
   left: 60px;
 }
 
-.view-display-id-people_block_small .views-field-field-asc-research-interests {
+.view-display-id-people_block_small .views-field-field-asc-people-terms-2 {
   position: absolute;
   bottom: 0px;
   left: 60px;
