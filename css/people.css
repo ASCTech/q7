@@ -87,8 +87,11 @@
 
 /* Small Feature */
 
-.view-display-id-people_block_small .views-row {
+.front .feature-wholte .view-display-id-people_block_small .views-row {
   position: relative;
+  border: none;
+  margin-bottom: 3px;
+  height: 70px;
 }
 
 .view-display-id-people_block_small .views-field-title {
