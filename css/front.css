@@ -11,7 +11,7 @@
 .front .view-display-id-front_text_short article,
 .front .view-display-id-quick_links_text article,
 .front .view-display-id-front_text_tall article {
-  padding: 1em;
+  padding: 2.25em 1em;
 }
 
 /* This was needed when slider image wasn't width + gutter.

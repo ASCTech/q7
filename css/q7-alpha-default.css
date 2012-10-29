@@ -100,7 +100,7 @@ img#logo {
 
 #zone-menu #main-menu li a.active,
 #zone-menu #main-menu li a.active-trail {
-  border-bottom: 0.5em solid #cccccc;
+  border-bottom: 7px solid #cccccc;
   color #ffffff;
 }
 
