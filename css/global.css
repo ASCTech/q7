@@ -102,8 +102,7 @@ tfoot {font-style:italic;}
 /* Zone Menu */
 
 #zone-menu-wrapper {
-  background: #000000 url('../images/headerbar.png') repeat-x 0 0;
-  background-color: #000000;
+  background: #333333;
   height: 38px;
 }
 
