@@ -85,7 +85,7 @@ img#logo {
 }
 
 #zone-menu #main-menu li a {
-  font: 14px/20px Helvetica, Arial, sans;
+  font: 14px/20px;
   color: #cccccc;
   text-transform: uppercase;
   text-decoration: none;
@@ -210,7 +210,7 @@ img#logo {
   color: #ffffff;
   text-transform: uppercase;
   padding: 0em 0em 0em 0.5em;
-  font-family: "Arial Black",Gadget,sans-serif;
+  font-family: 'Arial Black',Gadget,sans-serif;
   font-size: 1.4em;
   line-height: 1.7em;
 }
@@ -227,7 +227,6 @@ img#logo {
   padding: 0.5em 0 0.5em 0;
   margin: 0 1em;
   background: url('../images/menu-separator.png') repeat-x left bottom;
-  font-family: Helvetica, Arial, sans-serif;
   color: #333333;
 }
 

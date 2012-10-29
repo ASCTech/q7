@@ -28,7 +28,6 @@ a.osu-semantic:active, a.osu-semantic:focus
 	left: 0;
 	top: 0;
 	overflow: visible;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 90%;
 }
 
@@ -55,21 +54,19 @@ a#skip:active, a#skip:focus
 
 div#osu-Navbar
 {
-	background: #eaebeb url('../images/background_graybar.gif') repeat-x left bottom;
-	font-family: Arial, Helvetica, sans-serif;
 	position: relative;
   margin: 0 auto;
-  height: 40px;
+  height: 33px;
 }
 
 div#osu-Navbar-Container { 
-	background: #eaebeb url('../images/background_graybar.gif') repeat-x left bottom;
+	background: #eaebeb;
+  border-bottom: 7px solid #cc0000;
 }
 
 /* Bread-crumb */
 div#osu-NavbarBreadcrumb
 {
-	background: transparent url('../images/background_redbar.gif') repeat-x left bottom;
 	float: left;
 	padding: 3px;
 	height: 34px;
@@ -87,7 +84,7 @@ div#osu-NavbarBreadcrumb p#osu { margin: 0 3px 0 0; }
 div#osu-NavbarBreadcrumb p#osu a
 {
 	font-weight: bolder;
-	color: #990000;
+	color: #cc0000;
 	text-decoration: none;
 }
 
@@ -114,10 +111,9 @@ div#osu-NavbarBreadcrumb p#site-name a:active { text-decoration: underline; }
 /* Navbar links */
 div#osu-NavbarLinks
 {
-	background: transparent url('../images/background_graybar_gradient.png') no-repeat left bottom;
 	min-height: 2.7em;
 	overflow: hidden;
-  height: 40px;
+  height: 33px;
 }
 
 div#osu-NavbarLinks ul
@@ -218,9 +214,3 @@ div#osu-NavbarLinks label.overlabel-apply-win
 	color: #999;
 }
 
-#redleft {
-  position: absolute;
-  width: 50%;
-  height: 40px;
-  background: transparent url('../images/background_redbar.gif') repeat-x left bottom;
-}
