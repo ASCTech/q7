@@ -61,7 +61,7 @@ div#osu-Navbar
 
 div#osu-Navbar-Container { 
 	background: #eaebeb;
-  border-bottom: 7px solid #cc0000;
+  border-bottom: 7px solid #bb0000;
 }
 
 /* Bread-crumb */
@@ -84,7 +84,7 @@ div#osu-NavbarBreadcrumb p#osu { margin: 0 3px 0 0; }
 div#osu-NavbarBreadcrumb p#osu a
 {
 	font-weight: bolder;
-	color: #cc0000;
+	color: #bb0000;
 	text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ div#osu-NavbarBreadcrumb p#site-name
 
 div#osu-NavbarBreadcrumb p#site-name a
 {
-	color: #3d3d3d;
+	color: #bb0000;
 	text-decoration: none;
 }
 
@@ -112,6 +112,7 @@ div#osu-NavbarBreadcrumb p#site-name a:active { text-decoration: underline; }
 div#osu-NavbarLinks
 {
 	min-height: 2.7em;
+	font-size: 12px;
 	overflow: hidden;
   height: 33px;
 }
@@ -119,7 +120,6 @@ div#osu-NavbarLinks
 div#osu-NavbarLinks ul
 {
 	float: right;
-	font-size: 70%;
 	padding-right: 0.7em;
 }
 
@@ -127,7 +127,6 @@ div#osu-NavbarLinks ul li
 {
 	float: left;
 	list-style-type: none;
-	font-size: 1.2em;
 	line-height: 2.7em;
 }
 
@@ -135,7 +134,7 @@ div#osu-NavbarLinks ul li img { vertical-align: middle; }
 
 div#osu-NavbarLinks ul li a
 {
-	color: #3d3d3d;
+	color: #bb0000;
 	text-decoration: none;
 	padding: 0em 0.45em;
 }
