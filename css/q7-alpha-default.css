@@ -129,7 +129,7 @@ img#logo {
 
 /* Zone Content */
 
-.not-front .region-content {
+.not-front .region-content .region-inner {
   padding-top: 30px;
 }
 
