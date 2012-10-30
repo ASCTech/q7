@@ -34,10 +34,11 @@ a[href$='.ppt'] { padding-left: 15px; background: transparent url(../images/page
 p {
   color: #222;
   margin-top: 0;
+  margin-bottom: 1em;
 }
 
 h1,h2,h3 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Cardo, serif;
   font-weight: normal;
 }
 
@@ -116,10 +117,15 @@ tfoot {font-style:italic;}
 }
 
 /* Zone Header */
-#region-header-second .view-content,
-#region-header-second .block-menu-menu-quick-links {
+#region-header-second .view-content {
   color: #ffffff;
+}
+
+#region-header-second .block-menu-menu-quick-links {
   text-transform: uppercase;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
 }
 
 .block-menu-menu-quick-links {
@@ -139,7 +145,11 @@ tfoot {font-style:italic;}
 
 #region-header-second ul.menu li {
   list-style: none;
-  border-bottom: 1px white dotted;
+  border-bottom: 2px white dotted;
+}
+
+#region-header-second ul.menu li.last {
+  border-bottom: none;
 }
 
 
@@ -195,7 +205,9 @@ tfoot {font-style:italic;}
   height: 37px;
   text-transform: uppercase;
   color: #ffffff;
-  line-height: 2.1em;
+  line-height: 1.7em;
+  text-decoration: none;
+  padding-right
 }
 
 /* Zone Content */
@@ -253,11 +265,11 @@ ul.action-links li a:hover {
 .front .view .more-link a {
   display: block;
   color: #ffffff;
-  height: 1em;
-  width: 1em;
+  height: 1.15em;
+  width: 1.45em;
   line-height: 1em;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -394,7 +406,6 @@ html.js .node-type-service-description fieldset.collapsible .fieldset-legend {
 
 /* Node Submitted Line */
 .not-front footer.submitted {
-  font-size: 0.85em;
 }
 
 /* Item Pager */
