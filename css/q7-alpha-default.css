@@ -111,7 +111,7 @@ img#logo {
 }
 
 .region-header-second-inner {
-  margin-right: 90px;
+  margin-right: 120px;
   padding: 1em 0;
 }
 
@@ -129,7 +129,8 @@ img#logo {
 
 /* Zone Content */
 
-.not-front .region-content {
+.not-front .region-content .region-inner {
+  padding-top: 30px;
 }
 
 #banner-container {
@@ -167,10 +168,13 @@ img#logo {
 
 #region-header-second {
   margin-top: 1em;
+  height: 230px;
   font-size: 1.25em;
   min-height: 8em;
   /* Default is background has color for mobile. */
   background: transparent;
+  width: 320px;
+  position: relative;
 }
 
 .front #zone-content {
@@ -187,6 +191,14 @@ img#logo {
 #region-sidebar {
   right: 0px;
   background: #e2d0b2;
+}
+
+#region-sidebar .block:first-child {
+  margin-top: 40px;
+}
+
+#region-sidebar .block {
+  margin-top: 25px;
 }
 
 
@@ -208,11 +220,12 @@ img#logo {
   margin-left: 0;
   margin-right: 0;
   color: #ffffff;
+  font-weight: bold;
   text-transform: uppercase;
   padding: 0em 0em 0em 0.5em;
-  font-family: 'Arial Black',Gadget,sans-serif;
-  font-size: 1.4em;
-  line-height: 1.7em;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.15em;
+  line-height: 2em;
 }
 
 #region-sidebar h2.block-title a {
@@ -226,9 +239,16 @@ img#logo {
   line-height: 1.4em;
   padding: 0.5em 0 0.5em 0;
   margin: 0 1em;
-  background: url('../images/menu-separator.png') repeat-x left bottom;
+  /* background: url('../images/menu-separator.png') repeat-x left bottom; */
+  border-bottom: 1px dotted #ffffff;
   color: #333333;
 }
+
+#region-sidebar .content ul li.last, 
+#region-sidebar .content ul li.views-row-last {
+  border-bottom: none;
+}
+  
 
 #region-sidebar .content ul li ul li {
   line-height: 1.4em;
@@ -320,7 +340,8 @@ img#logo {
 
 #region-sidebar .date-nav h3 a {
   color: white;
-  font-family: 'Arial Black', Gadget, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
 }
 
 #region-sidebar .date-nav .pager li {
