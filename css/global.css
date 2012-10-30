@@ -214,12 +214,12 @@ tfoot {font-style:italic;}
 }
 body.html .breadcrumb-left {
   background: #000000;
-  padding: 10px 0;
+  padding: 20px 0px 0px 10px;
   height: 23px;
   color: #ffffff;
   opacity: 0.6;
   filter:alpha(opacity=60);
-  width: 640px;
+  width: 630px;
   margin-right: 0;
 }
 
