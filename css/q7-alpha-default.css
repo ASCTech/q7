@@ -47,7 +47,7 @@ img#logo {
 
 #osulogo {
   background: url(../images/branding.png) no-repeat top left;
-  background-position: 0 -266px;
+  background-position: -2px -266px;
   height: 86px;
   width: 84px;
   position: absolute;
