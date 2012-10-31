@@ -120,3 +120,8 @@
 .view-display-id-people_block_small img {
   width: 46px;
 }
+
+.not-front .node-asc-people .field-name-field-people-terms-2 li.field-item:before {
+  content: '';
+}
+
