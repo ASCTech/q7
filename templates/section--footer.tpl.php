@@ -7,7 +7,7 @@
     <?php if(!user_is_logged_in()) { ?> 
     <a href="/Shibboleth.sso/Login?target=<?php print urlencode("https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) ?>" title="Site Administrator Login"><img src="<?php print base_path() . drupal_get_path('theme', 'q7') . '/images/user.gif' ?>" alt="Log In" class="user-auth-btn" /></a>
     <?php } else { ?>
-    <a href="/user/logout"><img src="<?php print base_path() . drupal_get_path('theme', 'q7') . '/images/user_out.gif' ?>" alt="Log Out" class="user-auth-btn" /> <?php get_current_user() ?></a>
+    <a href="/user/logout"><img src="<?php print base_path() . drupal_get_path('theme', 'q7') . '/images/user_out.gif' ?>" alt="Log Out" class="user-auth-btn" /> <?php print get_current_user() ?></a>
 <?php } ?>
   </div>
 </footer>
