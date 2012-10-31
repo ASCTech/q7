@@ -311,10 +311,10 @@ ul.action-links li a:hover {
 
 #zone-footer p {
   border-top: 1px solid white;
-  padding: 1em 3px;a
+  padding: 1em 3px;
   margin-bottom: 0;
   color: #ffffff;
-  font: 12px/16px;
+  line-height: 16px;
 }
 
 #zone-footer #search-block-form #edit-submit {
