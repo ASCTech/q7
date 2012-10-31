@@ -44,13 +44,13 @@ function q7_form_system_theme_settings_alter(&$form, &$form_state) {
 function q7_settings_submit($form, &$form_state) {
   $settings = array();
 
-  if ($file = file_save_upload('sublogo_upload')) {
+  if (isset($file) && $file = file_save_upload('sublogo_upload')) {
     $parts = pathinfo($file->filename);
     $destination = 'public://' . $parts['basename'];
     $file->status = FILE_STATUS_PERMANENT;
   }
 
-  if (file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
+  if (isset($file) && file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
     $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $destination;
   }
 }

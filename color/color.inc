@@ -22,31 +22,22 @@ $info['schemes'] = array(
     'colors' => array(
       'qs_header_color' => '#ffffff',
       'qs_feature_color' => '#6a6a6a',
-      'qs_quick_link_color' => '#6a6a6a',
+      'qs_quick_link_color' => '#6b6b6b',
       'qs_footer_color' => '#8e8e8e',
-      'qs_accent_color' => '#990000',
+      'qs_accent_color' => '#bb0000',
     ),
   ),
-  'firebrick' => array(
-    'title' => t('Firebrick Color Scheme'),
-    'colors' => array(
-      'qs_header_color' => '#ffffff',
-      'qs_feature_color' => '#6a6a6a',
-      'qs_quick_link_color' => '#6a6a6a',
-      'qs_footer_color' => '#8e8e8e',
-      'qs_accent_color' => '#990000',
-    ),
-  ),
+);
 
+$info['copy'] = array(
+  'logo.png',
 );
 
 // Define the CSS file(s) that we want the Color module to use as a base.
 $info['css'] = array(
   'css/colors.css',
-
 );
 
 $info['preview_css'] = '';
 $info['gradients'] = array();
 
-?>

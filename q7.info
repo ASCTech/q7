@@ -1,5 +1,5 @@
 name = 'q7'
-description = ''
+description = 'Arts and Sciecens Quicksites Theme'
 core = '7.x'
 version = '7.x-1.x'
 engine = 'phptemplate'
