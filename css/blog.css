@@ -12,7 +12,10 @@
   padding-top: 0px;
 }
 
-.context-blog #region-sidebar .blog-description:first-child {
-  margin-top: 115px;
+.context-blog #region-sidebar {
+  padding-top: 115px;
+}
+
+.context-blog #region-sidebar .block:first-child {
   padding: 15px;
 }
