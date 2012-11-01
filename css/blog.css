@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.context-blog #region-content {
+.context-blog #region-content .region-content-inner {
   padding-top: 0px;
 }
 
