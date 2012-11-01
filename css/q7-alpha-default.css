@@ -189,10 +189,10 @@ img#logo {
 #region-sidebar {
   right: 0px;
   background: #e2d0b2;
+  padding-top: 40px;
 }
 
 #region-sidebar .block:first-child {
-  margin-top: 40px;
 }
 
 #region-sidebar .block {
