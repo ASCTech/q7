@@ -13,8 +13,8 @@
   line-height: 30px;
 }
 
-.node-type-asc-people #region-sidebar .block:first-child {
-  margin-top: 0px;
+.node-type-asc-people #region-sidebar {
+  padding-top: 0px;
 }
 
 #region-sidebar .views-field-field-asc-people-email,
