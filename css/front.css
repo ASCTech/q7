@@ -19,11 +19,9 @@
   padding: 1.5em 1em 0 1em;
 }
 
-/* This was needed when slider image wasn't width + gutter.
-.front .region-header-first .block-views {
-  margin-right: -20px;
+.front .region-header-first {
+  min-height: 230px;
 }
-  */
 
 
 .front .features {
