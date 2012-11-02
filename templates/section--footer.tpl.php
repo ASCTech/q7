@@ -8,7 +8,7 @@
     <a href="/Shibboleth.sso/Login?target=<?php print urlencode("https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) ?>" title="Site Administrator Login"><img src="<?php print base_path() . drupal_get_path('theme', 'q7') . '/images/user.gif' ?>" alt="Log In" class="user-auth-btn" /></a>
     <?php } else { ?>
     <a href="/user/logout"><img src="<?php print base_path() . drupal_get_path('theme', 'q7') . '/images/user_out.gif' ?>" alt="Log Out" class="user-auth-btn" /> <?php print $user->name ?></a>
-     <a href="http://appservices.asc.ohio-state.edu:8080/shot/<?php base64_encode('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) ?>" style="text-decoration: none; border-bottom: none;">Page Screenshot</a>
+     // <a href="http://appservices.asc.ohio-state.edu:8080/shot/<?php base64_encode('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']) ?>" style="text-decoration: none; border-bottom: none;">Page Screenshot</a>
 <?php } ?>
   </div>
 </footer>
