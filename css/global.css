@@ -15,7 +15,8 @@ body {
 }
 
 a, a:hover {
-  color: #990000;
+  color: #bb0000;
+  border-bottom: 1px solid #bb0000;
 }
 
 a {
