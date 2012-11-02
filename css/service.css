@@ -1,16 +1,10 @@
 .view-asc-service-catalog .view-grouping {
-  float: left;
-  width: 46%;
-  margin-right: 2%;
 }
 
 .view-asc-service-catalog .view-grouping-header {
-  background: #000000;
+  background: #666666;
   color: #ffffff;
   font-size: 1.3em;
   font-weight: 700;
   padding: 0.3em;
 }
-
-
-
