@@ -427,3 +427,19 @@ img#logo {
   margin-bottom: 15px;
   min-height: 200px;
 }
+
+.node-type-page .galleryformatter-greenarrows .gallery-thumbs {
+  padding: 0;
+}
+
+#breadcrumb-right-wrapper {
+  margin-left: 0px;
+  height: 43px;
+}
+
+#breadcrumb-right-inner {
+  background-color: #333333;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
+  height: 100%;
+}

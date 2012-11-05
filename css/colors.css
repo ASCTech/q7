@@ -2,6 +2,11 @@
   background-color: #ffffff;
 }
 
+#breadcrumb-right-wrapper,
+#region-sidebar {
+  background-color: #e2d0b2
+}
+
 .region-header-second {
   background: #6a6a6a;
 }

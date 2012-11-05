@@ -9,10 +9,10 @@ $info = array();
 // Define the possible replaceable items and their labels.
 $info['fields'] = array(
   'qs_header_color' => t('Header'),
-  'qs_feature_color' => t('Feature'),
+  'qs_feature_color' => t('Feature/Blog'),
   'qs_quick_link_color' => t('Quick Links Bar Color'),
   'qs_footer_color' => t('Footer'),
-  'qs_accent_color' => t('Blog/Accent'),
+  'qs_sidebar_color' => t('Sidebar'),
 );
 
 // Color schemes for the site.
@@ -24,7 +24,7 @@ $info['schemes'] = array(
       'qs_feature_color' => '#6a6a6a',
       'qs_quick_link_color' => '#6b6b6b',
       'qs_footer_color' => '#8e8e8e',
-      'qs_accent_color' => '#bb0000',
+      'qs_sidebar_color' => '#e2d0b2',
     ),
   ),
 );

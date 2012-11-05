@@ -237,12 +237,6 @@ body.html .breadcrumb-left {
   margin-right: 0;
 }
 
-body.html .breadcrumb-right {
-  background: #635B4F;
-  height: 43px;
-  margin-left: 0px;
-}
-
 .breadcrumb a {
   color: white;
   font-size: 0.9em;
