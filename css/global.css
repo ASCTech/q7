@@ -82,7 +82,7 @@ dl {margin:0 0 1.5em 0;}
 dl dt {font-weight:bold;}
 dd {margin-left:1.5em;}
 table {margin-bottom:1.4em;width:100%;}
-th {font-weight:bold;}
+th {font-size:1.2em;}
 tfoot {font-style:italic;}
 
 /* General CSS Classes */
@@ -192,6 +192,7 @@ tfoot {font-style:italic;}
 .features img {
   border: 1px solid black;
   margin-top: 0.2em;
+  margin-right: 1em;
 }
 
 .feature-half {

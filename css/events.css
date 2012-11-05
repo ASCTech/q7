@@ -4,7 +4,7 @@
   margin: 0px 10px 3px 0px;
 }
 
-.node-type-event .field-name-field-ascevents-location {
+.node-type-asc-event .field-name-field-ascevents-location {
   margin-bottom: 25px;
 }
 
@@ -65,19 +65,37 @@
 
 /* Events Page */
 .view-display-id-asc_events_page_day table th,
+.view-display-id-asc_events_page_month table th,
+.view-display-id-asc_events_page_year table th,
 .view-display-id-asc_events_page table th {
   text-transform: uppercase;
 }
 
 .view-display-id-asc_events_page_day table tr,
+.view-display-id-asc_events_page_month table tr,
+.view-display-id-asc_events_page_year table tr,
 .view-display-id-asc_events_page table tr {
   background: none;
 }
 
 .view-display-id-asc_events_page_day table td,
+.view-display-id-asc_events_page_month table td,
+.view-display-id-asc_events_page_year table td,
 .view-display-id-asc_events_page table td {
-  vertical-align: middle;
-  padding: 0.5em;
+  vertical-align: top;
+  padding: 0.5em 0.5em 0.5em 0em;
+  font-size: 1.1em;
+}
+
+tr.views-row-first {
+  border-top: 1px solid #cccccc;
+}
+
+.view-display-id-asc_events_page .views-field-field-ascevents-image,
+.view-display-id-asc_events_page_day .views-field-field-ascevents-image,
+.view-display-id-asc_events_page_month .views-field-field-ascevents-image,
+.view-display-id-asc_events_page_year .views-field-field-ascevents-image {
+  width: 74px;
 }
 
 .view-display-id-asc_events_page_day .date-heading li.date-prev a,
