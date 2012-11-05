@@ -3,7 +3,8 @@
 }
 
 #breadcrumb-right-wrapper,
-#region-sidebar {
+#region-sidebar,
+#region-sidebar .date-nav-wrapper .date-heading {
   background-color: #e2d0b2
 }
 
