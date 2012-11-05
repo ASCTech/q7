@@ -109,7 +109,7 @@ img#logo {
 }
 
 .region-header-second-inner {
-  margin-right: 120px;
+  /* margin-right: 120px;  Why? */
   padding: 1em 0;
 }
 
