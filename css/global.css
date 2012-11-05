@@ -315,7 +315,7 @@ ul.action-links li a:hover {
   line-height: 16px;
 }
 
-#zone-footer #search-block-form #edit-submit {
+#zone-footer #search-block-form .form-submit {
   display: none;
 }
 
