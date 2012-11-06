@@ -23,6 +23,16 @@
   line-height: 1em;
 }
 
+
+.view-display-id-news_page article {
+  border-bottom: 1px solid #333333;
+  margin-bottom: 15px;
+}
+
+.view-display-id-news_page article .field-type-text-with-summary {
+  min-height: 95px;
+}
+
 /* Styles for News Features */
 
 .features .views-field-changed {
