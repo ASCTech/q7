@@ -20,3 +20,11 @@
   padding: 15px;
   margin-top: 0px;
 }
+
+.context-blog article {
+  border-bottom: 1px solid black;
+}
+
+.field-name-field-blog-terms-1 .field-item {
+  border-bottom: 1px solid black;
+}
