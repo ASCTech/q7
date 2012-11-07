@@ -1,8 +1,8 @@
 <article<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
   <header>
-    <div id="blog-page-title"><?php print (variable_get('asc_blog_name') != '' ? variable_get('asc_blog_name') : 'Blog') ?></div>
-    <h1<?php print $title_attributes; ?>><?php print $title ?></h1>
+    <div id="blog-page-title"><span><?php print (variable_get('asc_blog_name') != '' ? variable_get('asc_blog_name') : 'Blog') ?><span></div>
+    <h1<?php print $title_attributes; ?><?php print $title ?></h1>
   </header>
   <?php print render($title_suffix); ?>
   <?php if ($display_submitted): ?>
