@@ -5,6 +5,7 @@
   padding: 8px;
   z-index: 2;
   position: relative;
+  line-height: 140px;
 }
 
 .context-blog #blog-page-title span {
