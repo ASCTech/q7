@@ -14,7 +14,7 @@ body {
   background: #ffffff;
 }
 
-a, a:hover {
+a {
   color: #bb0000;
   /* border-bottom: 1px solid #bb0000; */
 }
@@ -24,8 +24,10 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #000000;
+  text-decoration: none;
 }
+
 
 a[href$='.pdf'] { padding-left: 15px; background: transparent url(../images/page_white_acrobat.png) center left no-repeat;  }
 a[href$='.doc'] { padding-left: 15px; background: transparent url(../images/page_white_word.png) center left no-repeat;  }
@@ -169,7 +171,10 @@ tfoot {font-style:italic;}
 
 #zone-preface .region section.block {
   margin-top: 2em;
-  border-right: 1px solid black;
+}
+
+#zone-preface .region section.block .content {
+  border-right: 1px solid #000000;
 }
 
 
@@ -209,9 +214,16 @@ tfoot {font-style:italic;}
   height: 37px;
   text-transform: uppercase;
   color: #ffffff;
-  line-height: 1.7em;
+  line-height: 41px;
   text-decoration: none;
   padding-right
+}
+
+#zone-preface h2.block-title a:hover,
+#zone-postscript h2.block-title a:hover {
+  border-top: 4px solid #f4f0e6;
+  padding-top: 9px;
+  color: #f4f0e6;
 }
 
 /* Zone Content */
@@ -219,8 +231,14 @@ tfoot {font-style:italic;}
 #zone-content {
 }
 
-#zone-content .content p a {
+#section-content .content p a:link {
   border-bottom: 1px solid #bb0000;
+}
+
+#section-content .content p a:hover {
+  border-bottom: 1px solid #000000;
+  background: #f4f0e6;
+  text-decoration: none;
 }
 
 .field-name-field-displaythumbs {
@@ -279,6 +297,7 @@ ul.action-links li a:hover {
 
 .front .view .more-link a:hover {
   text-decoration: none;
+  background-color: #000000;
 }
 
 /* Slider Styles */
