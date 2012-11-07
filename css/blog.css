@@ -6,7 +6,8 @@
   padding: 8px;
   z-index: 2;
   position: relative;
-  font-size: 30px;
+  font-weight: normal
+  font: 30px 'Cardo', sans-serif;
 }
 
 .context-blog #region-content .region-content-inner {
