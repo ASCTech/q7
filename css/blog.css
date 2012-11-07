@@ -21,10 +21,15 @@
   margin-top: 0px;
 }
 
+h1.page-title {
+  display: none;
+}
+
 .context-blog article {
   border-bottom: 1px solid black;
+  margin-bottom: 20px;
 }
 
 .field-name-field-blog-terms-1 .field-item {
-  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
