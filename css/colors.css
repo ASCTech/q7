@@ -35,6 +35,7 @@
   background-color: #6b6b6b;
 }
 
-.context-blog #blog-page-title {
+.context-blog #blog-page-title,
+.view-display-id-blog_page #page-title {
   background: #6a6a6a;
 }

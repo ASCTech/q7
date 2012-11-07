@@ -18,6 +18,10 @@
   font-weight: normal;
 }
 
+.view-display-id-blog_page #blog-page-title {
+  display: none;
+}
+
 .context-blog #region-content .region-content-inner {
   padding-top: 0px;
 }
