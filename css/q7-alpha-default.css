@@ -222,6 +222,10 @@ img#logo {
   line-height: 2em;
 }
 
+.field-type-taxonomy-term-reference a {
+  font-size: 11px;
+}
+
 .field-type-taxonomy-term-reference a:hover {
   text-decoration: none;
   color: #000000;
