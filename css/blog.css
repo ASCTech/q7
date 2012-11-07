@@ -6,6 +6,7 @@
   padding: 8px;
   z-index: 2;
   position: relative;
+  font-size: 30px;
 }
 
 .context-blog #region-content .region-content-inner {
