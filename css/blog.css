@@ -1,4 +1,4 @@
-.context-blog #page-title {
+.context-blog #blog-page-title {
   width: 924px;
   height: 100px;
   color: #ffffff;
@@ -21,7 +21,7 @@
   margin-top: 0px;
 }
 
-h1.page-title {
+.node-type-asc-blog h1#page-title {
   display: none;
 }
 

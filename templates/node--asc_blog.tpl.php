@@ -1,7 +1,7 @@
 <article<?php print $attributes; ?>>
   <?php print render($title_prefix); ?>
   <header>
-    <div id="page-title"><?php print (variable_get('asc_blog_name') != '' ? variable_get('asc_blog_name') : 'Blog') ?></div>
+    <div id="blog-page-title"><?php print (variable_get('asc_blog_name') != '' ? variable_get('asc_blog_name') : 'Blog') ?></div>
     <h1<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h1>
   </header>
   <?php print render($title_suffix); ?>
