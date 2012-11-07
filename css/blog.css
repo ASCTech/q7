@@ -1,4 +1,5 @@
-.context-blog #blog-page-title {
+.node-type-asc-blog #blog-page-title,
+.context-blog #page-title {
   width: 924px;
   height: 100px;
   color: #ffffff;
@@ -6,9 +7,12 @@
   z-index: 2;
   position: relative;
   line-height: 140px;
+  font: 30px 'Cardo', sans-serif;
+  font-weight: normal;
 }
 
-.context-blog #blog-page-title span {
+
+.node-type-asc-blog #blog-page-title span {
   line-height: 140px;
   font: 30px 'Cardo', sans-serif;
   font-weight: normal;
@@ -39,3 +43,4 @@
 .field-name-field-blog-terms-1 .field-item {
   border-top: 1px solid black;
 }
+
