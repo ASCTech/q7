@@ -44,7 +44,11 @@
   margin-bottom: 20px;
 }
 
-.field-name-field-blog-terms-1 .field-item {
+.field-name-field-blog-terms-1 .field-items {
   border-top: 1px solid black;
 }
 
+.field-name-field-blog-terms-1 .field-item {
+  float: left;
+  padding-right: 6px;
+}

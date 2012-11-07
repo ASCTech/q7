@@ -304,6 +304,7 @@ img#logo {
   background: #AFA9A0;
   border-left: none;
   border-right: none;
+  padding-top: 6px;
 }
 
 #region-sidebar .date-nav .pager li.date-next a {
