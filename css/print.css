@@ -52,10 +52,12 @@ html #zone-content {
   top: 120px;
 }
 
-.node-type-asc-people .field-name-field-asc-people-education,
-.node-type-asc-people .field-name-field-asc-people-education,
 .node-type-asc-people .field-name-body {
   margin-left: 330px;
+}
+
+.node-type-asc-people .field-name-field-asc-people-education {
+  margin-left: 350px;
 }
 
 .group-asc-people-description {
