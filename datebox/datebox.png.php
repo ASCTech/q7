@@ -36,36 +36,30 @@ $fg = 255;
 $fb = 255;
 
 switch($_GET['t']){
-  case 1: // Greenish Brown
-    $br = 113;
-    $bg = 116;
-    $bb = 0;
+  case 1: // QuickSites Default
+    $br = 55;
+    $bg = 55;
+    $bb = 53;
   break;
-  case 2: // ASC Orange
-    $br = 220;
-    $bg = 133;
-    $bb = 5;
+  case 2: // QuickSites Default
+    $br = 116;
+    $bg = 117;
+    $bb = 44;
   break;
-  case 3: // ASC Neutral
-    $br = 144;
-    $bg = 135;
-    $bb = 121;
+  case 3: // QuickSites Default
+    $br = 86;
+    $bg = 95;
+    $bb = 88;
   break;
   case 4: // QuickSites Default
-    $fr = 255;
-    $fg = 255;
-    $fb = 255;
-    $br = 144;
-    $bg = 135;
-    $bb = 121;
+    $br = 107;
+    $bg = 87;
+    $bb = 62;
   break;
   case 5: // QuickSites Default
-    $fr = 255;
-    $fg = 255;
-    $fb = 255;
-    $br = 37;
-    $bg = 109;
-    $bb = 143;
+    $br = 162;
+    $bg = 0;
+    $bb = 81;
   break;
 }
 
