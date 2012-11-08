@@ -137,13 +137,15 @@ html .node-type-asc-people .region-content .region-inner {
   content: '';
 }
 
-.not-front .node-asc-people .field-name-field-people-terms-2 li.field-item {
+.not-front .node-asc-people .field-name-field-people-terms-2 li.field-item,
+.not-front .node-asc-people .field-name-field-people-terms-2 li.field-item a {
   font-size: 15px;
 }
 
 .field-name-field-people-terms-2 .field-label,
 .field-name-field-asc-people-education .field-label {
   font-family: Cardo, serif;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 52px;
+  font-weight: normal;
 }
