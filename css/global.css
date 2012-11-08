@@ -133,6 +133,10 @@ tfoot {font-style:italic;}
   width: 100%;
 }
 
+#region-header-second .block-menu-menu-quick-links a:hover {
+  background: #f4f0e6;
+}
+
 .block-menu-menu-quick-links {
   padding-left: 0.5em;
 }
@@ -328,6 +332,10 @@ ul.action-links li a:hover {
 #zone-footer a:hover,
 #zone-footer a:visited {
   color: #ffffff;
+}
+
+#zone-footer a:hover {
+  background: #f4f0e6;
 }
 
 #zone-footer p {
