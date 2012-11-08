@@ -72,6 +72,10 @@ html #zone-content {
   padding-left: 0;
 }
 
+.node-type-asc-people #region-sidebar .views-field-field-asc-people-email a {
+  color: #000000;
+}
+
 .node-type-asc-people #region-sidebar .views-field-field-asc-people-website-link {
   display: none;
 }

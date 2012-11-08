@@ -23,7 +23,7 @@
 #region-sidebar .views-field-field-asc-people-office-address,
 #region-sidebar .views-field-field-asc-people-website-link {
   background: url('../icons/people.png') no-repeat top left;
-  padding-left: 20px;
+  padding-left: 32px;
   font-size: 1.25em;
   margin: 15px 0 0 15px;
 }
@@ -31,15 +31,14 @@
 
 #region-sidebar .views-field-field-asc-people-email {
   background-position: 0 -66px; 
-  font-weight: bold;
 }
 
 #region-sidebar .views-field-field-asc-people-phone {
-  background-position: 0 -198px;
+  background-position: 0 -197px;
 }
 
 #region-sidebar .views-field-field-asc-people-fax {
-  background-position: 0 -132px;
+  background-position: 0 -130px;
 }
 
 #region-sidebar .views-field-field-asc-people-office-address {
@@ -47,7 +46,8 @@
 }
 
 #region-sidebar .views-field-field-asc-people-website-link {
-  background-position: 0 -264px;
+  background-position: 0 -255px;
+  padding-bottom: 8px;
 }
 
 .group-asc-people-description {
