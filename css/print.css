@@ -45,14 +45,10 @@ html #zone-content {
   padding-top: 0px;
 }
 
-.node-type-asc-people h1 {
-  padding-left: 0;
-}
-
 .node-type-asc-people #region-sidebar {
   display: block;
   position: absolute;
-  left: 0px;
+  left: 15px;
   top: 120px;
 }
 
