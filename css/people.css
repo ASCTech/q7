@@ -17,6 +17,10 @@ html .node-type-asc-people .region-content .region-inner {
   padding-top: 0px;
 }
 
+.node-type-asc-people .field-name-body {
+  margin-top: 15px;
+}
+
 .node-type-asc-people #region-sidebar {
   padding-top: 0px;
 }
@@ -84,6 +88,7 @@ html .node-type-asc-people .region-content .region-inner {
   border-bottom: 1px solid #cccccc;
 }
 
+
 /* Features */
 .view-display-id-people_block_large img {
   width: 92px;
@@ -132,3 +137,13 @@ html .node-type-asc-people .region-content .region-inner {
   content: '';
 }
 
+.not-front .node-asc-people .field-name-field-people-terms-2 li.field-item {
+  font-size: 15px;
+}
+
+.field-name-field-people-terms-2 .field-label,
+.field-name-field-asc-people-education .field-label {
+  font-family: Cardo, serif;
+  font-size: 30px;
+  line-height: 52px;
+}
