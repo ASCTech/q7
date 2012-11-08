@@ -1,0 +1,75 @@
+#osu-NavbarLinks,
+#admin-toolbar,
+#zone-branding,
+#zone-menu-wrapper,
+#region-sidebar,
+.breadcrumb-wrapper,
+.tabs,
+#block-asc-socialmedia-asc-socialmedia-sharing,
+#section-footer,
+#messages
+{
+  display: none;
+}
+
+html div#osu-NavbarBreadcrumb p.site-name a,
+html div#osu-Navbar-Container
+html div#osu-NavbarBreadcrumb p#osu a {
+  color: #000000;
+}
+
+html div#osu-Navbar-Container {
+  border: none;
+  font-weight: normal;
+}
+
+html div#osu-NavbarBreadcrumb p#site-name {
+  float: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-weight: normal;
+}
+
+html div#osu-NavbarBreadcrumb p#college-name {
+  float: left;
+  padding-left: 0em;
+}
+
+html div#osu-NavbarBreadcrumb p#college-name:before {
+  content: '| ';
+}
+
+html #zone-content {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  padding-top: 0px;
+}
+
+.node-type-asc-people #region-sidebar {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+
+.node-type-asc-people .field-name-field-asc-people-education,
+.node-type-asc-people .field-name-field-asc-people-education,
+.node-type-asc-people .field-name-body {
+  margin-left: 330px;
+}
+
+.group-asc-people-description {
+  padding: 2px;
+}
+
+.node-type-asc-people #region-sidebar .views-field-field-asc-people-email,
+.node-type-asc-people #region-sidebar .views-field-field-asc-people-phone,
+.node-type-asc-people #region-sidebar .views-field-field-asc-people-fax,
+.node-type-asc-people #region-sidebar .views-field-field-asc-people-office-address {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.node-type-asc-people #region-sidebar .views-field-field-asc-people-website-link {
+  display: none;
+}

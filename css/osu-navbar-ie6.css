@@ -5,7 +5,7 @@ a#skip:active, a#skip:focus
   padding: 1em 0 1.05em 0;
 }
 
-div#osu-NavbarBreadcrumb p#site-name
+div#osu-NavbarBreadcrumb p.site-name
 {
   background: transparent url(../img/arrow_twisty.gif) no-repeat scroll left center;
 }
