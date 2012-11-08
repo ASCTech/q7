@@ -13,6 +13,10 @@
   line-height: 30px;
 }
 
+html .node-type-asc-people .region-content .region-inner {
+  padding-top: 0px;
+}
+
 .node-type-asc-people #region-sidebar {
   padding-top: 0px;
 }
@@ -53,15 +57,17 @@
 .group-asc-people-description {
   background: #F1F2F2;
   margin-right: -20px;
-  padding: 15px;
+  padding: 0px 15px 15px;
 }
 
 .field-name-field-asc-people-title {
   font-style: oblique;
+  font-size: 1.2em;
 }
 
 .node-type-asc-people .field-name-field-people-terms-1 {
   font-style: oblique;
+  font-size: 1.2em;
 }
 
 /* Directory Page */

@@ -371,6 +371,27 @@ img#logo {
   margin-bottom: 2em;
 }
 
+/* Tabs Links */
+.region-content div.tabs {
+  position: fixed;
+  right: 0px;
+  background: black;
+  border: 2px solid green;
+}
+
+.region-content div.tabs ul {
+  border: none;
+}
+
+.region-content div.tabs ul li {
+  display: block;
+  background: #cccccc;
+}
+
+.region-content div.tabs ul li a {
+  background: none;
+  border: none;
+}
 
 /* Section Footer */
 
