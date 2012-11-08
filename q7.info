@@ -465,6 +465,7 @@ settings[info][css][0] = 'css/colors.css'
 settings[info][preview_css] = ''
 version = '1.x'
 stylesheets[all][] = 'css/colors.css'
+stylesheets[print][] = 'css/print.css'
 
 
 ; Information added by drush on 2012-07-20
