@@ -318,6 +318,12 @@ ul.action-links li a:hover {
   background: white;
 }
 
+/* Region Sidebar */
+
+#region-sidebar .content p a {
+  border-bottom: 1px solid #bb0000;
+}
+
 
 /* Zone Footer */
 
@@ -336,6 +342,7 @@ ul.action-links li a:hover {
 
 #zone-footer a:hover {
   background: #f4f0e6;
+  color: #000000;
 }
 
 #zone-footer p {

@@ -328,16 +328,17 @@ img#logo {
     margin-top: 30px;
     display: block;
     width: 1em;
+    font-size: 1px;
 }
 
 #region-sidebar .date-nav .pager li.date-prev {
-  left: -22px;
-  top: -16px;
+  left: 12px;
+  top: -21px;
 }
 
 #region-sidebar .date-nav .pager li.date-next {
-  top: -23px;
-  right: -20px;
+  top: -28px;
+  right: -16px;
 }
 
 #region-sidebar .date-nav .pager li.date-prev a {
