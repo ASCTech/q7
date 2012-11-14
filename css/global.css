@@ -14,9 +14,8 @@ body {
   background: #ffffff;
 }
 
-a {
-  color: #bb0000;
-  /* border-bottom: 1px solid #bb0000; */
+a, a:hover {
+  color: #990000;
 }
 
 a {
@@ -24,10 +23,8 @@ a {
 }
 
 a:hover {
-  color: #000000;
-  text-decoration: none;
+  text-decoration: underline;
 }
-
 
 a[href$='.pdf'] { padding-left: 15px; background: transparent url(../images/page_white_acrobat.png) center left no-repeat;  }
 a[href$='.doc'] { padding-left: 15px; background: transparent url(../images/page_white_word.png) center left no-repeat;  }
@@ -48,7 +45,6 @@ h1,h2,h3 {
 h1 {
   font-size: 30px;
   line-height: 52px;
-  padding-top: 0.3em;
 }
 
 h1#page-title {
@@ -58,7 +54,6 @@ h1#page-title {
 h2 {
   font-size: 26px;
   line-height: 48px;
-  padding-top: 0.3em;
 }
 
 h3 {
@@ -84,7 +79,7 @@ dl {margin:0 0 1.5em 0;}
 dl dt {font-weight:bold;}
 dd {margin-left:1.5em;}
 table {margin-bottom:1.4em;width:100%;}
-th {font-size:1.2em;}
+th {font-weight:bold;}
 tfoot {font-style:italic;}
 
 /* General CSS Classes */
@@ -133,10 +128,6 @@ tfoot {font-style:italic;}
   width: 100%;
 }
 
-#region-header-second .block-menu-menu-quick-links a:hover {
-  background: #f4f0e6;
-}
-
 .block-menu-menu-quick-links {
   padding-left: 0.5em;
 }
@@ -145,12 +136,20 @@ tfoot {font-style:italic;}
   /* width: 100%; */
 }
 
-#region-header-second a:link,
-#region-header-second a:visited,
-#region-header-second a:hover {
+#region-header-second #block-menu-menu-quick-links .menu a:link,
+#region-header-second #block-menu-menu-quick-links .menu a:visited,
+#region-header-second #block-menu-menu-quick-links .menu a:hover {
   color: white;
   text-decoration: none;
+  display: block;
+  width: 100%;
 }
+
+#region-header-second #block-menu-menu-quick-links .menu a:hover {
+  color: #000000;
+  background-color: #f4f0e6;
+}
+
 
 #region-header-second ul.menu li {
   list-style: none;
@@ -170,6 +169,15 @@ tfoot {font-style:italic;}
 }
 
 #zone-preface {
+  margin-bottom: 2em;
+}
+
+#zone-preface .region section.block {
+  margin-top: 2em;
+  border-right: 1px solid black;
+}
+
+
   margin-bottom: 2em;
 }
 
@@ -415,45 +423,4 @@ ul.action-links li a:hover {
 .node-type-service-description fieldset {
   min-height: 33px;
   padding-bottom: 1em;
-}
-
-.node-type-service-description legend span {
-  height: 1.75em;
-}
-
-.node-type-service-description legend a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  width: 100%;
-  font-size: 26px;
-  line-height: 26px;
-  padding-top: 0.3em;
-  font-family: Cardo, serif;
-}
-
-
-html.js body.node-type-service-description fieldset.collapsed .fieldset-legend {
-  background: transparent url(../icons/expand.png) right bottom no-repeat;
-}
-
-html.js .node-type-service-description fieldset.collapsible .fieldset-legend {
-  background: transparent url(../icons/collapse.png) right bottom no-repeat;
-  padding-left: 5px;
-}
-
-
-/* Taxonomy blocks */
-
-/* Node Submitted Line */
-.not-front footer.submitted {
-}
-
-/* Item Pager */
-.item-list .pager li {
-  margin-left: 0.75;
-}
-
-fieldset .fieldset-legent {
-  text-transform: none;
 }
