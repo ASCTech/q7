@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a[href$='.pdf'] { padding-left: 15px; background: transparent url(../images/page_white_acrobat.png) center left no-repeat;  }
@@ -234,7 +234,6 @@ tfoot {font-style:italic;}
 #zone-preface h2.block-title a:hover,
 #zone-postscript h2.block-title a:hover {
   border-top: 7px solid #f4f0e6;
-  padding-top: 6px;
   color: #f4f0e6;
 }
 
