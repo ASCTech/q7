@@ -92,3 +92,28 @@
   left: 4.7em;
 }
 
+.view-display-id-news_page .pager {
+  float: left;
+}
+
+.view-display-id-news_page .pager li {
+  margin-left: 3px;
+ }
+
+.view-display-id-news_page .pager li.pager-previous a,
+.view-display-id-news_page .pager li.pager-next a {
+  font-size: 0;
+  display: inline-block;
+  background: url('../images/smallredarrows.png');
+  width: 14px;
+  height: 14px;
+}
+
+.view-display-id-news_page .pager li.pager-next a {
+  background-position: -24px 0px;
+}
+
+.view-display-id-news_page .pager li.pager-first,
+.view-display-id-news_page .pager li.pager-last {
+  display: none;
+}

@@ -309,6 +309,7 @@ img#logo {
 #region-sidebar .calendar-calendar td {
   text-align: center;
   border: 1px solid #dddddd;
+  font-size: 1.1em;
 }
 
 #region-sidebar .calendar-calendar th {
@@ -317,6 +318,7 @@ img#logo {
   border-left: none;
   border-right: none;
   padding-top: 6px;
+  font-size: 1.25em;
 }
 
 #region-sidebar .date-nav .pager li.date-next a {
@@ -325,19 +327,16 @@ img#logo {
 
 #region-sidebar .date-nav .pager .date-prev a,
 #region-sidebar .date-nav .pager .date-next a {
-    margin-top: 30px;
-    display: block;
+    display: inline-block;
     width: 1em;
-    font-size: 1px;
+    font-size: 0px;
 }
 
 #region-sidebar .date-nav .pager li.date-prev {
   left: 12px;
-  top: -21px;
 }
 
 #region-sidebar .date-nav .pager li.date-next {
-  top: -28px;
   right: -16px;
 }
 

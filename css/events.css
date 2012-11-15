@@ -117,3 +117,33 @@ tr.views-row-first {
 .node-type-asc-event footer.submitted {
   display: none;
 }
+
+.context-events #region-content .view .date-nav-wrapper .date-heading h3 {
+  text-align: left;
+  font-weight: bold;
+  font-family: Helvetica,arial,san-serif;
+  font-size: 1.25em;
+}
+
+.context-events .view-display-id-asc_events_page_month .date-nav li {
+  background: none;
+  padding-left: none;
+}
+
+.context-events .view-display-id-asc_events_page_month .date-nav li.date-prev {
+  right: 25px;
+}
+
+.context-events .view-display-id-asc_events_page_month .date-nav a {
+  display: inline-block;
+  background: url('../images/smallredarrows.png');
+  width: 14px;
+  height: 14px;
+  font-size: 0;
+  background-repeat: none;
+}
+
+
+.view-display-id-asc_events_page_month .date-nav .date-next a {
+  background-position: -24px 0px;
+}
