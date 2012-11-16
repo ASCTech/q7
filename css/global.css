@@ -347,7 +347,7 @@ ul.action-links li a:hover {
   color: #ffffff;
 }
 
-#zone-footer a:hover {
+#zone-footer p a:hover {
   background: #f4f0e6;
   color: #000000;
 }
