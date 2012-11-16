@@ -150,16 +150,12 @@ img#logo {
 
 #header-tile {
   position: absolute;
-  height: 100%;
-  top: 0;
+  top: 30px;
+  bottom: 0px;
   right: 0;
-  width: 51%;
+  width: 50%;
+  padding-left: 10px;
   display: block;
-}
-
-#header-tile-bar {
-  height: 2em;
-  background: #ffffff;
 }
 
 #region-header-second {
