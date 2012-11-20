@@ -149,3 +149,7 @@ html .node-type-asc-people .region-content .region-inner {
   line-height: 52px;
   font-weight: normal;
 }
+
+.front .view-display-id-people_block_small td {
+  position: relative;
+}
