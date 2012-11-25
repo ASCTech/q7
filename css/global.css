@@ -94,6 +94,10 @@ td.active {
   line-height: 1.3em;
 }
 
+article .content img {
+  padding-bottom: 10px;
+}
+
 /* To protect element spacing in mobile layout. */
 .region {
   margin-bottom: 1em;
@@ -375,6 +379,12 @@ ul.action-links li a:hover {
 #zone-footer #search_block_form input.form-text {
   color: #000000;
   font-weight: normal;
+}
+
+#ascbanner,
+#ascfooterbanner,
+#osulogo {
+  font-size: 0;
 }
 
 #ascfooter {
