@@ -94,7 +94,7 @@ td.active {
   line-height: 1.3em;
 }
 
-article .content img {
+.not-front article .content img {
   padding-bottom: 10px;
 }
 
