@@ -151,6 +151,7 @@ td.active {
   text-decoration: none;
   display: block;
   width: 100%;
+  margin-bottom: 1px;
 }
 
 #region-header-second #block-menu-menu-quick-links .menu a:hover {
@@ -162,6 +163,7 @@ td.active {
 #region-header-second ul.menu li {
   list-style: none;
   border-bottom: 2px white dotted;
+  padding-right: 0;
 }
 
 #region-header-second ul.menu li.last {
