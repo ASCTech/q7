@@ -97,7 +97,6 @@ function q7_image_formatter($variables) {
   $item = $variables['item'];
   $item['alt'] = $item['field_file_image_alt_text']['und'][0];
   $item['title'] = $item['field_caption']['und'][0]['value'];
-  dsm($item['title']);
   $image = array(
     'path' => $item['uri'],
     'alt' => $item['alt'],
