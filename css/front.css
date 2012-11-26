@@ -69,3 +69,7 @@
   position: absolute;
   bottom: 0;
 }
+
+.field-name-field-asc-quick-links {
+  white-space: pre-line;
+}

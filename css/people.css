@@ -153,3 +153,7 @@ html .node-type-asc-people .region-content .region-inner {
 .front .view-display-id-people_block_small td {
   position: relative;
 }
+
+.views-field-field-asc-people-office-address {
+  white-space: pre-line;
+}
