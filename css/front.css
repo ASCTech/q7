@@ -73,3 +73,7 @@
 .field-name-field-asc-quick-links {
   white-space: pre-line;
 }
+
+.front .features a:hover {
+  color: #000000;
+}
