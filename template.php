@@ -87,3 +87,51 @@ function q7_date_nav_title($params) {
     return $title;
   }
 }
+
+/* 
+ * Implements image_field_override()
+ *
+ * Override theme_image_formatter to use our alt text and caption 
+ * */
+function q7_image_formatter($variables) {
+  $item = $variables['item'];
+  $item['alt'] = $item['field_file_image_alt_text']['und'][0];
+  $item['title'] = $item['field_caption']['und'][0]['value'];
+  dsm($item['title']);
+  $image = array(
+    'path' => $item['uri'],
+    'alt' => $item['alt'],
+  );
+
+  if (isset($item['attributes'])) {
+    $image['attributes'] = $item['attributes'];
+  }
+
+  if (isset($item['width']) && isset($item['height'])) {
+    $image['width'] = $item['width'];
+    $image['height'] = $item['height'];
+  }
+
+  // Do not output an empty 'title' attribute.
+  if (drupal_strlen($item['title']) > 0) {
+    $image['title'] = $item['title'];
+  }
+
+  if ($variables['image_style']) {
+    $image['style_name'] = $variables['image_style'];
+    $output = theme('image_style', $image);
+  }
+  else {
+    $output = theme('image', $image);
+  }
+
+  if (!empty($variables['path']['path'])) {
+    $path = $variables['path']['path'];
+    $options = $variables['path']['options'];
+    // When displaying an image inside a link, the html option must be TRUE.
+    $options['html'] = TRUE;
+    $output = l($output, $path, $options);
+  }
+
+  return $output;
+}
