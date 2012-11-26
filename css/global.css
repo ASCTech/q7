@@ -310,6 +310,7 @@ ul.action-links li a:hover {
 .front .view .more-link a:hover {
   text-decoration: none;
   background-color: #000000;
+  color: #ffffff;
 }
 
 /* Slider Styles */
