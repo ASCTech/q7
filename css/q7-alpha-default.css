@@ -473,3 +473,7 @@ img#logo {
   filter:alpha(opacity=70);
   height: 100%;
 }
+
+.node-type-page article .contextual-links-wrapper {
+  top: -25px;
+}
