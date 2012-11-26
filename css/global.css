@@ -94,7 +94,7 @@ td.active {
   line-height: 1.3em;
 }
 
-.not-front article .content img {
+.not-front .field-name-body .content img {
   margin-bottom: 10px;
 }
 
