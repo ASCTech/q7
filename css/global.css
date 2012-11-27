@@ -94,7 +94,7 @@ td.active {
   line-height: 1.3em;
 }
 
-.not-front .field-type-text-with-summary .content img {
+.not-front .field-type-text-with-summary img {
   margin: 10px;
   border: 1px solid #333333;
 }
