@@ -95,7 +95,7 @@ td.active {
 }
 
 .not-front .field-type-text-with-summary img {
-  margin: 10px;
+  margin: 0 10px 10px;
   border: 1px solid #333333;
 }
 
