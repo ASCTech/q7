@@ -95,8 +95,10 @@ td.active {
 }
 
 .not-front .field-type-text-with-summary img {
+  /*
   margin: 0 10px 10px;
   border: 1px solid #333333;
+  */
 }
 
 /* To protect element spacing in mobile layout. */
