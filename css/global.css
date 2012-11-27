@@ -94,8 +94,9 @@ td.active {
   line-height: 1.3em;
 }
 
-.not-front .field-name-body .content img {
-  margin-bottom: 10px;
+.not-front .field-type-text-with-summary .content img {
+  margin: 10px;
+  border: 1px solid #333333;
 }
 
 /* To protect element spacing in mobile layout. */

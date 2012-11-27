@@ -20,25 +20,25 @@
 }
 
 .view-display-id-asc_events_feature_large .col-1 {
-  padding-right: 1.8em;
+  padding-right: 1em;
 }
 
 .view-display-id-asc_events_feature_large > .view-content:first-child {
   float: left;
-  width: 62%;
-  padding-right: 0.2em;
+  width: 60%;
+  padding-right: 1.2em;
   border-right: 1px dotted #888888;
-  margin-right: 0.8em;
+  margin-right: 0.5em;
 }
 
 .view-display-id-asc_events_feature_large .attachment {
   float: left;
-  width: 33%;
+  width: 32%;
 }
 
 .view-display-id-asc_events_feature_large .col-1,
 .view-display-id-asc_events_feature_large .col-2 {
-  width: 122px;
+  width: 45%;
 }
 
 /* Small Feature */
