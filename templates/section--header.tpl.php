@@ -29,7 +29,7 @@
         </ul>
       </div>
     </div>
-    </div>
+  </div>
 
 <?php print $content; ?>
 </header>

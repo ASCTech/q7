@@ -8,7 +8,6 @@
         <?php print $linked_logo_img; ?>
         <a id="osulogo" href="http://www.osu.edu/">The Ohio State University</a>
       </div>
-      </div>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
       <?php $class = $site_name_hidden && $site_slogan_hidden ? ' element-invisible' : ''; ?>
