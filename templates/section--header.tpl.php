@@ -1,9 +1,6 @@
 <header<?php print $attributes; ?>>
   <div id="osu-Navbar-Container">
     <div id="osu-Navbar" class="container-12" style="clear: none;">
-      <p>
-        <a href="#page-content" id="skip" class="osu-semantic">skip to main content</a>
-      </p>
       <h2 class="osu-semantic">OSU Navigation Bar</h2>
       <div id="osu-NavbarBreadcrumb">
         <p id="osu">
