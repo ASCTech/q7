@@ -249,6 +249,7 @@ img#logo {
 }
 
 #region-sidebar .content ul li.last, 
+#region-sidebar .content ul li:last-child, 
 #region-sidebar .content ul li.views-row-last {
   border-bottom: none;
 }
