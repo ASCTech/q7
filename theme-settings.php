@@ -53,4 +53,5 @@ function q7_settings_submit($form, &$form_state) {
   if (file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
     $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $destination;
   }
+
 }
