@@ -6,14 +6,6 @@
         <p id="osu">
           <a title="The Ohio State University homepage" href="http://www.osu.edu/">The Ohio State University</a>
         </p>
-<!-- No depth to breadcrumb per Karin
-        <p class="site-name" id="college-name">
-        <a href="http://asc.osu.edu/" title="College of Arts and Sciences">Arts and Sciences</a>
-        </p>
-        <p class="site-name" id="site-name">
-        <a href="/" title="Home"><?php print variable_get('site_name'); ?></a>
-        </p>
--->
       </div>
       <div id="osu-NavbarLinks">
         <ul>
