@@ -44,7 +44,7 @@
 .view-display-id-news_block_list .views-field-field-news-image img,
 .view-display-id-news_block_small .views-field-field-news-image img {
   float: left;
-  margin: 0 1em 1em 0em;
+  margin: 0.5em 1em 1em 0em;
   border: 1px solid #000000;
 }
 
@@ -65,6 +65,7 @@
 
 #region-sidebar .view-display-id-news_block_list ul li .views-field-title a {
   height: 48px;
+  line-height: 48px;
 }
 
 
