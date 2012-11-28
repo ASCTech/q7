@@ -264,7 +264,8 @@ img#logo {
   border: none;
 }
 
-#region-sidebar .content ul li a {
+#region-sidebar .content ul li a,
+#region-sidebar .content ul li span {
   color: #333333;
   font-size: 12px;
   width: 100%;
@@ -277,7 +278,8 @@ img#logo {
   background-color: #f4f0E6;
 }
 
-#region-sidebar .content ul li a {
+#region-sidebar .content ul li a,
+#region-sidebar .content ul li span {
   padding: 3px;
   margin-left: -16px;
   padding-left: 16px;
