@@ -48,10 +48,10 @@ function q7_settings_submit($form, &$form_state) {
     $parts = pathinfo($file->filename);
     $destination = 'public://' . $parts['basename'];
     $file->status = FILE_STATUS_PERMANENT;
+    if (file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
+      $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $destination;
+    }
   }
 
-  if (file_copy($file, $destination, FILE_EXISTS_REPLACE)) {
-    $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $destination;
-  }
 
 }
