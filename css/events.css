@@ -151,3 +151,25 @@ tr.views-row-first {
 .view-display-id-asc_events_cal_block table .mini-day-on a {
   text-decoration: none;
 }
+
+.view-display-id-asc_events_page .pager li {
+  margin-left: 3px;
+ }
+
+.view-display-id-asc_events_page .pager li.pager-previous a,
+.view-display-id-asc_events_page .pager li.pager-next a {
+  font-size: 0;
+  display: inline-block;
+  background: url('../images/smallredarrows.png');
+  width: 14px;
+  height: 14px;
+}
+
+.view-display-id-asc_evetnts_page .pager li.pager-next a {
+  background-position: -24px 0px;
+}
+
+.view-display-id-asc_events_page .pager li.pager-first,
+.view-display-id-asc_events_page .pager li.pager-last {
+  display: none;
+}
