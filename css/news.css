@@ -63,7 +63,7 @@
   border-bottom: none;
 }
 
-#region-sidebar .view-display-id-news_block_list ul li .views-field-title a.active {
+#region-sidebar .view-display-id-news_block_list ul li .views-field-title a {
   height: 48px;
 }
 
