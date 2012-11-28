@@ -264,20 +264,20 @@ td.active {
 }
 
 body.html .breadcrumb-left {
-  background: #000000;
+  background: #666666;
   padding: 20px 0px 0px 10px;
   height: 23px;
-  color: #666666;
+  color: #ffffff;
   width: 630px;
   margin-right: 0;
 }
 
-body.html .breadcrumb-extension {
+body.html #breadcrumb-extension {
   position: absolute;
   right: 0;
   width: 45%;
   height: 43px;
-  background: #666000;
+  background: #666666;
 }
 
 
