@@ -245,6 +245,7 @@ img#logo {
   margin: 0 16px;
   /* background: url('../images/menu-separator.png') repeat-x left bottom; */
   color: #333333;
+  border-bottom: 2px dotted #f4f0e6;
 }
 
 #region-sidebar .content ul li.last, 
