@@ -410,6 +410,10 @@ img#logo {
   z-index: 100;
 }
 
+.region-footer-first .block-inner {
+  width: 90%;
+}
+
 /* Social Media in Footer */
 #zone-content .block-widgets-s-socialmedia-share-default,
 #zone-footer .block-widgets-s-socialmedia-profile-default {
