@@ -147,3 +147,7 @@ tr.views-row-first {
 .view-display-id-asc_events_page_month .date-nav .date-next a {
   background-position: -24px 0px;
 }
+
+.view-display-id-asc_events_cal_block table .mini-day-on a {
+  text-decoration: none;
+}
