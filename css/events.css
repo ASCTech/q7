@@ -152,6 +152,10 @@ tr.views-row-first {
   text-decoration: none;
 }
 
+.view-display-id-asc_events_page .pager {
+  float: left;
+}
+
 .view-display-id-asc_events_page .pager li {
   margin-left: 3px;
  }
@@ -165,7 +169,7 @@ tr.views-row-first {
   height: 14px;
 }
 
-.view-display-id-asc_evetnts_page .pager li.pager-next a {
+.view-display-id-asc_events_page .pager li.pager-next a {
   background-position: -24px 0px;
 }
 
