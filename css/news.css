@@ -41,8 +41,8 @@
 
 /* News List Block on News Page */
 
-.view-display-id-news_block_list .views-field-field-news-image,
-.view-display-id-news_block_small .views-field-field-news-image {
+.view-display-id-news_block_list .views-field-field-news-image img,
+.view-display-id-news_block_small .views-field-field-news-image img {
   float: left;
   margin: 0 1em 1em 0em;
   border: 1px solid #000000;
