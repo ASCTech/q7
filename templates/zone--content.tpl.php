@@ -1,5 +1,5 @@
 <?php if (!$is_front) : ?>
-  <div id="breadcrumb-extension-container">&nbsp;</div>
+  <div id="breadcrumb-extension">&nbsp;</div>
 <?php endif; ?>    
 <?php if ($wrapper): ?><div<?php print $attributes; ?>><?php endif; ?>  
   <div<?php print $content_attributes; ?>>    

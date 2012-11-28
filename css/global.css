@@ -262,16 +262,24 @@ td.active {
   z-index: 1;
   position: relative;
 }
+
 body.html .breadcrumb-left {
   background: #000000;
   padding: 20px 0px 0px 10px;
   height: 23px;
-  color: #ffffff;
-  opacity: 0.6;
-  filter:alpha(opacity=60);
+  color: #666666;
   width: 630px;
   margin-right: 0;
 }
+
+body.html .breadcrumb-extension {
+  position: absolute;
+  right: 0;
+  width: 45%;
+  height: 43px;
+  background: #666000;
+}
+
 
 .breadcrumb a {
   color: white;
