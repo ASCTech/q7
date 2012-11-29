@@ -77,3 +77,8 @@
 .front .features a:hover {
   color: #000000;
 }
+
+.view-display-id-asc_events_news_large .view-content .views-field,
+.view-display-id-asc_events_feature_large .view-content .views-field {
+  width: 124px;
+}
