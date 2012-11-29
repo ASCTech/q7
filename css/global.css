@@ -197,14 +197,16 @@ td.active {
   line-height: 0.9em;
 }
 
+/*
 .features .views-field {
   margin-bottom: 0.5em;
   line-height: 1.2em;
 }
+  */
 
 .features img {
   border: 1px solid black;
-  margin-top: 0.2em;
+  /* margin-top: 0.2em; */
   margin-right: 1em;
 }
 
