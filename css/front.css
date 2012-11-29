@@ -79,6 +79,6 @@
 }
 
 .view-display-id-asc_events_news_large .view-content tr.row-1 .views-field,
-.view-display-id-asc_events_feature_large .view-content .views-field {
+.view-display-id-asc_events_feature_large .view-content tr.row-1 .views-field {
   width: 124px;
 }
