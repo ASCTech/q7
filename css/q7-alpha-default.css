@@ -248,6 +248,10 @@ img#logo {
   border-bottom: 2px dotted #f4f0e6;
 }
 
+#region-sidebar .content .view-display-id-news_block_list ul li {
+  padding-top: none;
+}
+
 #region-sidebar .content ul li.last, 
 #region-sidebar .content ul li:last-child, 
 #region-sidebar .content ul.pager li, 
