@@ -2,9 +2,12 @@
   width: 4%;
 }
 
-.view-asc-private-tutors th.views-field-title,
+.view-asc-private-tutors th.views-field-title {
+  width: 15%;
+}
+
 .view-asc-private-tutors th.views-field-field-e-mail {
-  width: 18%;
+  width: 23%;
 }
 
 .view-asc-private-tutors th.views-field-field-starting-price {
