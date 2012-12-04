@@ -101,6 +101,10 @@ html .node-type-asc-people .region-content .region-inner {
   border: none;
 }
 
+.front .feature-whole .views-field-field-asc-people-title-1 {
+  padding-right: 1em;
+}
+
 /* Small Feature */
 
 .front .feature-half .view-display-id-people_block_small .views-row {
