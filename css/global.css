@@ -444,3 +444,29 @@ ul.action-links li a:hover {
 .ajax-progress .throbber {
   display: none;
 }
+
+.view-id-image_gallery .pager {
+  float: left;
+}
+
+.view-id-image_gallery .pager li {
+  margin-left: 3px;
+ }
+
+.view-id-image_gallery .pager li.pager-previous a,
+.view-id-image_gallery .pager li.pager-next a {
+  font-size: 0;
+  display: inline-block;
+  background: url('../images/smallredarrows.png');
+  width: 14px;
+  height: 14px;
+}
+
+.view-id-image_gallery .pager li.pager-next a {
+  background-position: -24px 0px;
+}
+
+.view-id-image_gallery .pager li.pager-first,
+.view-id-image_gallery .pager li.pager-last {
+  display: none;
+}
