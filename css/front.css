@@ -6,10 +6,14 @@
 
 .front .node-front-page .field-name-body {
   height: 300px;
+  overflow: hidden;
+}
+
+.front .block-front-front-text-tall .node-front-page  .field-name-body {
   overflow: display;
 }
 
-.front .node-front-page .block-front-front-text-tall .field-name-body .field-items {
+.front .block-front-front-text-tall .node-front-page  .field-name-body .field-items {
   height: 620px;
   overflow: hidden;
 }
