@@ -239,12 +239,12 @@ td.active {
 }
 
 #section-content .content p a:link,
-#section-content .content li a:link {
+#section-content .content .field-type-text-with-summary a:link {
   border-bottom: 1px solid #bb0000;
 }
 
 #section-content .content p a:hover,
-#section-content .content li a:hover {
+#section-content .content .field-type-text-with-summary li a:hover {
   border-bottom: 1px solid #000000;
   background: #f4f0e6;
   text-decoration: none;
