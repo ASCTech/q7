@@ -88,6 +88,14 @@ html .node-type-asc-people .region-content .region-inner {
   border-bottom: 1px solid #cccccc;
 }
 
+.not-front .field-name-field-people-terms-1 .field-items .field-item::before {
+  content: ', ';
+  display: inline;
+}
+
+.not-front .field-name-field-people-terms-1 .field-items .field-item:first::before {
+  content: '';
+}
 
 /* Features */
 .view-display-id-people_block_large img {
