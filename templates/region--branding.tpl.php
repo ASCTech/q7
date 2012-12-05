@@ -31,4 +31,3 @@
     <?php print $content; ?>
   </div>
 </div>
-</div>
