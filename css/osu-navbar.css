@@ -184,7 +184,7 @@ div#osu-NavbarLinks button:hover,
 div#osu-NavbarLinks button:active,
 div#osu-NavbarLinks button:focus
 {
-	border: 1px solid #900;
+	border: 1px solid #bb0000;
 	color: #000;
 	background: #f4f4f4;
 }

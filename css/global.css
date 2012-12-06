@@ -9,7 +9,7 @@ body {
 }
 
 a, a:hover {
-  color: #990000;
+  color: #bb0000;
 }
 
 a {
@@ -289,7 +289,7 @@ ul.action-links {
 
 ul.action-links li a{
   border-top: 3px solid #ddd;
-  background-color: #990000;
+  background-color: #bb0000;
   color: #dddddd;
   padding: 0.5em;
   text-transform: uppercase;
@@ -320,7 +320,7 @@ ul.action-links li a:hover {
 
 /* Slider Styles */
 .galleryformatter-greenarrows .gallery-thumbs li {
-  margin-left: 4px;
+  margin-left: 4gx;
 }
 
 .galleryformatter-greenarrows .gallery-thumbs li img {
@@ -431,7 +431,7 @@ ul.action-links li a:hover {
   /* color: #ffffff; */
   /* background: #888888; */
   background-position: 0px 0px;
-  border-bottom: 1px solid #990000;
+  border-bottom: 1px solid #bb0000;
   width: 100%;
   line-height: 1.75em;
 }
