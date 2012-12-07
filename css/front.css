@@ -37,8 +37,13 @@
   height: 235px;
 }
 
+.front .feature-whole {
+  height: 290px;
+}
+
 .front .feature-half {
   width: 220px;
+  height: 290px;
   float: left;
 }
 
