@@ -359,7 +359,8 @@ img#logo {
 #region-sidebar .date-nav h3 a {
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 #region-sidebar .date-nav .pager li {
