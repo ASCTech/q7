@@ -348,18 +348,18 @@ img#logo {
 
 #region-sidebar .date-nav .pager li.date-prev a {
   background: 50% 50% no-repeat url('../images/arrow-l.png');
-  padding-top: 20px;
+  padding-top: 21px;
 }
 
 #region-sidebar .date-nav .pager li.date-next a {
   background: 50% 50% no-repeat url('../images/arrow-r.png');
-  padding-top: 20px;
+  padding-top: 21px;
 }
 
 #region-sidebar .date-nav h3 a {
   color: white;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-size: 17px;
 }
 
 #region-sidebar .date-nav .pager li {
