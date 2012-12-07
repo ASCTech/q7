@@ -1,12 +1,12 @@
 .node-type-asc-blog #blog-page-title,
 .context-blog #page-title {
   width: 924px;
-  height: 100px;
+  height: 83px;
   color: #ffffff;
   padding: 8px;
   z-index: 2;
   position: relative;
-  line-height: 140px;
+  line-height: 110px;
   font-family: 'Cardo', sans-serif;
   font-size: 30px;
   font-weight: normal;
