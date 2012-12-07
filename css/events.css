@@ -83,6 +83,10 @@
 .view-display-id-asc_events_page_year table td,
 .view-display-id-asc_events_page table td {
   vertical-align: top;
+  padding: 1.5em 0.5em 0.5em 0em;
+}
+
+.view-display-id-asc_events_page table td.views-field-field-ascevents-image {
   padding: 0.5em 0.5em 0.5em 0em;
 }
 
