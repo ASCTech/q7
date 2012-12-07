@@ -155,6 +155,10 @@ tr.views-row-first {
   text-decoration: none;
 }
 
+.block-views-asc-events-asc-events-cal-block {
+  margin-bottom: 25px;
+}
+
 .view-display-id-asc_events_page .pager {
   float: left;
 }
