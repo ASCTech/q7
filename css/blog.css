@@ -3,10 +3,10 @@
   width: 924px;
   height: 83px;
   color: #ffffff;
-  padding: 8px;
+  padding: 0 8px;
   z-index: 2;
   position: relative;
-  line-height: 110px;
+  line-height: 100px;
   font-family: 'Cardo', sans-serif;
   font-size: 30px;
   font-weight: normal;
