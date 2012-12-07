@@ -1,5 +1,11 @@
 /* Front Page Upcoming Workshops */
+
+/* Used to span rows in the front page grid */
+#block-views-77b26e76628f4b068171a0aa7963eec0 {
+  height: 235px;
+}
+
 .front section .view-display-id-upcoming_workshops {
-  height: 583px;
+  height: 560px;
 }
 
