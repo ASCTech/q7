@@ -13,6 +13,10 @@
   line-height: 30px;
 }
 
+.node-type-asc-people h1#page-title {
+  margin-bottom: 0;
+}
+
 html .node-type-asc-people .region-content .region-inner {
   padding-top: 0px;
 }
