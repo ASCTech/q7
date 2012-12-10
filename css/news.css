@@ -55,6 +55,7 @@
 
 #region-sidebar .content .view-display-id-news_block_list ul li {
   height: 56px;
+  padding: 2px 0px 7px 0px;
   border-bottom: 2px dotted #F4F0E6;
   position: relative;
   line-height: 1.3em;
