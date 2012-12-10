@@ -64,6 +64,10 @@
   border-bottom: none;
 }
 
+#region-sidebar .view-display-id-news_block_list ul li {
+  padding: 0;
+}
+
 #region-sidebar .view-display-id-news_block_list ul li .views-field-title a {
   height: 36px;
   padding-bottom: 1.25em;
@@ -71,7 +75,7 @@
 
 #region-sidebar .view-display-id-news_block_list ul li .views-field-changed {
   position: absolute;
-  bottom: 0px;
+  bottom: 3px;
   left: 54px;
 }
 
