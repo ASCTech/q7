@@ -109,6 +109,10 @@
   left: 4.7em;
 }
 
+.page-news .field-type-text-with-summary img {
+  display: none;
+}
+
 .view-display-id-news_page .pager {
   float: left;
 }
