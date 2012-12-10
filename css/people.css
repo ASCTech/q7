@@ -51,11 +51,21 @@ html .node-type-asc-people .region-content .region-inner {
   /* background-position: 0 -197px; */
 }
 
+#region-sidebar .views-field-field-asc-people-phone span,
+#region-sidebar .views-field-field-asc-people-phone div {
+  display: inline;
+}
+
 #region-sidebar .views-field-field-asc-people-fax {
   /* background-position: 0 -130px; */
   border-bottom: 2px dotted #F4F0E6;
   margin-top: 0;
   padding-bottom: 0.75em;
+}
+
+#region-sidebar .views-field-field-asc-people-fax span,
+#region-sidebar .views-field-field-asc-people-fax div {
+  display: inline;
 }
 
 #region-sidebar .views-field-field-asc-people-office-address {
