@@ -14,6 +14,7 @@
                 var top = $('body').top;
                 $("body,html").animate({scrollTop: top}, 400);
               });
-            };
+            }
+          };
 
   })(jQuery);
