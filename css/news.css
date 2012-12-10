@@ -46,7 +46,7 @@
   clear: both;
 }
 
-#region-sidebar.view-display-id-news_block_list .views-field-field-news-image img {
+#region-sidebar .view-display-id-news_block_list .views-field-field-news-image img {
   float: left;
   margin: 0.75em 1em 0.5em 0em;
   border: 1px solid #000000;
