@@ -7,7 +7,7 @@
                 $(this).css('color', '#990000')
                 var firstItem = $("a." + letter).filter(':first');
               var top = firstItem.offset().top;
-              $("body,html").animate({scrollTop: top - 5}, 400);
+              $("body,html").animate({scrollTop: top}, 400);
               });
 
               $("#backtotop").click(function(){
