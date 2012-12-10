@@ -66,6 +66,7 @@
 
 #region-sidebar .view-display-id-news_block_list ul li {
   padding: 0;
+  line-height: 1.3em;
 }
 
 #region-sidebar .view-display-id-news_block_list ul li .views-field-title a {
