@@ -38,6 +38,7 @@ html .node-type-asc-people .region-content .region-inner {
 
 .field-name-field-people-terms-3 div.field-item {
   display: inline;
+  margin-right: 4px;
 }
 
 #region-sidebar .views-field-field-asc-people-email,
