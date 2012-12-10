@@ -54,7 +54,8 @@ html .node-type-asc-people .region-content .region-inner {
 #region-sidebar .views-field-field-asc-people-fax {
   /* background-position: 0 -130px; */
   border-bottom: 2px dotted #F4F0E6;
-  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0.75em;
 }
 
 #region-sidebar .views-field-field-asc-people-office-address {
