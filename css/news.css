@@ -53,10 +53,9 @@
 }
 
 
-#region-sidebar .view-display-id-news_block_list ul li {
-  height: 60px;
+#region-sidebar .content .view-display-id-news_block_list ul li {
+  height: 56px;
   border-bottom: 2px dotted #F4F0E6;
-  padding: 2px 0;
   position: relative;
   line-height: 1.3em;
 }
