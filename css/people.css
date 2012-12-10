@@ -34,32 +34,34 @@ html .node-type-asc-people .region-content .region-inner {
 #region-sidebar .views-field-field-asc-people-fax,
 #region-sidebar .views-field-field-asc-people-office-address,
 #region-sidebar .views-field-field-asc-people-website-link {
-  background: url('../icons/people.png') no-repeat top left;
-  padding-left: 32px;
+  /* background: url('../icons/people.png') no-repeat top left; */
+  padding-left: 6px;
   font-size: 1.25em;
   margin: 15px 0 0 15px;
 }
 
 
 #region-sidebar .views-field-field-asc-people-email {
-  background-position: 0 -66px; 
+  /* background-position: 0 -66px;  */
+  border-bottom: 2px dotted #F4F0E6;
 }
 
 #region-sidebar .views-field-field-asc-people-phone {
-  background-position: 0 -197px;
+  /* background-position: 0 -197px; */
 }
 
 #region-sidebar .views-field-field-asc-people-fax {
-  background-position: 0 -130px;
+  /* background-position: 0 -130px; */
+  border-bottom: 2px dotted #F4F0E6;
 }
 
 #region-sidebar .views-field-field-asc-people-office-address {
-  background-position: 0 0;
+  /* background-position: 0 0; */
+  border-bottom: 2px dotted #F4F0E6;
 }
 
 #region-sidebar .views-field-field-asc-people-website-link {
-  background-position: 0 -255px;
-  padding-bottom: 8px;
+  /* background-position: 0 -255px; */
 }
 
 .group-asc-people-description {
