@@ -57,6 +57,7 @@
   height: 52px;
   border-bottom: 2px dotted #F4F0E6;
   padding: 0 0 0.5em 0;
+  position: relative;
 }
 
 #region-sidebar .view-display-id-news_block_list ul li.views-row-last {
@@ -65,7 +66,13 @@
 
 #region-sidebar .view-display-id-news_block_list ul li .views-field-title a {
   height: 36px;
-  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+#region-sidebar .view-display-id-news_block_list ul li .views-field-changed {
+  position: absolute;
+  bottom: 0px;
+  left: 54px;
 }
 
 
