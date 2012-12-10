@@ -478,6 +478,7 @@ ul.action-links li a:hover {
   list-style-type: none;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  margin: 0;
 }
 
 #letter-select-list li {
