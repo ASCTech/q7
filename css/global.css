@@ -473,3 +473,14 @@ ul.action-links li a:hover {
 .view-id-image_gallery .pager li.pager-last {
   display: none;
 }
+
+#letter-select-list {
+  list-style-type: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#letter-select-list li {
+  display: inline;
+  margin-right: 1em;
+}
