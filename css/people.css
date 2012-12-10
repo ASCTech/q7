@@ -205,3 +205,7 @@ html .node-type-asc-people .region-content .region-inner {
 .views-field-field-asc-people-office-address {
   white-space: pre-line;
 }
+
+.node-type-asc-people #region-sidebar {
+  font-size: 0.9em;
+}
