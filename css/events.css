@@ -9,7 +9,7 @@
 }
 
 .page-events #region-sidebar {
-  padding-to: 30px;
+  padding-top: 30px;
 }
 
 /* News List Block on News Page */
@@ -112,6 +112,12 @@ tr.views-row-first {
   width: 55px;
 }
 
+.view-display-id-asc_events_page_year .views-field-title,
+.view-display-id-asc_events_page_year .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page_year .views-field-field-ascevents-location,
+.view-display-id-asc_events_page_month .views-field-title,
+.view-display-id-asc_events_page_month .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page_month .views-field-field-ascevents-location,
 .view-display-id-asc_events_page_day .views-field-title,
 .view-display-id-asc_events_page_day .views-field-field-ascevents-datetime,
 .view-display-id-asc_events_page_day .views-field-field-ascevents-location,
@@ -120,6 +126,14 @@ tr.views-row-first {
 .view-display-id-asc_events_page .views-field-field-ascevents-location {
   width: 30%;
 }
+
+.view-display-id-asc_events_page_year .views-field-title,
+.view-display-id-asc_events_page_month .views-field-title,
+.view-display-id-asc_events_page_day .views-field-title,
+.view-display-id-asc_events_page .views-field-title {
+  font-family: Cardo, serif;
+}
+
 
 .node-type-asc-event footer.submitted {
   display: none;
