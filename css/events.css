@@ -9,7 +9,7 @@
 }
 
 .page-events #region-sidebar {
-  padding-top: 30px;
+  padding-to: 30px;
 }
 
 /* News List Block on News Page */
@@ -144,7 +144,7 @@ tr.views-row-first {
 .context-events .view-display-id-asc_events_page_month .date-nav a {
   display: inline-block;
   background: url('../images/smallredarrows.png');
-  width: 14px;
+  width: 13px;
   height: 14px;
   font-size: 0;
   background-repeat: none;
@@ -176,7 +176,7 @@ tr.views-row-first {
   font-size: 0;
   display: inline-block;
   background: url('../images/smallredarrows.png');
-  width: 14px;
+  width: 13px;
   height: 14px;
 }
 
