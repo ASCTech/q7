@@ -385,12 +385,12 @@ ul.action-links li a:hover {
   line-height: 23px;
   margin: 0;
   padding: 5px 8px;
-  color #999999;
+  color: #999999;
   border: 1px solid #333333;
   width: 295px;
   font-weight: bold;
 }
-i
+
 #zone-footer #search-block-form input.focused {
   color: #000000;
 }
