@@ -456,9 +456,10 @@ ul.action-links li a:hover {
   float: left;
 }
 
-.view-id-image_gallery .pager li {
+html .pager li {
   margin-left: 3px;
- }
+  font-weight: normal;
+}
 
 .view-id-image_gallery .pager li.pager-previous a,
 .view-id-image_gallery .pager li.pager-next a {
