@@ -135,8 +135,3 @@ function q7_image_formatter($variables) {
   return $output;
 }
 
-function q7_form_alter(&$form, &$form_state, $form_id) {
-  if ($form_id == 'search_block_form') {
-    $form['search_block_form']['#default_value'] = t('Search');
-  }
-}
