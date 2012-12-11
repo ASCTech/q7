@@ -131,7 +131,7 @@ tr.views-row-first {
 .view-display-id-asc_events_page_month .views-field-title,
 .view-display-id-asc_events_page_day .views-field-title,
 .view-display-id-asc_events_page .views-field-title {
-  font-family: Cardo, serif;
+  font: 15px Cardo, serif;
 }
 
 
