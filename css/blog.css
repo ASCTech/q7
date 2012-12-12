@@ -83,3 +83,8 @@
 .view-display-id-blog_page .pager li.pager-last {
   display: none;
 }
+
+.view-display-id-blog_page h2.node-title {
+  font-size: 15px;
+  line-height: 17px;
+}
