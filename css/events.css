@@ -186,6 +186,7 @@ tr.views-row-first {
 
 .view-display-id-asc_events_page .pager {
   float: left;
+  margin-top: 15px;
 }
 
 .view-display-id-asc_events_page .pager li {
