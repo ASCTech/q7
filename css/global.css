@@ -321,7 +321,7 @@ ul.action-links li a:hover {
 }
 
 /* Slider Styles */
-.galleryformatter {
+.not-front .galleryformatter {
   padding-bottom: 2em;
 }
 
