@@ -88,3 +88,10 @@
   font-size: 15px;
   line-height: 17px;
 }
+
+.node-asc-blog .content {
+  margin-top: 2.25em;
+}
+.node-asc-blog .node-title {
+  margin-top: 0.7em;
+}
