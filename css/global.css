@@ -346,12 +346,21 @@ ul.action-links li a:hover {
 
 .view-display-id-news_page,
 .view-display-id-blog_page,
-.view-display-id-asc_events_page,
-.view-display-id-asc_events_year,
-.view-display-id-asc_events_month,
-.view-display-id-asc_events_day {
+.view-display-id-asc_events_page {
   border-top: 3px solid #999999;
   padding-top: 1em;
+}
+
+.view-display-id-asc_events_page_year,
+.view-display-id-asc_events_page_month,
+.view-display-id-asc_events_page_day {
+  border-top: 1px solid #999999;
+}
+
+.view-display-id-asc_events_page_year .date-heading,
+.view-display-id-asc_events_page_month .date-heading,
+.view-display-id-asc_events_page_day .date-heading {
+  border-bottom: 3px solid #999999;
 }
 
 /* Zone Footer */
