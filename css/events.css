@@ -146,16 +146,22 @@ tr.views-row-first {
   font-size: 1.25em;
 }
 
-.context-events .view-display-id-asc_events_page_month .date-nav li {
+.context-events .view-display-id-asc_events_page_year .date-nav li,
+.context-events .view-display-id-asc_events_page_month .date-nav li,
+.context-events .view-display-id-asc_events_page_day .date-nav li {
   background: none;
   padding-left: none;
 }
 
-.context-events .view-display-id-asc_events_page_month .date-nav li.date-prev {
+.context-events .view-display-id-asc_events_page_year .date-nav li.date-prev,
+.context-events .view-display-id-asc_events_page_month .date-nav li.date-prev,
+.context-events .view-display-id-asc_events_page_day .date-nav li.date-prev {
   right: 25px;
 }
 
-.context-events .view-display-id-asc_events_page_month .date-nav a {
+.context-events .view-display-id-asc_events_page_year .date-nav a,
+.context-events .view-display-id-asc_events_page_month .date-nav a,
+.context-events .view-display-id-asc_events_page_day .date-nav a {
   display: inline-block;
   background: url('../images/smallredarrows.png');
   width: 13px;
@@ -164,8 +170,9 @@ tr.views-row-first {
   background-repeat: none;
 }
 
-
-.view-display-id-asc_events_page_month .date-nav .date-next a {
+.view-display-id-asc_events_page_year .date-nav .date-next a,
+.view-display-id-asc_events_page_month .date-nav .date-next a,
+.view-display-id-asc_events_page_day .date-nav .date-next a {
   background-position: -24px 0px;
 }
 
