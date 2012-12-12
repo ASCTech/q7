@@ -50,6 +50,7 @@ html .node-type-asc-people .region-content .region-inner {
   /* background: url('../icons/people.png') no-repeat top left; */
   padding-left: 6px;
   font-size: 1.1em;
+  line-height: 1.5em;
   margin: 15px 15px 0 15px;
 }
 
