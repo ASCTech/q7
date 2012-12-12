@@ -27,3 +27,7 @@
   width: 32px;
   margin-right: 20px;
 }
+
+.html .galleryformatter-greenarrows .gallery-thumbs li a {
+  padding-top: 9px;
+}
