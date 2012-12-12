@@ -346,12 +346,12 @@ ul.action-links li a:hover {
 
 .view-display-id-news_page,
 .view-display-id-blog_page,
-.view-display-id-events_page,
-.view-display-id-events_year,
-.view-display-id-events_month,
-.view-display-id-events_day {
-  border-top: 2px solid #999999;
-  padding-top: 2em;
+.view-display-id-asc_events_page,
+.view-display-id-asc_events_year,
+.view-display-id-asc_events_month,
+.view-display-id-asc_events_day {
+  border-top: 3px solid #999999;
+  padding-top: 1em;
 }
 
 /* Zone Footer */
