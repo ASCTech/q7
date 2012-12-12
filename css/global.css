@@ -321,6 +321,10 @@ ul.action-links li a:hover {
 }
 
 /* Slider Styles */
+.galleryformatter {
+  padding-bottom: 2em;
+}
+
 .galleryformatter-greenarrows .gallery-thumbs li {
   margin-left: 4px;
 }
