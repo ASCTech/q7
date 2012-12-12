@@ -127,10 +127,10 @@ tr.views-row-first {
   width: 30%;
 }
 
-.view-display-id-asc_events_page_year .views-field-title,
-.view-display-id-asc_events_page_month .views-field-title,
-.view-display-id-asc_events_page_day .views-field-title,
-.view-display-id-asc_events_page .views-field-title {
+.view-display-id-asc_events_page_year td.views-field-title,
+.view-display-id-asc_events_page_month td.views-field-title,
+.view-display-id-asc_events_page_day td.views-field-title,
+.view-display-id-asc_events_page td.views-field-title {
   font: 15px Cardo, serif;
 }
 
