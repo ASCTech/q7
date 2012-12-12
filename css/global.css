@@ -344,6 +344,15 @@ ul.action-links li a:hover {
   border-bottom: 1px solid #bb0000;
 }
 
+.view-display-id-news_page,
+.view-display-id-blog_page,
+.view-display-id-events_page,
+.view-display-id-events_year,
+.view-display-id-events_month,
+.view-display-id-events_day {
+  border-top: 2px solid #999999;
+  padding-top: 2em;
+}
 
 /* Zone Footer */
 
