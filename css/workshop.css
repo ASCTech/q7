@@ -10,6 +10,18 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
   height: 560px;
 }
 
+.front .view-display-id-upcoming_workshops h3 {
+  font: 1.4em/1.5em Helvetica, Arial, sans-serif;
+}
+
+.front .view-display-id-upcoming_workshops .views-row {
+  padding-left: 1em;
+}
+
+/* Make the gaps disclaimer italic in all views. */
+
 .field-name-field-asc-workshops-gaps {
   font-style: italic;
 }
+
+
