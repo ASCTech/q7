@@ -21,5 +21,4 @@
   </div>
 
 <?php print $content; ?>
-<?php dsm($content); ?>
 </header>
