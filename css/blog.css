@@ -100,6 +100,10 @@
   border-bottom: 1px solid black;
 }
 
+.feed-item-title {
+  line-height: 1.1em;
+}
+
 .feed-item-body {
   margin-top: 2em;
   border-bottom: 1px solid black;
