@@ -130,7 +130,7 @@ html .node-type-asc-people .region-content .region-inner {
   content: ', ';
 }
 
-.not-front .field-name-field-people-terms-1 .field-items .field-item:first::before {
+.not-front .field-name-field-people-terms-1 .field-items .field-item:first-child::before {
   content: '';
 }
 

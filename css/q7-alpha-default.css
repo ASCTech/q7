@@ -97,7 +97,7 @@ img#logo {
 #zone-menu #main-menu li a.active-trail {
   border-bottom: 7px solid #f4f0e6;
   border-right: 1px solid #f4f0e6;
-  color #f4f0e6;
+  color: #f4f0e6;
 }
 
 /* Zone Header */
