@@ -111,6 +111,7 @@ html .node-type-asc-people .region-content .region-inner {
 /* Directory Page */
 .view-display-id-people_page .views-field-field-asc-people-picture img {
   width: 47px;
+  height: 63px;
 }
 
 .view-display-id-people_page table td {
