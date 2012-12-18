@@ -492,3 +492,13 @@ img#logo {
 .node-type-page article .contextual-links-wrapper {
   top: -25px;
 }
+
+.view-display-id-gallery_page .views-row-4,
+.view-display-id-gallery_page .views-row-8,
+.view-display-id-gallery_page .views-row-12 {
+  margin-right: 0;
+}
+
+.view-display-id-gallery_page {
+  width: 630px;
+}
