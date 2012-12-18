@@ -79,8 +79,20 @@ table {
 }
 tfoot {font-style:italic;}
 
-td.active {
+#region-content td.active {
   background: #f4f0e6;
+}
+
+#region-content tr.even {
+  background: #f4f0e6;
+}
+
+#region-content tr.odd {
+  background: #ffffff;
+}
+
+#region-content tr.odd td.active {
+  background: #e4e0d6;
 }
 
 /* General CSS Classes */
