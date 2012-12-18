@@ -502,3 +502,7 @@ img#logo {
 .view-display-id-gallery_page {
   width: 620px;
 }
+
+html.js fieldset.collapsble {
+  padding-bottom: 0.5em;
+}
