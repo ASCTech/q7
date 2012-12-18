@@ -79,6 +79,10 @@ table {
 }
 tfoot {font-style:italic;}
 
+#region-content th {
+  text-transform: uppercase;
+}
+
 #region-content td.active {
   background: #f4f0e6;
 }
