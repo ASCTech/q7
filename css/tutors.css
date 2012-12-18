@@ -18,7 +18,24 @@
   border-bottom: 1px solid black;
 }
 
+.view-asc-private-tutors th {
+  text-transform: uppercase;
+  padding: 4px 0;
+}
+
+.view-asc-private-tutors tr.odd {
+  background: #ffffff;
+}
+
+.view-asc-private-tutors tr.even {
+  background: #f4f0e6;
+}
+
+.view-asc-private-tutors tr.even td.active {
+  background: #e4e0d6;
+}
+
 .view-asc-private-tutors td {
-  padding: 3px 3px 3px 0px;
+  padding: 5px 5px 2px 4px;
 }
 
