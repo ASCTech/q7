@@ -95,6 +95,12 @@
 .view-display-id-asc_events_page_month table td.views-field-field-ascevents-image,
 .view-display-id-asc_events_page_year table td.views-field-field-ascevents-image {
   padding: 0.5em 0.5em 0.5em 0em;
+}
+
+.view-display-id-asc_events_page table td.views-field-field-ascevents-image img,
+.view-display-id-asc_events_page_day table td.views-field-field-ascevents-image img,
+.view-display-id-asc_events_page_month table td.views-field-field-ascevents-image img,
+.view-display-id-asc_events_page_year table td.views-field-field-ascevents-image img{
   border: 1px solid #666666;
 }
 
