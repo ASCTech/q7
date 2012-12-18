@@ -49,3 +49,24 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
   font-size: 16px;
 }
 
+
+.node-asc-workshop-course .node-asc-workshops-tutor-room h2 {
+  display: none;
+}
+
+/* Upcoming workshops sidebar */
+.block-views-59264f99f540f088d5c884b40e332349 h3 {
+  font: 16px/1.25em Helvetica, Arial, sans-serif;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.block-views-59264f99f540f088d5c884b40e332349 {
+  padding: 1em;
+}
+
+.block-views-59264f99f540f088d5c884b40e332349 .views-row {
+  padding-left: 1em;
+}
+  padding: 1em;
+}
