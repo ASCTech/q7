@@ -114,6 +114,10 @@ html .node-type-asc-people .region-content .region-inner {
   height: 63px;
 }
 
+.view-display-id-people_page .views-field-title a {
+  font-family: Cardo, serif;
+}
+
 .view-display-id-people_page table td {
   vertical-align: top;
   padding: 10px 0 10px 10px;
