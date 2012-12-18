@@ -6,6 +6,10 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
   border-right: none;
 }
 
+.front section .view-display-id-upcoming_workshops .more-link a {
+  top: 588px;
+}
+
 .front section .view-display-id-upcoming_workshops {
   height: 560px;
 }
@@ -16,6 +20,14 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
 
 .front .view-display-id-upcoming_workshops .views-row {
   padding-left: 1em;
+}
+
+.view-display-id-upcoming_workshops .views-row-first {
+  padding-top: 0.5em;
+}
+
+.view-display-id-upcoming_workshops .views-row-last {
+  padding-bottom: 0.5em;
 }
 
 /* Make the gaps disclaimer italic in all views. */
