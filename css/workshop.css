@@ -61,11 +61,11 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
   text-transform: uppercase;
 }
 
-.block-views-59264f99f540f088d5c884b40e332349 {
+.block-views-59264f99f540f088d5c884b40e332349 .content {
   padding: 1em;
 }
 
-.block-views-59264f99f540f088d5c884b40e332349 .views-row {
+.block-views-59264f99f540f088d5c884b40e332349 .content .views-row {
   padding-left: 1em;
 }
   padding: 1em;
