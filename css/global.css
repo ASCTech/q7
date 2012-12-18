@@ -345,7 +345,8 @@ ul.action-links li a:hover {
 
 .view-display-id-news_page,
 .view-display-id-blog_page,
-.view-id-image_gallery
+.view-id-image_gallery,
+.view-display-id-people_page,
 .view-display-id-asc_events_page {
   border-top: 3px solid #999999;
   padding-top: 1em;
