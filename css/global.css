@@ -79,6 +79,10 @@ table {
 }
 tfoot {font-style:italic;}
 
+#region-content table {
+  margin-bottom: 1.4em;
+}
+
 #region-content th {
   text-transform: uppercase;
 }
