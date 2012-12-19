@@ -306,6 +306,7 @@ body.html #breadcrumb-extension {
 
 ul.action-links {
   float: right;
+  display: none;
 }
 
 ul.action-links li a{
