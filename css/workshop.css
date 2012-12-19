@@ -70,11 +70,15 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
 }
 
 /* Course list page */
-.view-display-id-course_list_page .views-field-field-asc-workshops-tutoring {
+.view-display-id-course_list_page .views-field-field-asc-workshops-tutoring,
+.view-display-id-course_list_page .views-field-field-asc-workshops-workshops,
+.view-display-id-course_list_page .views-field-field-asc-workshops-reviews {
   text-align: center;
 }
 
-.view-display-id-course_list_page td.views-field-field-asc-workshops-tutoring {
+.view-display-id-course_list_page td.views-field-field-asc-workshops-tutoring,
+.view-display-id-course_list_page td.views-field-field-asc-workshops-workshops,
+.view-display-id-course_list_page td.views-field-field-asc-workshops-reviews {
   padding: 4px 0; 
 }
 
