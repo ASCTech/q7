@@ -87,3 +87,8 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
 .view-id-signup_user_list {
   margin-top: 2em;
 }
+
+.signup_anonymous_login {
+  font-size: 16px;
+  font-weight: bold;
+}
