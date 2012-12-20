@@ -79,3 +79,7 @@ html #zone-content {
 .node-type-asc-people #region-sidebar .views-field-field-asc-people-website-link {
   display: none;
 }
+
+form#signup-form {
+  display: none;
+}
