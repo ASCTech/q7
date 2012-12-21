@@ -114,9 +114,9 @@ form#signup-edit-form {
 .field-name-field-asc-workshops-evening,
 .field-name-field-room {
   width: 44%;
-  margin-right: 0.5em;
+  margin-right: 1em;
   background: #f4f0e6;
-  padding: 0.25em;
+  padding: 1em;
   float: left;
 }
 
