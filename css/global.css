@@ -543,3 +543,7 @@ html .pager li {
 img.file-icon {
   display: none;
 }
+
+#region-sidebar #piwikpageviews {
+  padding: 1em;
+}
