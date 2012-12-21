@@ -80,7 +80,7 @@ table {
 tfoot {font-style:italic;}
 
 #region-content table {
-  margin-bottom: 1.4em;
+  margin: 1.6em 0;
 }
 
 #region-content th {
