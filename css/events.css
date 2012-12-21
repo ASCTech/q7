@@ -160,15 +160,22 @@ tr.views-row-first {
   background: #ffffff;
 }
 
-#region-content .view .date-nav li,
-#region-content .view .date-nav li,
+#region-content .view .date-nav-wrapper .date-heading {
+  display: inline-block;
+}
+
+#region-content .view .pager {
+  display: inline-block;
+}
+
 #region-content .view .date-nav li {
   background: none;
   padding-left: none;
+  position: relative;
 }
 
 #region-content .view .date-nav li.date-prev {
-  right: 25px;
+  right: -10px;
 }
 
 #region-content .view .date-nav a {

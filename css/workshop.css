@@ -10,6 +10,10 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
   top: 588px;
 }
 
+#region-sidebar .block-upcoming-events-calendar h2 {
+  display: none;
+}
+
 .front section .view-display-id-upcoming_workshops {
   height: 560px;
 }
