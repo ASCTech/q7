@@ -99,7 +99,7 @@ tfoot {font-style:italic;}
   background: #ffffff;
 }
 
-#region-content tr.odd td.active {
+#region-content tr.even td.active {
   background: #e4e0d6;
 }
 
