@@ -69,6 +69,11 @@ html #section-content .region section#block-views-77b26e76628f4b068171a0aa7963ee
   padding-left: 1em;
 }
 
+/* Room List page */
+.view-display-id-room_list_page .views-field-field-asc-workshops-gaps {
+  text-align: center;
+}
+
 /* Course list page */
 .view-display-id-course_list_page .views-field-field-tutoring,
 .view-display-id-course_list_page .views-field-field-workshops,
