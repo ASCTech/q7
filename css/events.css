@@ -149,7 +149,7 @@ tr.views-row-first {
   display: none;
 }
 
-.context-events #region-content .view .date-nav-wrapper .date-heading h3 {
+#region-content .view .date-nav-wrapper .date-heading h3 {
   text-align: left;
   font-weight: bold;
   font-family: Helvetica,arial,san-serif;
