@@ -162,6 +162,7 @@ tr.views-row-first {
 
 #region-content .view .date-nav-wrapper .date-heading {
   display: inline-block;
+  width: auto;
 }
 
 #region-content .view .pager {
