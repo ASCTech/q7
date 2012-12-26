@@ -1,5 +1,7 @@
 /* News Page */
 
+
+
 .node-type-asc-news .field-name-field-news-image img,
 .view-display-id-news_page .field-name-field-news-image img,
 .view-display-id-news_filters_page .field-name-field-news-image img {
@@ -146,4 +148,8 @@
 .view-display-id-news_page .pager li.pager-first,
 .view-display-id-news_page .pager li.pager-last {
   display: none;
+}
+
+.active-row .views-field .views-field-nothing span {
+  background: #F4F0E6;
 }
