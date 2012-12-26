@@ -226,3 +226,8 @@ tr.views-row-first {
 .view-display-id-asc_events_page .pager li.pager-last {
   display: none;
 }
+
+.context-events #region-content td.active,
+.context-events #region-content tr.odd {
+  background: #ffffff;
+}
