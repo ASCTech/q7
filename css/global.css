@@ -549,3 +549,5 @@ img.file-icon {
 #region-sidebar #piwikpageviews {
   padding: 1em;
 }
+
+body .galleryformatter-greenarrows .view-full { background-image:url("../icons/arrows.png"); }
