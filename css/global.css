@@ -392,7 +392,10 @@ ul.action-links li a:hover {
 /* Zone Footer */
 
 #zone-footer-wrapper {
+  border-top: 4px solid #cccccc;
+  border-bottom: 4px solid #cccccc;
 }
+
 
 #zone-footer {
   min-height: 5em;
