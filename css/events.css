@@ -228,6 +228,6 @@ tr.views-row-first {
 }
 
 .context-events #region-content td.active,
-.context-events #region-content tr.odd {
+.context-events #region-content tr.even {
   background: #ffffff;
 }
