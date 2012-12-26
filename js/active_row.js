@@ -1,7 +1,7 @@
 (function ($) {
   Drupal.behaviors.scollLetter = {
     attach: $(function() {
-              $('.views-table a.active').closest('tr').addClass('active_row');
+              $('.view-content a.active').closest('.views-row').addClass('active-row');
             })
   };
 })(jQuery);
