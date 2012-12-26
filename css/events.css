@@ -149,6 +149,11 @@ tr.views-row-first {
   display: none;
 }
 
+#region-content .view .date-nav {
+  padding-bottom: 0;
+  border-bottom: 3px solid #999999;
+}
+
 #region-content .view .date-nav-wrapper .date-heading h3 {
   text-align: left;
   font-weight: bold;
