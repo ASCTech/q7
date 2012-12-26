@@ -152,6 +152,7 @@ tr.views-row-first {
 #region-content .view .date-nav {
   padding-bottom: 0;
   border-bottom: 3px solid #999999;
+  height: 30px;
 }
 
 #region-content .view .date-nav-wrapper .date-heading h3 {
