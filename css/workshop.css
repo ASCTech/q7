@@ -58,6 +58,10 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
   display: none;
 }
 
+.node-type-asc-workshop .field {
+  margin-bottom: 1.25em;
+}
+
 /* Upcoming workshops sidebar */
 .block-views-59264f99f540f088d5c884b40e332349 h3 {
   font: 16px/1.25em Helvetica, Arial, sans-serif;
