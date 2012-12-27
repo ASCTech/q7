@@ -72,6 +72,14 @@
 }
 
 /* Events Page */
+
+#region-content .view-display-id-asc_events_page_day table,
+#region-content .view-display-id-asc_events_page_month table,
+#region-content .view-display-id-asc_events_page_year table,
+#region-content .view-display-id-asc_events_page table {
+  margin-top: 0;
+}
+
 .view-display-id-asc_events_page_day table th,
 .view-display-id-asc_events_page_month table th,
 .view-display-id-asc_events_page_year table th,

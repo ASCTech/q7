@@ -221,3 +221,7 @@ html .node-type-asc-people .region-content .region-inner {
 .view-display-id-people_page .views-field-field-asc-people-picture img {
   border: 1px solid #666666;
 }
+
+#region-content .view-display-id-people_page table {
+  margin-top: 0;
+}
