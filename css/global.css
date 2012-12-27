@@ -88,7 +88,7 @@ tfoot {font-style:italic;}
 }
 
 #region-content td {
-  padding: 3px;
+  padding: 6px 3px;
 }
 
 #region-content td.active {
