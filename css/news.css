@@ -1,7 +1,5 @@
 /* News Page */
 
-
-
 .node-type-asc-news .field-name-field-news-image img,
 .view-display-id-news_page .field-name-field-news-image img,
 .view-display-id-news_filters_page .field-name-field-news-image img {
@@ -17,6 +15,10 @@
 
 .node-type-asc-news .submitted {
   margin-bottom: 30px;
+}
+
+.node-type-asc-news h1 {
+  margin-bottom: 0;
 }
 
 .view-display-id-news_page h2,
