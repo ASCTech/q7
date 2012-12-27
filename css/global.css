@@ -377,6 +377,11 @@ ul.action-links li a:hover {
   padding-top: 1em;
 }
 
+.view-display-id-people_page,
+.view-display-id-asc_events_page {
+  padding-top: 0;
+}
+
 .view-display-id-asc_events_page_year,
 .view-display-id-asc_events_page_month,
 .view-display-id-asc_events_page_day {
