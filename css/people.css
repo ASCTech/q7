@@ -124,6 +124,10 @@ html .node-type-asc-people .region-content .region-inner {
   padding: 10px 0 0 0;
 }
 
+#region-content .view-display-id-people_page table tr:first td {
+  padding-top: 0;
+}
+
 .view-display-id-people_page table tr {
   border-bottom: 1px solid #cccccc;
 }
