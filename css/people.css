@@ -119,9 +119,9 @@ html .node-type-asc-people .region-content .region-inner {
   font-size: 15px;
 }
 
-.view-display-id-people_page table td {
+#region-content .view-display-id-people_page table td {
   vertical-align: top;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 0 0;
 }
 
 .view-display-id-people_page table tr {
