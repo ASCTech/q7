@@ -1,9 +1,9 @@
-<?php if (!$is_front) : ?>
+<?php if (!$is_front && $breadcrumb) : ?>
   <div id="breadcrumb-extension">&nbsp;</div>
 <?php endif; ?>    
 <?php if ($wrapper): ?><div<?php print $attributes; ?>><?php endif; ?>  
   <div<?php print $content_attributes; ?>>    
-    <?php if ($breadcrumb): ?>
+    <?php if (isset($breadcrumb) && $breadcrumb != ''): ?>
       <div class="breadcrumb-wrapper">
         <div class="grid-8 breadcrumb-left"> 
           <?php print $breadcrumb; ?>
