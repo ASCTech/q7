@@ -280,7 +280,7 @@ img#logo {
 
 #region-sidebar .content ul li a,
 #region-sidebar .content ul li span {
-  padding: 3px;
+  padding: 4px 3px 3px 3px;
   margin-left: -16px;
   padding-left: 16px;
 }
