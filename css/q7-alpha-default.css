@@ -273,6 +273,7 @@ img#logo {
 
 #region-sidebar .content ul li a.active,
 #region-sidebar .content ul li span.active,
+#region-sidebar .content ul li .views-field-nothing span:hover,
 #region-sidebar .content ul li a:hover {
   background-color: #f4f0E6;
 }
