@@ -8,8 +8,8 @@ div#osu-Navbar ul,
 div#osu-Navbar li, 
 div#osu-Navbar fieldset, div#osu-Navbar form, div#osu-Navbar label
 {
-	margin: 0pt;
-	padding: 0pt;
+	margin: 0;
+	padding: 0;
 }
 
 .osu-semantic
@@ -95,7 +95,7 @@ div#osu-NavbarBreadcrumb p#osu a:focus { text-decoration: underline; }
 div#osu-NavbarBreadcrumb p.site-name
 {
 	background: transparent url('../images/arrow_twisty.png') no-repeat left center;
-	padding: 0px 5px 0px 14px;
+	padding: 0 5px 0 14px;
 }
 
 div#osu-NavbarBreadcrumb p.site-name a
@@ -136,7 +136,7 @@ div#osu-NavbarLinks ul li a
 {
 	color: #bb0000;
 	text-decoration: none;
-	padding: 0em 0.45em;
+	padding: 0 0.45em;
 }
 
 div#osu-NavbarLinks ul li a:hover, 

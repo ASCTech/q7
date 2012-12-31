@@ -286,7 +286,7 @@ tfoot {font-style:italic;}
 
 body.html .breadcrumb-left {
   background: #666666;
-  padding: 20px 0px 0px 10px;
+  padding: 20px 0 0 10px;
   height: 23px;
   color: #ffffff;
   width: 630px;
@@ -334,8 +334,8 @@ ul.action-links li a:hover {
   text-align: center;
   font-size: 16px;
   position: absolute;
-  right: 0px;
-  bottom: 0px;
+  right: 0;
+  bottom: 0;
 }
 
 .front .view .more-link a:hover {
@@ -493,7 +493,7 @@ ul.action-links li a:hover {
   /* text-transform: uppercase; */
   /* color: #ffffff; */
   /* background: #888888; */
-  background-position: 0px 0px;
+  background-position: 0 0;
   border-bottom: 1px solid #bb0000;
   width: 100%;
   line-height: 1.75em;
@@ -527,7 +527,7 @@ html .pager li {
 }
 
 .view-id-image_gallery .pager li.pager-next a {
-  background-position: -24px 0px;
+  background-position: -24px 0;
 }
 
 .view-id-image_gallery .pager li.pager-first,

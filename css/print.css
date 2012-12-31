@@ -32,7 +32,7 @@ html div#osu-NavbarBreadcrumb p#site-name {
 
 html div#osu-NavbarBreadcrumb p#college-name {
   float: left;
-  padding-left: 0em;
+  padding-left: 0;
 }
 
 html div#osu-NavbarBreadcrumb p#college-name:before {

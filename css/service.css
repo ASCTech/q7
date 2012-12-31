@@ -1,6 +1,3 @@
-.view-asc-service-catalog .view-grouping {
-}
-
 .view-asc-service-catalog .view-grouping-header {
   background: #666666;
   color: #ffffff;
@@ -9,7 +6,6 @@
   padding: 0.3em;
 }
 
-html.js .view-asc-service-catalog fieldset.collapsed {
+.js .view-asc-service-catalog fieldset.collapsed {
   height: 2em;
 }
-

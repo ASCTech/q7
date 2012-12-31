@@ -5,7 +5,7 @@
 .view-display-id-news_filters_page .field-name-field-news-image img {
   float: left;
   border: 1px solid #666666;
-  margin: 0px 20px 15px 0px;
+  margin: 0 20px 15px 0;
 }
 
 .node-type-asc-news .field-name-body {
@@ -52,14 +52,14 @@
 
 #region-sidebar .view-display-id-news_block_list .views-field-field-news-image img {
   float: left;
-  margin: 0.75em 1em 0.5em 0em;
+  margin: 0.75em 1em 0.5em 0;
   border: 1px solid #000000;
 }
 
 
 #region-sidebar .content .view-display-id-news_block_list ul li {
   height: 56px;
-  padding: 2px 0px 7px 0px;
+  padding: 2px 0 7px 0;
   border-bottom: 2px dotted #F4F0E6;
   position: relative;
   line-height: 1.3em;
@@ -144,7 +144,7 @@
 }
 
 .view-display-id-news_page .pager li.pager-next a {
-  background-position: -24px 0px;
+  background-position: -24px 0;
 }
 
 .view-display-id-news_page .pager li.pager-first,

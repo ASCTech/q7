@@ -2,7 +2,7 @@
 
 /* Override mobile style in global. */
 .region {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 /* Zone-Branding */
@@ -41,7 +41,7 @@ img#logo {
   position: absolute;
   height: 164px;
   top: 40px;
-  /* background: url('../logo.png') no-repeat -570px 0px; */
+  /* background: url('../logo.png') no-repeat -570px 0; */
 }
 
 #osulogo {
@@ -51,7 +51,7 @@ img#logo {
   width: 84px;
   position: absolute;
   bottom: 50px;
-  right: 0px;
+  right: 0;
 }
 
 /* Zone Menu */
@@ -135,11 +135,11 @@ img#logo {
 
 #ascbanner {
   background: url(../images/branding.png) no-repeat top left;
-  background-position: 0 0px;
+  background-position: 0 0;
   height: 111px;
   width: 84px;
   position: absolute;
-  top: 0px;
+  top: 0;
   right: 10px;
   z-index: 100;
 }
@@ -151,7 +151,7 @@ img#logo {
 #header-tile {
   position: absolute;
   top: 30px;
-  bottom: 0px;
+  bottom: 0;
   right: 0;
   width: 50%;
   padding-left: 10px;
@@ -170,7 +170,7 @@ img#logo {
 }
 
 .front #zone-content {
-  min-height: 0em;
+  min-height: 0;
 }
 .not-front .block-system-main {
     min-height: 12em;
@@ -181,7 +181,7 @@ img#logo {
 }
 
 #region-sidebar {
-  right: 0px;
+  right: 0;
   padding-top: 62px;
 }
 
@@ -211,7 +211,7 @@ img#logo {
   margin-right: 0;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 2px 0em 0em 0.9em;
+  padding: 2px 0 0 0.9em;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 17px;
   line-height: 1.8em;
@@ -324,14 +324,14 @@ img#logo {
 }
 
 #region-sidebar .date-nav .pager li.date-next a {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 #region-sidebar .date-nav .pager .date-prev a,
 #region-sidebar .date-nav .pager .date-next a {
     display: inline-block;
     width: 1em;
-    font-size: 0px;
+    font-size: 0;
 }
 
 #region-sidebar .date-nav .pager li.date-prev {
@@ -378,7 +378,7 @@ img#logo {
 /* Tabs Links */
 .region-content div.tabs {
   position: fixed;
-  right: 0px;
+  right: 0;
   background: black;
   border: 2px solid green;
 }
@@ -479,7 +479,7 @@ img#logo {
 }
 
 #breadcrumb-right-wrapper {
-  margin-left: 0px;
+  margin-left: 0;
   height: 43px;
 }
 

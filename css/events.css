@@ -1,7 +1,7 @@
 .node-type-asc-event .field-name-field-ascevents-image img {
   float: left;
   border: 1px solid #666666;
-  margin: 0px 20px 15px 0px;
+  margin: 0 20px 15px 0;
 }
 
 .node-type-asc-event h1.title {
@@ -20,7 +20,7 @@
 
 .view-display-id-asc_events_feature_small .views-field-field-ascevents-datetime {
   float: left;
-  margin: 0 1em 1em 0em;
+  margin: 0 1em 1em 0;
 }
 
 .view-display-id-asc_events_feature_small .views-row {
@@ -99,14 +99,14 @@
 .view-display-id-asc_events_page_year table td,
 .view-display-id-asc_events_page table td {
   vertical-align: top;
-  padding: 1.5em 0.5em 0.5em 0em;
+  padding: 1.5em 0.5em 0.5em 0;
 }
 
 .view-display-id-asc_events_page table td.views-field-field-ascevents-image,
 .view-display-id-asc_events_page_day table td.views-field-field-ascevents-image,
 .view-display-id-asc_events_page_month table td.views-field-field-ascevents-image,
 .view-display-id-asc_events_page_year table td.views-field-field-ascevents-image {
-  padding: 0.5em 0.5em 0.5em 0em;
+  padding: 0.5em 0.5em 0.5em 0;
 }
 
 .view-display-id-asc_events_page table td.views-field-field-ascevents-image img,
@@ -130,7 +130,7 @@ tr.views-row-first {
 .view-display-id-asc_events_page_day .date-heading li.date-prev a,
 .view-display-id-asc_events_page .date-heading li.date-prev a {
   position: absolute;
-  left: 0px;
+  left: 0;
   width: 55px;
 }
 
@@ -207,7 +207,7 @@ tr.views-row-first {
 }
 
 #region-content .date-nav .date-next a {
-  background-position: -24px 0px;
+  background-position: -24px 0;
 }
 
 .view-display-id-asc_events_cal_block table .mini-day-on a {
@@ -237,7 +237,7 @@ tr.views-row-first {
 }
 
 .view-display-id-asc_events_page .pager li.pager-next a {
-  background-position: -24px 0px;
+  background-position: -24px 0;
 }
 
 .view-display-id-asc_events_page .pager li.pager-first,

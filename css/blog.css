@@ -24,7 +24,7 @@
 }
 
 .context-blog #region-content .region-content-inner {
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .block-asc-taxonomy-filter-blog-terms-1 {
@@ -37,7 +37,7 @@
 
 .context-blog #region-sidebar .block:first-child {
   padding: 15px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .node-type-asc-blog h1#page-title {
@@ -76,15 +76,15 @@
 }
 
 .view-display-id-blog_page .pager li.pager-next a {
-  background-position: -24px 0px;
+  background-position: -24px 0;
 }
 
-.view-display-id-blog_page .pager li.pager-first,
-.view-display-id-blog_page .pager li.pager-last {
+.view-display-id-blog_page .pager .pager-first,
+.view-display-id-blog_page .pager .pager-last {
   display: none;
 }
 
-.view-display-id-blog_page h2.node-title {
+.view-display-id-blog_page h2 {
   font-size: 1.3em;
   line-height: 17px;
 }
