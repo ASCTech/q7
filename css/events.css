@@ -4,7 +4,7 @@
   margin: 0px 20px 15px 0px;
 }
 
-.node-type-asc-event h1 {
+.node-type-asc-event h1.title {
   margin-bottom: 0;
 }
 
@@ -249,8 +249,3 @@ tr.views-row-first {
 .context-events #region-content tr.even {
   background: #ffffff;
 }
-
-.note-type-asc-event h1#page-title {
-  margin-bottom: 0;
-}
-
