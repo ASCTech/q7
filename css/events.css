@@ -249,3 +249,8 @@ tr.views-row-first {
 .context-events #region-content tr.even {
   background: #ffffff;
 }
+
+.note-type-asc-event h1#page-title {
+  margin-bottom: 0;
+}
+
