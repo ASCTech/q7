@@ -558,3 +558,7 @@ img.file-icon {
 }
 
 body .galleryformatter-greenarrows .slide-button { background-image:url("../icons/arrows.png"); }
+
+.region-footer-second .block-piwik-reports-piwik-page-report {
+  color: #ffffff;
+}
