@@ -154,6 +154,9 @@
 
 .active-row .views-field-nothing span {
   background: #F4F0E6;
+}
+
+#region-sidebar .views-field-nothing span {
   height: 52px;
 }
 
