@@ -138,3 +138,12 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
   width: 100%;
   margin-top: -80px;
 }
+
+.oh-display-label {
+  float: left;
+}
+
+.oh-display-hours {
+  display: inline-block;
+  text-align: right;
+}
