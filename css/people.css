@@ -70,13 +70,6 @@ html .node-type-asc-people .region-content .region-inner {
   display: inline;
 }
 
-#region-sidebar .views-field-field-asc-people-fax {
-  /* background-position: 0 -130px; */
-  border-bottom: 2px dotted #F4F0E6;
-  margin-top: 0;
-  padding-bottom: 0.75em;
-}
-
 #region-sidebar .views-field-field-asc-people-fax span,
 #region-sidebar .views-field-field-asc-people-fax div {
   display: inline;
@@ -84,12 +77,16 @@ html .node-type-asc-people .region-content .region-inner {
 
 #region-sidebar .views-field-field-asc-people-office-address {
   /* background-position: 0 0; */
-  border-bottom: 2px dotted #F4F0E6;
+  border-top: 2px dotted #F4F0E6;
   padding-bottom: 0.75em;
 }
 
 #region-sidebar .views-field-field-asc-people-website-link {
   /* background-position: 0 -255px; */
+}
+
+#region-sidebar .view-display-id-asc_bio_sidebar_block {
+  margin-bottom: 2em;
 }
 
 .group-asc-people-description {
