@@ -130,8 +130,10 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
 
 .field-name-field-asc-workshops-evening > .field-label,
 .field-name-field-room > .field-label {
-  font-size: 16px;
-  margin-bottom:0.25em;
+  font-family: Cardo, serif;
+  font-size: 22px;
+  line-height: 48px;
+  font-weight: normal;
 }
 
 .view-display-id-course_sidebar_list select {
