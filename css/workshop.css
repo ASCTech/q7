@@ -148,6 +148,7 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
   text-align: right;
 }
 
-.field-name-field-asc-workshops-handouts {
+.node-asc-workshop-course .field-name-field-asc-workshops-handouts,
+.node-asc-workshop-course .field-name-body {
   clear: both;
 }
