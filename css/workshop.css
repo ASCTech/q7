@@ -118,14 +118,13 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
 .field-name-field-asc-workshops-evening,
 .field-name-field-room {
   width: 44%;
-  margin-right: 1em;
   background: #f4f0e6;
   padding: 1em;
   float: left;
 }
 
 .field-name-field-asc-workshops-evening {
-  padding-right: 0;
+  margin-left: 1em;
 }
 
 .field-name-field-asc-workshops-evening > .field-label,
