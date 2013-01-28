@@ -1,29 +1,25 @@
 #prevLink:hover, #prevLink:visited:hover, #prevLink.force_show_nav, #framePrevLink {
-  background: url(../images/prev.gif) left 15% no-repeat;
-  background: url(/profiles/asc/modules/contrib/galleryformatter/gallerystyles/greenarrows/images/arrows.png) left 40% no-repeat;
+  background: url('/profiles/asc/themes/q7/icons/arrows.png') left 40% no-repeat;
   width: 32px;
   margin-left: 20px;
 }
  
 #nextLink:hover, #nextLink:visited:hover, #nextLink.force_show_nav, #frameNextLink {
-  background: url(../images/next.gif) right 15% no-repeat;
-  background: url(/profiles/asc/modules/contrib/galleryformatter/gallerystyles/greenarrows/images/arrows.png) right 40% no-repeat;
+  background: url('/profiles/asc/themes/q7/icons/arrows.png') right 40% no-repeat;
   width: 32px;
   margin-right: 20px;
 }
  
 #prevLink:hover.force_show_nav, #prevLink:visited:hover.force_show_nav,
 #framePrevLink:hover, #framePrevLink:visited:hover {
-  background: url(../images/prev_hover.gif) left 15% no-repeat;
-  background: url(/profiles/asc/modules/contrib/galleryformatter/gallerystyles/greenarrows/images/arrows.png) left 40% no-repeat;
+  background: url('/profiles/asc/themes/q7/icons/arrows.png') left 40% no-repeat;
   width: 32px;
   margin-left: 20px;
 }
 
 #nextLink:hover.force_show_nav, #nextLink:visited:hover.force_show_nav,
 #frameNextLink:hover, #frameNextLink:visited:hover {
-  background: url(../images/next_hover.gif) right 15% no-repeat;
-  background: url(/profiles/asc/modules/contrib/galleryformatter/gallerystyles/greenarrows/images/arrows.png) right 40% no-repeat;
+  background: url('/profiles/asc/themes/q7/icons/arrows.png') right 40% no-repeat;
   width: 32px;
   margin-right: 20px;
 }
