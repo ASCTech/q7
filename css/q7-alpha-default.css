@@ -229,6 +229,7 @@ img#logo {
 #region-sidebar ul.menu .nolink {
   margin-left: -16px;
   margin-right: -16px;
+  width: 285px;
 }
 
 #region-sidebar h2.block-title a {
