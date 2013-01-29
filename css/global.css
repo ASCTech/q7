@@ -47,13 +47,13 @@ h1.title {
 }
 
 h2 {
-  font-size: 26px;
-  line-height: 48px;
+  font-size: 22px;
+  line-height: 30px;
 }
 
 h3 {
-  font-size: 22px;
-  line-height: 44px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 blockquote {margin:1.5em;color:#666;font-style:italic;}
