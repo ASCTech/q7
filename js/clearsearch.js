@@ -1,5 +1,5 @@
 (function ($) {
-  Drupal.behaviors.scollLetter = {
+  Drupal.behaviors.clearSearch = {
     attach: $(function(){
               var defaultText = "Search";
 
