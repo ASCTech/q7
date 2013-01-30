@@ -44,7 +44,7 @@ html .node-type-asc-people .region-content .region-inner {
 
 #region-sidebar .view-display-id-asc_bio_sidebar_block .views-field {
   padding-left: 6px;
-  padding-bottom: 0.75em
+  padding-bottom: 0.75em;
   font-size: 1.1em;
   line-height: 1.5em;
   margin: 15px 15px 0 15px;
@@ -59,8 +59,8 @@ html .node-type-asc-people .region-content .region-inner {
 
 #region-sidebar .view-display-id-asc_bio_sidebar_block .views-field-field-asc-people-picture {
   border: none;
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
 }
 
 #region-sidebar .view-display-id-asc_bio_sidebar_block {
