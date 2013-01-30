@@ -60,7 +60,7 @@ html .node-type-asc-people .region-content .region-inner {
 #region-sidebar .view-display-id-asc_bio_sidebar_block .views-field-field-asc-people-picture {
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 20px 0;;
 }
 
 #region-sidebar .view-display-id-asc_bio_sidebar_block {
