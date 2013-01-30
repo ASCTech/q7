@@ -42,47 +42,25 @@ html .node-type-asc-people .region-content .region-inner {
   margin-right: 4px;
 }
 
-#region-sidebar .views-field-field-asc-people-email,
-#region-sidebar .views-field-field-asc-people-phone,
-#region-sidebar .views-field-field-asc-people-fax,
-#region-sidebar .views-field-field-asc-people-office-address,
-#region-sidebar .views-field-field-asc-people-website-link {
-  /* background: url('../icons/people.png') no-repeat top left; */
+#region-sidebar .view-display-id-asc_bio_sidebar_block .views-field {
   padding-left: 6px;
+  padding-bottom: 0.75em
   font-size: 1.1em;
   line-height: 1.5em;
   margin: 15px 15px 0 15px;
-}
-
-
-#region-sidebar .views-field-field-asc-people-email {
-  /* background-position: 0 -66px;  */
   border-bottom: 2px dotted #F4F0E6;
-  padding-bottom: 0.75em;
 }
 
-#region-sidebar .views-field-field-asc-people-phone {
-  /* background-position: 0 -197px; */
-}
-
-#region-sidebar .views-field-field-asc-people-phone span,
-#region-sidebar .views-field-field-asc-people-phone div {
-  display: inline;
-}
-
-#region-sidebar .views-field-field-asc-people-fax span,
-#region-sidebar .views-field-field-asc-people-fax div {
-  display: inline;
-}
-
-#region-sidebar .views-field-field-asc-people-office-address {
+#region-sidebar .view-display-id-asc_bio_sidebar_block .views-field:last-child {
   /* background-position: 0 0; */
-  border-top: 2px dotted #F4F0E6;
+  border-bottom: none;
   padding-bottom: 0.75em;
 }
 
-#region-sidebar .views-field-field-asc-people-website-link {
-  /* background-position: 0 -255px; */
+#region-sidebar .view-display-id-asc_bio_sidebar_block .views-field-field-asc-people-picture {
+  border: none;
+  padding: none;
+  margin: none;
 }
 
 #region-sidebar .view-display-id-asc_bio_sidebar_block {
