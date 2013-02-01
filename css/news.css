@@ -39,7 +39,7 @@
 
 /* Styles for News Features */
 
-.features .views-field-changed {
+.features .views-field-updated {
 }
 
 
@@ -74,7 +74,7 @@
   padding-bottom: 1.25em;
 }
 
-#region-sidebar .view-display-id-news_block_list ul li .views-field-changed {
+#region-sidebar .view-display-id-news_block_list ul li .views-field-created {
   position: absolute;
   bottom: 3px;
   left: 54px;
@@ -116,7 +116,7 @@
   left: 4.7em;
 }
 
-.view-display-id-news_block_small .view-content .views-row .views-field-changed {
+.view-display-id-news_block_small .view-content .views-row .views-field-updated {
   position: absolute;
   bottom: 0;
   left: 4.7em;
