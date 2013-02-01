@@ -39,7 +39,7 @@
 
 /* Styles for News Features */
 
-.features .views-field-updated {
+.features .views-field-created {
 }
 
 
@@ -116,7 +116,7 @@
   left: 4.7em;
 }
 
-.view-display-id-news_block_small .view-content .views-row .views-field-updated {
+.view-display-id-news_block_small .view-content .views-row .views-field-created {
   position: absolute;
   bottom: 0;
   left: 4.7em;
