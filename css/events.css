@@ -8,6 +8,11 @@
   margin-bottom: 0;
 }
 
+.node-type-asc-event .field-name-body {
+  margin-bottom: 10px;
+  min-height: 270px;
+}
+
 .node-type-asc-event .field-name-field-ascevents-location {
   margin-bottom: 25px;
 }
