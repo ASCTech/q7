@@ -1,5 +1,4 @@
 <article<?php print $attributes; ?>>
-<?php dsm($content); ?>
   <?php print $user_picture; ?>
   <?php print render($title_prefix); ?>
   <?php if (!$page && $title): ?>
