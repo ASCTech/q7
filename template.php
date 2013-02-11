@@ -21,6 +21,7 @@ function q7_process_html(&$variables) {
   if (module_exists('color')) {
     _color_html_alter($variables);
   }
+  $variables['is_landing_page'] = true;
 }
 
 /*
@@ -31,6 +32,12 @@ function q7_process_page(&$variables, $hook) {
   if (module_exists('color')) {
     _color_page_alter($variables);
   }
+  $variables['is_landing_page'] = true;
+
+}
+
+function q7_preprocess_zone(&$variables, $hook) {
+  $variables['is_landing_page'] = true;
 }
 
 function q7_date_all_day_label() {

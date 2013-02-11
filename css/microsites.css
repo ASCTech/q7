@@ -1,0 +1,63 @@
+.node-type-landing-page-alpha h1 {
+  text-align: right;
+  color: #fff;
+  padding-right: 0.5em;
+  line-height: 1.75em;
+  margin-bottom: 0.1em;
+}
+
+.node-type-landing-page-alpha .landing-page-head-menu {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.landing-page-head-menu ul {
+  text-align: right;
+  float: right;
+  list-style-type: none;
+  display: inline;
+  height: 2.5em;
+  line-height: 2.6em;
+}
+
+.landing-page-head-menu ul.menu li {
+  list-style-type: none;
+  list-style-image: none;
+  display: inline;
+}
+
+.landing-page-head-menu ul.menu li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 4px 4px 4px 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.field-name-field-sub-links a, 
+.field-name-field-sub-links a:hover {
+  text-transform: uppercase;
+  width: 100;
+  display: block;
+  line-height: 1.75em;
+  color: #ffffff;
+  margin-bottom: 0.25em;
+  padding: 4px 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+.ms-left {
+  float: left;
+  width: 620px;
+  margin-right: 10px;
+}
+
+.ms-right {
+  float: right;
+  width: 300px;
+}
+
+.node-type-landing-page-alpha .field-name-field-sub-body {
+  margin-top: 20px;
+}
