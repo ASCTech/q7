@@ -271,7 +271,7 @@ tfoot {font-style:italic;}
 #section-content .content p a:hover,
 #section-content .content .field-type-text-with-summary li a:hover {
   border-bottom: 1px solid #000000;
-  background: #f4f0e6;
+  background-color: #f4f0e6;
   text-decoration: none;
 }
 
@@ -562,3 +562,6 @@ body .galleryformatter-greenarrows .slide-button { background-image:url("../icon
 .region-footer-second .block-piwik-reports-piwik-page-report {
   color: #ffffff;
 }
+
+/* Temporary Media/Form Hiding */
+
