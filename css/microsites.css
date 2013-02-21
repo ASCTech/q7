@@ -2,8 +2,10 @@
   text-align: right;
   color: #fff;
   padding-right: 0.5em;
-  line-height: 1.75em;
+  line-height: 1.8em;
   margin-bottom: 0.1em;
+  margin-top: 13px;
+  font-size: 3.5em;
 }
 
 .node-type-landing-page-alpha .landing-page-head-menu {
@@ -16,8 +18,8 @@
   float: right;
   list-style-type: none;
   display: inline;
-  height: 2.5em;
-  line-height: 2.6em;
+  height: 3em;
+  line-height: 3em;
 }
 
 .landing-page-head-menu ul.menu li {
