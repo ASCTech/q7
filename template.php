@@ -102,8 +102,8 @@ function q7_date_nav_title($params) {
  * */
 function q7_image_formatter($variables) {
   $item = $variables['item'];
-  $item['alt'] = $item['field_file_image_alt_text']['und'][0];
-  $item['title'] = (isset($item['field_caption']['und'][0]['value']) ? $item['field_caption']['und'][0]['value'] : '');
+  $item['alt'] = $item['field_file_image_alt_text']['und'][0]['safe_value'];
+  $item['title'] = $item['field_file_image_title_text']['und'][0]['safe_value'];
   $image = array(
     'path' => $item['uri'],
     'alt' => $item['alt'],
