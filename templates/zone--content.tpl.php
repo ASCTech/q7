@@ -3,7 +3,7 @@
 <?php endif; ?>    
 <?php if ($wrapper): ?><div<?php print $attributes; ?>><?php endif; ?>  
   <div<?php print $content_attributes; ?>>    
-    <?php if (!$is_landing_page && isset($breadcrumb) && $breadcrumb != ''): ?>
+    <?php if (isset($breadcrumb) && $breadcrumb != ''): ?>
       <div class="breadcrumb-wrapper">
         <div class="grid-8 breadcrumb-left"> 
           <?php print $breadcrumb; ?>
