@@ -32,7 +32,7 @@ function q7_process_page(&$variables, $hook) {
     _color_page_alter($variables);
   }
   //Hide Breadcrumbs on landing pages.
-  if (isset($variables['node'] && ($variables['node']->type == 'landing_page_alpha')) {
+  if (isset($variables['node']) && ($variables['node']->type == 'landing_page_alpha')) {
     drupal_set_breadcrumb(array());
     $variables['breadcrumb'] = '';
   }
