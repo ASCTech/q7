@@ -5,6 +5,7 @@ function q7_alpha_preprocess_html(&$variables) {
   drupal_add_css('https://fonts.googleapis.com/css?family=Cardo', array('type' => 'external'));
   $node = menu_get_object();
   if (isset($node->type) && $node->type == 'landing_page_alpha') {
+    $is_landing_page = true;
     drupal_add_css('
       h1.title {background-color: ' . $node->field__title_bg_color['und'][0]['rgb'] . '}
       .landing-page-head-menu {background-color: ' . $node->field_sub_navbar_color['und'][0]['rgb'] . '}
