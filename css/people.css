@@ -99,6 +99,15 @@ html .node-type-asc-people .region-content .region-inner {
   padding: 10px 0 0 0;
 }
 
+#region-content .view-display-id-people_page table td.views-field-field-asc-people-picture,
+#region-content .view-display-id-people_page table td.views-field-field-title {
+  padding-right: 15px;
+}
+
+#region-content .view-display-id-people_page table td p {
+  margin-bottom: 10px;
+}
+
 #region-content .view-display-id-people_page table tr:first td {
   padding-top: 0;
 }
