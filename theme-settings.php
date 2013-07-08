@@ -8,7 +8,7 @@ function q7_form_system_theme_settings_alter(&$form, &$form_state) {
 
   $form['theme_settings']['q7_remove_asc_branding'] = array(
     '#type' => 'checkbox',
-    '#title' => t('Remove ASC Branding.'),
+    '#title' => t('Remove ASC Branding'),
     '#default_value' => theme_get_setting('q7_remove_asc_branding'),
   );
   $form['theme_settings']['sublogo'] = array(
@@ -52,6 +52,4 @@ function q7_settings_submit($form, &$form_state) {
       $_POST['sublogo_path'] = $form_state['values']['sublogo_path'] = $destination;
     }
   }
-
-
 }
