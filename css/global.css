@@ -565,3 +565,5 @@ body .galleryformatter-greenarrows .slide-button { background-image:url("../icon
 
 /* Temporary Media/Form Hiding */
 
+#content fieldset { border: 1px solid #ccc; margin: 1em; padding: 3em 1.5em 1.5em; position: relative; }
+#content fieldset legend { position: absolute; top: 1em; text-transform: uppercase; }
