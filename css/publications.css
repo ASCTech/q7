@@ -1,0 +1,4 @@
+.node-type-publications .field-name-field-image img{ float: left; margin-right: 10px; margin-bottom: 3px; }
+.node-type-publications article .clearfix,
+.node-type-publications article .clearfix:before,
+.node-type-publications article .clearfix:after { clear: none; content: ''; display: block; height: auto; visibility: visible; overflow: hidden;}
