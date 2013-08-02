@@ -213,3 +213,23 @@ html .node-type-asc-people .region-content .region-inner {
 #region-content .view-display-id-people_page table {
   margin-top: 0;
 }
+
+
+div.views-exposed-form label {font-weight: normal; width: 268px;}
+div.views-exposed-form .views-exposed-widget {padding: 0;}
+div.views-exposed-form .views-widget,
+div.views-exposed-form .views-reset-button {padding-left: 16px; padding-right: 16px;}
+div.views-exposed-form .views-exposed-widget .form-item {width: 100%; padding-top: 3px; padding-bottom: 3px;}
+div.views-exposed-form .views-exposed-widget .form-item input {margin-top: -4px;}
+div.views-exposed-form .views-exposed-widget > label {
+  background: none repeat scroll 0 0 #5A5347;
+  color: #FFFFFF;
+  display: block;
+  font-family: 'Helvetica','Arial',sans-serif;
+  font-size: 17px;
+  line-height: 1.8em;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 16px;
+  text-transform: uppercase;
+}

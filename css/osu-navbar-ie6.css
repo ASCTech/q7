@@ -1,5 +1,5 @@
 /* fixes for IE 6 */
-a#skip:active, a#skip:focus 
+/*a#skip:active, a#skip:focus 
 {
   background: transparent url(../img/mast_skip_bg.gif) repeat-x bottom left;
   padding: 1em 0 1.05em 0;
@@ -42,3 +42,4 @@ div#osu-NavbarLinks form input.textfield
 {
   margin-top: 3px;
 }
+*/
