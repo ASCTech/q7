@@ -40,6 +40,7 @@ h1,h2,h3 {
 h1 {
   font-size: 2.3em;
   line-height: 1.3em;
+  margin-bottom: .5em;
 }
 
 h1.title {
@@ -47,13 +48,13 @@ h1.title {
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 28px;
 }
 
 h3 {
-  font-size: 22px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 blockquote {margin:1.5em;color:#666;font-style:italic;}
