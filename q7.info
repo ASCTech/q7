@@ -494,7 +494,17 @@ settings[info][preview_css] = ''
 version = '1.x'
 stylesheets[all][] = 'css/colors.css'
 stylesheets[print][] = 'css/print.css'
-stylesheets[screen][] = 'css/forms.css'
+
+
+; Information added by drush on 2012-07-20
+version = "unknown"
+project = "q7"
+datestamp = "1342799554"
+
+css] = ''
+version = '1.x'
+stylesheets[all][] = 'css/colors.css'
+stylesheets[print][] = 'css/print.css'
 
 
 ; Information added by drush on 2012-07-20

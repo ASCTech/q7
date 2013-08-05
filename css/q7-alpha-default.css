@@ -34,7 +34,6 @@ img#logo {
   margin-left: -100px;
 }
 
-
 #logo-tile {
   width: 50%;
   left: 50%;
@@ -45,12 +44,11 @@ img#logo {
 }
 
 #osulogo {
-  background: url(../images/branding.png) no-repeat top left;
-  background-position: -2px -266px;
-  height: 86px;
-  width: 84px;
+  background: url(../images/osu-logo.png) no-repeat top left;
+  height: 110px;
+  width: 162px;
   position: absolute;
-  bottom: 50px;
+  bottom: 33px;
   right: 0;
 }
 
