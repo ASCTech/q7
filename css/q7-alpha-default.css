@@ -44,9 +44,9 @@ img#logo {
 }
 
 #osulogo {
-  background: url(../images/osu-logo.png) no-repeat top left;
-  height: 110px;
-  width: 162px;
+  background: url('../images/osulogo.png') no-repeat 0 24px;
+  height: 117px;
+  width: 167px;
   position: absolute;
   bottom: 33px;
   right: 0;
