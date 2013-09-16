@@ -44,11 +44,11 @@ img#logo {
 }
 
 #osulogo {
-  background: url('../images/osulogo.png') no-repeat 0 24px;
+  background: url('../images/osulogo.png') no-repeat 0 0;
   height: 117px;
   width: 167px;
   position: absolute;
-  bottom: 33px;
+  bottom: 24px;
   right: 0;
 }
 
