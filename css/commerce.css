@@ -1,13 +1,21 @@
-#region-sidebar .view-commerce-cart-block ul.inline{margin: 0;}
+#region-sidebar .block-commerce-cart table{}
+#region-sidebar .block-commerce-cart table tr{}
+#region-sidebar .block-commerce-cart table tr td{}
+#region-sidebar .block-commerce-cart table tr td.views-field-quantity{padding-left: 15px;}
+#region-sidebar .block-commerce-cart table tr td.views-field-commerce-total{padding-right: 15px;}
 
-#region-sidebar .view-commerce-cart-block li.line-item-summary-view-cart,
-#region-sidebar .view-commerce-cart-block li.line-item-summary-checkout{
+#region-sidebar .block-commerce-cart .view-footer{padding: 0 15px; margin-top: 10px;}
+
+#region-sidebar .block-commerce-cart ul.inline{margin: 0;}
+
+#region-sidebar .block-commerce-cart li.line-item-summary-view-cart,
+#region-sidebar .block-commerce-cart li.line-item-summary-checkout{
 	display: inline-block;
 	margin: 0;
 }
 
-#region-sidebar .view-commerce-cart-block li.line-item-summary-view-cart a,
-#region-sidebar .view-commerce-cart-block li.line-item-summary-checkout a{
+#region-sidebar .block-commerce-cart li.line-item-summary-view-cart a,
+#region-sidebar .block-commerce-cart li.line-item-summary-checkout a{
 	-moz-border-bottom-colors: none;
 	-moz-border-left-colors: none;
 	-moz-border-right-colors: none;
