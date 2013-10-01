@@ -1,7 +1,9 @@
 /* Product Catalog */
 .view-product-catalog table{}
 .view-product-catalog table tr{}
-.view-product-catalog table tr td{}
+.view-product-catalog table tr td{padding: 10px;}
+.view-product-catalog table tr td.first{padding-left: 0;}
+.view-product-catalog table tr td.last{padding-right: 0;}
 .view-product-catalog table tr td .views-field-add-to-cart-form{}
 
 
