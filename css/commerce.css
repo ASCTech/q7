@@ -15,7 +15,7 @@
 #region-sidebar .block-commerce-cart .view-footer{padding: 0 15px; margin-top: 10px;}
 
 #region-sidebar .content .block-commerce-cart ul.inline{margin: 0;}
-#region-sidebar .content .block-commerce-cart ul li{border: none;}
+#region-sidebar .content .view-commerce-cart-block ul li{border: none;}
 
 #region-sidebar .content .block-commerce-cart ul li.line-item-summary-view-cart,
 #region-sidebar .content .block-commerce-cart ul li.line-item-summary-checkout{display: inline-block; margin: 0;}
