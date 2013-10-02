@@ -1,10 +1,10 @@
 /* Product Catalog */
-#region-content .view-product-catalog table{}
-#region-content .view-product-catalog table tr{}
-#region-content .view-product-catalog table tr td{padding: 10px;}
-#region-content .view-product-catalog table tr td.col-first{padding-left: 0;}
-#region-content .view-product-catalog table tr td.col-last{padding-right: 0;}
-#region-content .view-product-catalog table tr td .views-field-add-to-cart-form{}
+#region-content .product-catalog-grid table{}
+#region-content .product-catalog-grid table tr{}
+#region-content .product-catalog-grid table tr td{padding: 10px;}
+#region-content .product-catalog-grid table tr td.col-first{padding-left: 0;}
+#region-content .product-catalog-grid table tr td.col-last{padding-right: 0;}
+#region-content .product-catalog-grid table tr td .views-field-add-to-cart-form{}
 
 
 /* Shopping Cart */
