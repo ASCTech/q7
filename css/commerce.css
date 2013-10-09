@@ -13,7 +13,7 @@
 #region-content .product-catalog-table tr .views-field-field-description div.title{margin-bottom: .5em; line-height: 1;}
 #region-content .product-catalog-table tr .views-field-commerce-price div.price,
 #region-content .product-catalog-table tr .views-field-commerce-price div.type{position: relative; top: 2em;}
-#region-content .product-catalog-table tr .views-field-add-to-cart-form{}
+#region-content .product-catalog-table tr .views-field-add-to-cart-form{vertical-align: middle;}
 
 
 
