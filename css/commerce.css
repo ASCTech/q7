@@ -9,11 +9,11 @@
 
 #region-content .product-catalog-table tr{}
 #region-content .product-catalog-table tr .views-field-field-image img{vertical-align: top;}
-#region-content .product-catalog-table tr .views-field-field-description{}
+#region-content .product-catalog-table tr .views-field-field-description{vertical-align: middle;}
 #region-content .product-catalog-table tr .views-field-field-description div.title{margin-bottom: .5em; line-height: 1;}
 #region-content .product-catalog-table tr .views-field-field-description p:last-child{margin-bottom: 0;}
 #region-content .product-catalog-table tr .views-field-commerce-price div.price,
-#region-content .product-catalog-table tr .views-field-commerce-price div.type{position: relative; top: 2em;}
+#region-content .product-catalog-table tr .views-field-commerce-price div.type{}
 #region-content .product-catalog-table tr .views-field-add-to-cart-form{vertical-align: middle;}
 
 
