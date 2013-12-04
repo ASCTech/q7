@@ -7,7 +7,7 @@
   z-index: 2;
   position: relative;
   line-height: 100px;
-  font-family: 'Cardo', sans-serif;
+  font-family: "capita", Georgia, serif;
   font-size: 30px;
   font-weight: normal;
 }
@@ -15,7 +15,7 @@
 
 .node-type-asc-blog #blog-page-title span {
   line-height: 140px;
-  font: 30px 'Cardo', sans-serif;
+  font: 30px "capita", Georgia, serif;
   font-weight: normal;
 }
 

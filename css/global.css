@@ -4,7 +4,7 @@
 /* Elements */
 
 body {
-  font: 13px/22px Helvetica, Arial, sans-serif;
+  font: 13px/22px "proximanova", Arial, sans-serif;
   background: #ffffff;
 }
 
@@ -33,7 +33,7 @@ p {
 }
 
 h1,h2,h3 {
-  font-family: Cardo, serif;
+  font-family: "capita", Georgia, serif;
   font-weight: normal;
 }
 
@@ -244,7 +244,7 @@ tfoot {font-style:italic;}
 #zone-postscript h2.block-title a,
 #zone-preface h2.block-title,
 #zone-preface h2.block-title a {
-  font-family: 'Lato', sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   text-align: right;
   font-size: 27px;
   height: 37px;
@@ -495,7 +495,7 @@ ul.action-links li a:hover {
   /* text-align: right; */
   height: 1.75em;
   font-size: 1.4em;
-  font-family: 'Lato', sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   /* text-transform: uppercase; */
   /* color: #ffffff; */
   /* background: #888888; */

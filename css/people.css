@@ -90,7 +90,7 @@ html .node-type-asc-people .region-content .region-inner {
 }
 
 .view-display-id-people_page .views-field-title a {
-  font-family: Cardo, serif;
+  font-family: "capita", Georgia, serif;
   font-size: 15px;
 }
 
@@ -188,7 +188,7 @@ html .node-type-asc-people .region-content .region-inner {
 .field-name-field-people-terms-2 .field-label,
 .field-name-field-asc-people-education .field-label,
 .field-name-field-asc-areas-of-expertise .field-label {
-  font-family: Cardo, serif;
+  font-family: "capita", Georgia, serif;
   font-size: 22px;
   line-height: 52px;
   font-weight: normal;
@@ -223,7 +223,7 @@ div.views-exposed-form .views-exposed-widget > label {
   background: none repeat scroll 0 0 #5A5347;
   color: #FFFFFF;
   display: block;
-  font-family: 'Helvetica','Arial',sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.8em;
   margin-left: 0;

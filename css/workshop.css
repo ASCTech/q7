@@ -19,7 +19,7 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
 }
 
 .front .view-display-id-upcoming_workshops h3 {
-  font: 1.4em/1.5em Helvetica, Arial, sans-serif;
+  font: 1.4em/1.5em "proximanova", Arial, sans-serif;
 }
 
 .front .view-display-id-upcoming_workshops .views-row {
@@ -49,7 +49,7 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
 .block-b346de7f40e37fd302d06bf87a670514 h2 {
   text-transform: uppercase;
   color: #ffffff;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -64,7 +64,7 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
 
 /* Upcoming workshops sidebar */
 .block-views-59264f99f540f088d5c884b40e332349 h3 {
-  font: 16px/1.25em Helvetica, Arial, sans-serif;
+  font: 16px/1.25em "proximanova", Arial, sans-serif;
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
@@ -129,7 +129,7 @@ html #section-content .region section#block-views-74cb006b0c12e2dd5ff66522bc789b
 
 .field-name-field-asc-workshops-evening > .field-label,
 .field-name-field-room > .field-label {
-  font-family: Cardo, serif;
+  font-family: "capita", Georgia, serif;
   font-size: 22px;
   line-height: 48px;
   font-weight: normal;

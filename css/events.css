@@ -158,7 +158,7 @@ tr.views-row-first {
 .view-display-id-asc_events_page_month td.views-field-title,
 .view-display-id-asc_events_page_day td.views-field-title,
 .view-display-id-asc_events_page td.views-field-title {
-  font: 15px Cardo, serif;
+  font: 15px "capita", Georgia, serif;
 }
 
 
@@ -175,7 +175,7 @@ tr.views-row-first {
 #region-content .view .date-nav-wrapper .date-heading h3 {
   text-align: left;
   font-weight: bold;
-  font-family: Helvetica,arial,san-serif;
+  font-family: "proximanova", Arial, sans-serif;
   font-size: 1em;
 }
 
