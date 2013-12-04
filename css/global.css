@@ -351,6 +351,10 @@ ul.action-links li a:hover {
   padding-bottom: 2em;
 }
 
+.galleryformatter-greenarrows .gallery-thumbs{
+  padding: 0;
+}
+
 .galleryformatter-greenarrows .gallery-thumbs li {
   margin-left: 4px;
 }
