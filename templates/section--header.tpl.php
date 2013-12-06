@@ -2,7 +2,7 @@
   <div id="osu_navbar" role="navigation">
       <div class="container">
         <h2 class="osu-semantic">Ohio State nav bar</h2>
-      <a href="#page-content" id="skip" class="osu-semantic">Skip to main content</a>
+      <a href="#zone-content" id="skip" class="osu-semantic">Skip to main content</a>
         <div class="univ_info">
           <p class="univ_name"><a href="http://osu.edu" title="The Ohio State University">The Ohio State University</a></p>
         </div><!-- /univ_info -->
