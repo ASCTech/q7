@@ -81,6 +81,7 @@ img#logo {
 	display: inline-block;
 }
 
+#zone-menu ul#main-menu li:hover,
 #zone-menu ul#main-menu li.active-trail {
 	padding-bottom: 0;
 }
