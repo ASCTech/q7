@@ -26,8 +26,8 @@
 
 .view-display-id-news_page h2,
 .view-display-id-news_filters_page h2 {
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 1em;
+	font-weight: 600;
 }
 
 
