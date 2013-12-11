@@ -8,6 +8,10 @@ body {
   background: #ffffff;
 }
 
+hr{
+	border-bottom: 1px;
+}
+
 a {
   color: #bb0000;
 }
