@@ -60,7 +60,7 @@ img#logo {
 }
 
 #main-menu {
-  margin-left: 0;
+	margin: 0;
 }
 
 #region-menu {
@@ -78,6 +78,7 @@ img#logo {
 #zone-menu ul#main-menu li {
   padding: 8px 0 0 0;
   margin: 0;
+	display: inline-block;
 }
 
 #zone-menu #main-menu li a {
@@ -89,6 +90,7 @@ img#logo {
   border-right: 1px solid #ffffff;
   margin-left: -1px;
 	border-bottom: 7px solid #333;
+	display: inline-block;
 }
 
 #zone-menu #main-menu li a:hover,
