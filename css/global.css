@@ -4,7 +4,7 @@
 /* Elements */
 
 body {
-  font: 13px/22px "proximanova", Arial, sans-serif;
+  font: 14px/1.4em "proximanova", Arial, sans-serif;
   background: #ffffff;
 }
 
@@ -217,7 +217,7 @@ tfoot {font-style:italic;}
 /* Features */
 
 .features {
-  font-size: 0.733em;
+  font-size: 0.857em;
   padding: 0.7em 0.5em 0;
 }
 
