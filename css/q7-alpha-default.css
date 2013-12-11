@@ -1,9 +1,5 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-body .content{
-	font-size:15px;
-}
-
 /* Override mobile style in global. */
 .region {
   margin-bottom: 0;
@@ -89,7 +85,7 @@ img#logo {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.4em 1em 0.4em;
+  padding: 0.2em 1em;
   border-right: 1px solid #ffffff;
   margin-left: -1px;
 }
