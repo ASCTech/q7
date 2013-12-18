@@ -175,7 +175,7 @@ tr.views-row-first {
 
 #region-content .view .date-nav-wrapper .date-heading h3 {
   text-align: left;
-  font-weight: bold;
+  font-weight: 600;
   font-family: "proximanova", Arial, sans-serif;
   font-size: 1em;
 }
