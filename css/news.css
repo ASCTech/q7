@@ -5,7 +5,9 @@
 .view-display-id-news_filters_page .field-name-field-news-image img,
 .node-type-asc-news .field-name-field-announcement-image img,
 .view-display-id-news_page .field-name-field-announcement-image img,
-.view-display-id-news_filters_page .field-name-field-announcement-image img {
+.view-display-id-news_filters_page .field-name-field-announcement-image img,
+
+.node-asc-announcement .field-name-field-announcement-image img{
   float: left;
   border: 1px solid #666666;
   margin: 0 20px 15px 0;
