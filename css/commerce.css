@@ -8,6 +8,7 @@
 #region-content .product-catalog-grid table tr td .views-field-field-image img{margin: 0 auto; display: inline-block; vertical-align: top;}
 
 #region-content .product-catalog-table tr{}
+#region-content .view-store-front tr td img,
 #region-content .product-catalog-table tr td img{vertical-align: top;}
 #region-content .product-catalog-table tr .views-field-field-description{vertical-align: middle;}
 #region-content .product-catalog-table tr .views-field-field-description div.title{margin-bottom: .5em; line-height: 1;}
