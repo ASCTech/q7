@@ -1,3 +1,10 @@
+/* Product Display */
+#region-content .node-product-display .group-header,
+#region-content .node-product-display .group-left,
+#region-content .node-product-display .group-right,
+#region-content .node-product-display .group-footer{margin-bottom: 1.3em;}
+
+
 /* Product Catalog */
 #region-content .product-catalog-grid table{}
 #region-content .product-catalog-grid table tr{}
