@@ -290,6 +290,11 @@ img#logo {
   margin-left: -16px;
   padding-left: 16px;
 }
+#region-sidebar .content ul li a[href$=".pdf"] {
+  padding-left: 32px;
+  background-position: 16px center;
+  width: 252px;
+}
 
 #region-sidebar .content ul li ul li a {
   margin-left: -27px;
