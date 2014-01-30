@@ -81,6 +81,7 @@
 }
 
 .front .feature-whole .attachment .view-content .views-field-changed,
+.front .feature-whole .attachment .view-content .views-field-created,
 .front .feature-whole .attachment .view-content .views-field-field-ascevents-datetime {
   position: absolute;
   bottom: 0;
