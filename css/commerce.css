@@ -6,7 +6,8 @@
 
 /* Checkout Page */
 #region-content #commerce-checkout-form-checkout,
-#region-content #commerce-checkout-form-review{margin-bottom: 2em;}
+#region-content #commerce-checkout-form-review,
+#region-content .payment-redirect-form{margin-bottom: 2em;}
 #region-content #commerce-checkout-form-checkout .checkout-continue,
 #region-content #commerce-checkout-form-review .checkout-continue{margin-right: .5em;}
 #region-content .commerce-price-formatted-components{width: 100%}
