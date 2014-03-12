@@ -4,6 +4,12 @@
 #region-content .node-product-display .group-right,
 #region-content .node-product-display .group-footer{margin-bottom: 1.3em;}
 
+/* Checkout Page */
+#region-content #commerce-checkout-form-checkout,
+#region-content #commerce-checkout-form-review{margin-bottom: 2em;}
+#region-content #commerce-checkout-form-checkout .checkout-continue,
+#region-content #commerce-checkout-form-review .checkout-continue{margin-right: .5em;}
+#region-content .commerce-price-formatted-components{width: 100%}
 
 /* Product Catalog */
 #region-content .product-catalog-grid table{}
@@ -23,7 +29,6 @@
 #region-content .product-catalog-table tr .views-field-commerce-price div.price,
 #region-content .product-catalog-table tr .views-field-commerce-price div.type{}
 #region-content .product-catalog-table tr .views-field-add-to-cart-form{vertical-align: middle;}
-
 
 
 /* Shopping Cart */
@@ -49,7 +54,7 @@
 	-moz-border-left-colors: none;
 	-moz-border-right-colors: none;
 	-moz-border-top-colors: none;
-	
+
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top,  #ffffff 0%, #dddddd 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
@@ -58,7 +63,7 @@
 	background: -ms-linear-gradient(top,  #ffffff 0%,#dddddd 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #ffffff 0%,#dddddd 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=0 ); /* IE6-9 */
-	
+
 	border-color: #DDDDDD #BBBBBB #999999;
 	border-image: none;
 	border-radius: 11px 11px 11px 11px;
