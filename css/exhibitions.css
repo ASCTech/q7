@@ -1,0 +1,257 @@
+.node-type-asc-event .field-name-field-ascevents-image img {
+  float: left;
+  border: 1px solid #666666;
+  margin: 0 20px 15px 0;
+}
+
+.node-type-asc-event h1.title {
+  margin-bottom: 0;
+}
+
+.node-type-asc-event .field-name-body {
+  margin-bottom: 10px;
+  min-height: 270px;
+}
+
+.node-type-asc-event .field-name-field-ascevents-location {
+  margin-bottom: 25px;
+}
+
+.page-events #region-sidebar {
+  padding-top: 30px;
+}
+
+/* News List Block on News Page */
+
+.view-display-id-asc_events_feature_small .views-field-field-ascevents-datetime {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.view-display-id-asc_events_feature_small .views-row {
+  clear: both;
+}
+
+.view-display-id-asc_events_feature_large .col-1 {
+  padding-right: 1em;
+}
+
+.view-display-id-asc_events_feature_large > .view-content:first-child {
+  float: left;
+  width: 60%;
+  padding-right: 1.2em;
+  border-right: 1px dotted #888888;
+  margin-right: 0.5em;
+}
+
+.view-display-id-asc_events_feature_large .attachment {
+  float: left;
+  width: 32%;
+}
+
+.view-display-id-asc_events_feature_large .col-1,
+.view-display-id-asc_events_feature_large .col-2 {
+  width: 45%;
+}
+
+/* Small Feature */
+.view-display-id-asc_events_feature_small .view-content .views-row {
+  position: relative;
+  height: 4.7em;
+}
+
+.view-display-id-asc_events_feature_small .view-content .views-row .views-field-title {
+  position: absolute;
+  bottom: 1.5em;
+  left: 4.7em;
+}
+
+.view-display-id-asc_events_feature_small .view-content .views-row .views-field-field-ascevents-datetime-1 {
+  position: absolute;
+  bottom: 0;
+  left: 4.7em;
+}
+
+.view-display-id-asc_events_feature_small .view-content img {
+  border: 0 none;
+}
+
+/* Events Page */
+
+#region-content .view-display-id-asc_events_page_day table,
+#region-content .view-display-id-asc_events_page_month table,
+#region-content .view-display-id-asc_events_page_year table,
+#region-content .view-display-id-asc_events_page table {
+  margin-top: 0;
+	font-size: .867em;
+}
+
+.view-display-id-asc_events_page_day table th,
+.view-display-id-asc_events_page_month table th,
+.view-display-id-asc_events_page_year table th,
+.view-display-id-asc_events_page table th {
+  text-transform: uppercase;
+}
+
+.view-display-id-asc_events_page_day table tr,
+.view-display-id-asc_events_page_month table tr,
+.view-display-id-asc_events_page_year table tr,
+.view-display-id-asc_events_page table tr {
+  background: none;
+}
+
+.view-display-id-asc_events_page_day table td,
+.view-display-id-asc_events_page_month table td,
+.view-display-id-asc_events_page_year table td,
+.view-display-id-asc_events_page table td {
+  vertical-align: top;
+  padding: 1.5em 0.5em 0.5em 0;
+}
+
+.view-display-id-asc_events_page table td.views-field-field-ascevents-image,
+.view-display-id-asc_events_page_day table td.views-field-field-ascevents-image,
+.view-display-id-asc_events_page_month table td.views-field-field-ascevents-image,
+.view-display-id-asc_events_page_year table td.views-field-field-ascevents-image {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+.view-display-id-asc_events_page table td.views-field-field-ascevents-image img,
+.view-display-id-asc_events_page_day table td.views-field-field-ascevents-image img,
+.view-display-id-asc_events_page_month table td.views-field-field-ascevents-image img,
+.view-display-id-asc_events_page_year table td.views-field-field-ascevents-image img{
+  border: 1px solid #666666;
+}
+
+tr.views-row-first {
+  border-top: 1px solid #cccccc;
+}
+
+.view-display-id-asc_events_page .views-field-field-ascevents-image,
+.view-display-id-asc_events_page_day .views-field-field-ascevents-image,
+.view-display-id-asc_events_page_month .views-field-field-ascevents-image,
+.view-display-id-asc_events_page_year .views-field-field-ascevents-image {
+  width: 74px;
+}
+
+.view-display-id-asc_events_page_day .date-heading li.date-prev a,
+.view-display-id-asc_events_page .date-heading li.date-prev a {
+  position: absolute;
+  left: 0;
+  width: 55px;
+}
+
+.view-display-id-asc_events_page_year .views-field-title,
+.view-display-id-asc_events_page_year .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page_year .views-field-field-ascevents-location,
+.view-display-id-asc_events_page_month .views-field-title,
+.view-display-id-asc_events_page_month .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page_month .views-field-field-ascevents-location,
+.view-display-id-asc_events_page_day .views-field-title,
+.view-display-id-asc_events_page_day .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page_day .views-field-field-ascevents-location,
+.view-display-id-asc_events_page .views-field-title,
+.view-display-id-asc_events_page .views-field-field-ascevents-datetime,
+.view-display-id-asc_events_page .views-field-field-ascevents-location {
+  width: 30%;
+}
+
+.view-display-id-asc_events_page_year td.views-field-title,
+.view-display-id-asc_events_page_month td.views-field-title,
+.view-display-id-asc_events_page_day td.views-field-title,
+.view-display-id-asc_events_page td.views-field-title {
+  font: 15px "capita", Georgia, serif;
+}
+
+
+.node-type-asc-event footer.submitted {
+  display: none;
+}
+
+#region-content .view .date-nav {
+  padding-bottom: 0;
+  border-bottom: 3px solid #999999;
+  height: 30px;
+}
+
+#region-content .view .date-nav-wrapper .date-heading h3 {
+  text-align: left;
+  font-weight: 600;
+  font-family: "proximanova", Arial, sans-serif;
+  font-size: 1em;
+}
+
+#region-content .view-id-asc_events td.active {
+  background: #ffffff;
+}
+
+#region-content .view .date-nav-wrapper .date-heading {
+  display: inline-block;
+  width: auto;
+}
+
+#region-content .view .pager {
+  display: inline-block;
+}
+
+#region-content .view .date-nav li {
+  background: none;
+  padding-left: none;
+  position: relative;
+}
+
+#region-content .view .date-nav li.date-prev {
+  right: -10px;
+}
+
+#region-content .view .date-nav a {
+  display: inline-block;
+  background: url('../images/smallredarrows.png');
+  width: 13px;
+  height: 14px;
+  font-size: 0;
+  background-repeat: none;
+}
+
+#region-content .date-nav .date-next a {
+  background-position: -24px 0;
+}
+
+.view-display-id-asc_events_cal_block table .mini-day-on a {
+  text-decoration: none;
+}
+
+.block-views-asc-events-asc-events-cal-block {
+  margin-bottom: 25px;
+}
+
+.view-display-id-asc_events_page .pager {
+  float: left;
+  margin-top: 15px;
+}
+
+.view-display-id-asc_events_page .pager li {
+  margin-left: 3px;
+ }
+
+.view-display-id-asc_events_page .pager li.pager-previous a,
+.view-display-id-asc_events_page .pager li.pager-next a {
+  font-size: 0;
+  display: inline-block;
+  background: url('../images/smallredarrows.png');
+  width: 13px;
+  height: 14px;
+}
+
+.view-display-id-asc_events_page .pager li.pager-next a {
+  background-position: -24px 0;
+}
+
+.view-display-id-asc_events_page .pager li.pager-first,
+.view-display-id-asc_events_page .pager li.pager-last {
+  display: none;
+}
+
+.context-events #region-content td.active,
+.context-events #region-content tr.even {
+  background: #ffffff;
+}
