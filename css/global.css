@@ -43,7 +43,7 @@ h1,h2,h3 {
 }
 
 h1 {
-  font-size: 2.3em;
+  font-size: 32px;
   line-height: 1;
   margin-bottom: .5em;
 }
@@ -53,12 +53,12 @@ h1.title {
 }
 
 h2 {
-  font-size: 1.333em;
+  font-size: 22px;
   line-height: 1;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 18px;
   line-height: 1;
 }
 
