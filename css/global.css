@@ -44,7 +44,7 @@ h1,h2,h3 {
 
 h1 {
   font-size: 32px;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: .5em;
 }
 
@@ -54,12 +54,12 @@ h1.title {
 
 h2 {
   font-size: 22px;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 h3 {
   font-size: 18px;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 blockquote {margin:1.5em;color:#666;font-style:italic;}
