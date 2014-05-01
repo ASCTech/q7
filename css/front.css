@@ -87,7 +87,8 @@
   bottom: 0;
 }
 
-.field-name-field-asc-quick-links {
+.field-name-field-asc-quick-links, 
+.field-name-field-asc-secondary-links {
   white-space: pre-line;
 }
 

@@ -117,7 +117,8 @@ img#logo {
   padding: 1em 0;
 }
 
-#block-menu-menu-quick-links {
+#block-menu-menu-quick-links,
+#block-menu-secondary-quick-links {
   margin-top: 1em;
 }
 
