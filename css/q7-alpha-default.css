@@ -274,7 +274,8 @@ img#logo {
 #region-sidebar .content ul li a,
 #region-sidebar .content ul li span {
   color: #333333;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.1em;
   width: 100%;
   display: block;
 }
