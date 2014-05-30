@@ -585,3 +585,5 @@ body .galleryformatter-greenarrows .slide-button { background-image:url("../icon
 .webform-client-form fieldset fieldset { margin: 0; }
 
 label {font-weight: 600;}
+
+ul.textformatter-list li{list-style: disc;}
