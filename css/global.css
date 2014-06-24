@@ -587,4 +587,4 @@ body .galleryformatter-greenarrows .slide-button { background-image:url("../icon
 label {font-weight: 600;}
 
 ul.textformatter-list li{list-style: disc;}
-th.active img{vertical-align: middle; margin-left: 5px;}
+th.active img{vertical-align: middle; margin-bottom: 4px; margin-left: 5px;}
