@@ -443,6 +443,10 @@ ul.action-links li a:hover {
   line-height: 16px;
 }
 
+#zone-footer p:first-child {
+  border-top: none;
+}
+
 #zone-footer #search-block-form .form-submit {
   display: none;
 }
