@@ -110,7 +110,6 @@ img#logo {
 
 #zone-header-wrapper {
   height: auto;
-  max-height: 390px;
 }
 
 .region-header-second-inner {
@@ -164,6 +163,7 @@ img#logo {
   width: 50%;
   padding-left: 10px;
   display: block;
+  height: 260px;
 }
 
 #region-header-second {
