@@ -132,6 +132,8 @@ img#logo {
 
 /* Zone Content */
 
+.galleryformatter .gallery-slides{background: #fff;}
+
 .not-front .region-content .region-inner {
   padding-top: 30px;
 }
