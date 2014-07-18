@@ -213,7 +213,6 @@ tfoot {font-style:italic;}
 
 #zone-preface {
   margin-bottom: 2em;
-  clear: both;
 }
 
 #zone-preface .region section.block {
@@ -250,6 +249,9 @@ tfoot {font-style:italic;}
   position: relative;
 }
 
+#zone-postscript{
+  clear: both;
+}
 #zone-postscript h2.block-title,
 #zone-postscript h2.block-title a,
 #zone-preface h2.block-title,
