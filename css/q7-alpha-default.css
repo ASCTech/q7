@@ -109,7 +109,7 @@ img#logo {
 /* Zone Header */
 
 #zone-header-wrapper {
-  height: auto;
+  height: 262px;
 }
 
 .region-header-second-inner {
@@ -165,7 +165,7 @@ img#logo {
   width: 50%;
   padding-left: 10px;
   display: block;
-  height: 260px;
+  height: 232px;
 }
 
 #region-header-second {
