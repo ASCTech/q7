@@ -251,7 +251,7 @@ tfoot {font-style:italic;}
 
 #zone-postscript{
   clear: both;
-  padding-top: 2em;
+  margin-top: 2em;
 }
 #zone-postscript h2.block-title,
 #zone-postscript h2.block-title a,
