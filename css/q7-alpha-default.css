@@ -34,7 +34,6 @@ img#logo {
   margin-left: -100px;
 }
 
-
 #logo-tile {
   width: 50%;
   left: 50%;
@@ -45,11 +44,11 @@ img#logo {
 }
 
 #osulogo {
-  background: url(../images/osu-logo.png) no-repeat top left;
-  height: 110px;
-  width: 162px;
+  background: url('../images/osulogo.png') no-repeat 0 0;
+  height: 117px;
+  width: 167px;
   position: absolute;
-  bottom: 33px;
+  bottom: 24px;
   right: 0;
 }
 
@@ -57,15 +56,15 @@ img#logo {
 
 #zone-menu {
   padding-left: 1px;
-  height: 36px;
+/*  height: 36px;*/
 }
 
 #main-menu {
-  margin-left: 0;
+	margin: 0;
 }
 
 #region-menu {
-  height: 36px;
+/*  height: 36px;*/
 }
 
 #zone-menu .navigation {
@@ -77,18 +76,26 @@ img#logo {
 }
 
 #zone-menu ul#main-menu li {
-  padding: 0;
+  padding: 8px 0 7px 0;
   margin: 0;
+	display: inline-block;
+}
+
+#zone-menu ul#main-menu li:hover,
+#zone-menu ul#main-menu li.active,
+#zone-menu ul#main-menu li.active-trail {
+	padding-bottom: 0;
 }
 
 #zone-menu #main-menu li a {
-  font: 14px/20px;
-  color: #ffffff;
+  font: 14px/21px;
+  color: #ccc;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.4em 1em 0.4em;
+  padding: 2px 1em 4px;
   border-right: 1px solid #ffffff;
   margin-left: -1px;
+	display: inline-block;
 }
 
 #zone-menu #main-menu li a:hover,
@@ -110,7 +117,8 @@ img#logo {
   padding: 1em 0;
 }
 
-#block-menu-menu-quick-links {
+#block-menu-menu-quick-links,
+#block-menu-secondary-quick-links {
   margin-top: 1em;
 }
 
@@ -123,6 +131,8 @@ img#logo {
 }
 
 /* Zone Content */
+
+.galleryformatter .gallery-slides{background: #fff;}
 
 .not-front .region-content .region-inner {
   padding-top: 30px;
@@ -155,6 +165,7 @@ img#logo {
   width: 50%;
   padding-left: 10px;
   display: block;
+  height: 232px;
 }
 
 #region-header-second {
@@ -211,7 +222,7 @@ img#logo {
   color: #ffffff;
   text-transform: uppercase;
   padding: 0px 0 0 0.9em;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.8em;
 }
@@ -266,7 +277,8 @@ img#logo {
 #region-sidebar .content ul li a,
 #region-sidebar .content ul li span {
   color: #333333;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 1.1em;
   width: 100%;
   display: block;
 }
@@ -283,6 +295,11 @@ img#logo {
   padding: 4px 3px 3px 3px;
   margin-left: -16px;
   padding-left: 16px;
+}
+#region-sidebar .content ul li a[href$=".pdf"] {
+  padding-left: 32px;
+  background-position: 16px center;
+  width: 252px;
 }
 
 #region-sidebar .content ul li ul li a {
@@ -344,17 +361,17 @@ img#logo {
 
 #region-sidebar .date-nav .pager li.date-prev a {
   background: 50% 50% no-repeat url('../images/arrow-l.png');
-  padding-top: 24px;
+  height: 10px;
 }
 
 #region-sidebar .date-nav .pager li.date-next a {
   background: 50% 50% no-repeat url('../images/arrow-r.png');
-  padding-top: 24px;
+  height: 10px;
 }
 
 #region-sidebar .date-nav h3 a {
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   font-size: 17px;
 }
 
@@ -402,7 +419,7 @@ img#logo {
 
 #zone-footer {
   position: relative;
-  padding-top: 2em;
+  padding-top: 1.5em;
 }
 
 #ascfooterbanner {
@@ -492,7 +509,7 @@ img#logo {
 }
 
 .node-type-page article .contextual-links-wrapper {
-  top: -25px;
+  top: 0;
 }
 
 .view-display-id-gallery_page .views-row-4,

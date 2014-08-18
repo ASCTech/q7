@@ -81,12 +81,14 @@
 }
 
 .front .feature-whole .attachment .view-content .views-field-changed,
+.front .feature-whole .attachment .view-content .views-field-created,
 .front .feature-whole .attachment .view-content .views-field-field-ascevents-datetime {
   position: absolute;
   bottom: 0;
 }
 
-.field-name-field-asc-quick-links {
+.field-name-field-asc-quick-links, 
+.field-name-field-asc-secondary-links {
   white-space: pre-line;
 }
 
@@ -98,3 +100,7 @@
 .view-display-id-asc_events_feature_large .view-content tr.row-1 .views-field {
   width: 124px;
 }
+
+.block-designs-design-block-large td.col-1,
+.block-designs-design-block-large td.col-2,
+.block-designs-design-block-large td.col-3{width: 135px; padding-right: 10px;}

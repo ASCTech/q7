@@ -45,8 +45,7 @@ html .node-type-asc-people .region-content .region-inner {
 #region-sidebar .view-display-id-asc_bio_sidebar_block .views-field {
   padding-left: 6px;
   padding-bottom: 0.75em;
-  font-size: 1.1em;
-  line-height: 1.5em;
+  font-size: 14px;
   margin: 10px 15px 0 15px;
   border-bottom: 2px dotted #F4F0E6;
 }
@@ -90,7 +89,7 @@ html .node-type-asc-people .region-content .region-inner {
 }
 
 .view-display-id-people_page .views-field-title a {
-  font-family: Cardo, serif;
+  font-family: "capita", Georgia, serif;
   font-size: 15px;
 }
 
@@ -188,7 +187,7 @@ html .node-type-asc-people .region-content .region-inner {
 .field-name-field-people-terms-2 .field-label,
 .field-name-field-asc-people-education .field-label,
 .field-name-field-asc-areas-of-expertise .field-label {
-  font-family: Cardo, serif;
+  font-family: "capita", Georgia, serif;
   font-size: 22px;
   line-height: 52px;
   font-weight: normal;
@@ -199,7 +198,6 @@ html .node-type-asc-people .region-content .region-inner {
 }
 
 .views-field-field-asc-people-office-address {
-  white-space: pre-line;
 }
 
 .node-type-asc-people #region-sidebar {
@@ -214,7 +212,6 @@ html .node-type-asc-people .region-content .region-inner {
   margin-top: 0;
 }
 
-
 div.views-exposed-form label {font-weight: normal; width: 268px;}
 div.views-exposed-form .views-exposed-widget {padding: 0;}
 div.views-exposed-form .views-widget,
@@ -225,7 +222,7 @@ div.views-exposed-form .views-exposed-widget > label {
   background: none repeat scroll 0 0 #5A5347;
   color: #FFFFFF;
   display: block;
-  font-family: 'Helvetica','Arial',sans-serif;
+  font-family: "proximanova", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.8em;
   margin-left: 0;
@@ -233,3 +230,25 @@ div.views-exposed-form .views-exposed-widget > label {
   padding: 0 16px;
   text-transform: uppercase;
 }
+
+.view-asc-people .attachment {
+  clear: both;
+  overflow: hidden;
+}
+
+.view-asc-people .attachment .views-summary {
+  margin: 0px 0px 2em;
+  text-align: center;
+}
+
+.view-asc-people .attachment .views-summary li {
+  display: inline;
+  margin: 0px;
+  padding: 0px 7px;
+  border-right: 1px solid #333;
+}
+
+.view-asc-people .attachment .views-summary li:last-child{
+  border-right: 0;
+}
+

@@ -2,7 +2,12 @@
 
 .node-type-asc-news .field-name-field-news-image img,
 .view-display-id-news_page .field-name-field-news-image img,
-.view-display-id-news_filters_page .field-name-field-news-image img {
+.view-display-id-news_filters_page .field-name-field-news-image img,
+.node-type-asc-news .field-name-field-announcement-image img,
+.view-display-id-news_page .field-name-field-announcement-image img,
+.view-display-id-news_filters_page .field-name-field-announcement-image img,
+
+.node-asc-announcement .field-name-field-announcement-image img{
   float: left;
   border: 1px solid #666666;
   margin: 0 20px 15px 0;
@@ -23,8 +28,8 @@
 
 .view-display-id-news_page h2,
 .view-display-id-news_filters_page h2 {
-  font-size: 15px;
-  line-height: 17px;
+  font-size: 1em;
+	font-weight: 600;
 }
 
 

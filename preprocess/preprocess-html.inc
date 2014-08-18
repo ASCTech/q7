@@ -1,8 +1,14 @@
 <?php
 
 function q7_alpha_preprocess_html(&$variables) {
-  drupal_add_css('https://fonts.googleapis.com/css?family=Lato:300', array('type' => 'external'));
-  drupal_add_css('https://fonts.googleapis.com/css?family=Cardo', array('type' => 'external'));
+  if (empty($_SERVER['HTTPS'])) {
+    $osu_webfont_url = 'http://www.osu.edu/assets/fonts/webfonts.css';
+  }
+  else {
+    $osu_webfont_url = 'https://www.osu.edu/assets/fonts/webfonts.css';
+  }
+  drupal_add_css($osu_webfont_url, array('type' => 'external'));
+
   $node = menu_get_object();
   if (isset($node->type) && $node->type == 'landing_page_alpha') {
     $is_landing_page = true;
