@@ -230,3 +230,20 @@ div.views-exposed-form .views-exposed-widget > label {
   padding: 0 16px;
   text-transform: uppercase;
 }
+
+.view-asc-people .attachment {
+  clear: both;
+  overflow: hidden;
+}
+
+.view-asc-people .attachment .views-summary {
+  margin: 0px 0px 2em;
+  text-align: center;
+}
+
+.view-asc-people .attachment .views-summary li {
+  display: inline;
+  margin: 0px;
+  padding: 0px 7px;
+}
+
