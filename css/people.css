@@ -245,5 +245,10 @@ div.views-exposed-form .views-exposed-widget > label {
   display: inline;
   margin: 0px;
   padding: 0px 7px;
+  border-right: 1px solid #333;
+}
+
+.view-asc-people .attachment .views-summary li:last-child{
+  border-right: 0;
 }
 
